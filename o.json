@@ -268,7 +268,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./main/token.txt",
-      "jar": "./jar/.jar;md5;EFB6AD1511FC45720E71386435ABE56C"
+      "jar": "./jar/ali.jar;md5;EFB6AD1511FC45720E71386435ABE56C"
     }
   ],
   "parses": [
