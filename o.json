@@ -66,6 +66,16 @@
       "ext": "./main/棋牌.json"
     },
     {
+      "key": "棋牌",
+      "name": "✒️书法国画",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./main/书法国画.json"
+    },
+    {
       "key": "舞蹈",
       "name": "💃舞蹈",
       "type": 3,
