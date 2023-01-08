@@ -1,0 +1,11 @@
+{"drives":[
+
+    {
+        "name": "🌐综合",
+        "server": "https://alistcn.repl.co"
+    },
+    {
+        "name" : "🙋小雅",
+        "server" : "http://alist.xiaoya.pro"
+    }
+]}
