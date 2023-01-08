@@ -1,7 +1,7 @@
 {
   "classes": [
     {"type_name": "园艺","type_id": "园艺"},
-    {"type_name": "盆栽","type_id": "盆栽"},
+    {"type_name": "盆栽","type_id": "盆栽推荐"},
     {"type_name": "室内","type_id": "室内盆栽"},
     {"type_name": "室外","type_id": "室外盆栽"},
     {"type_name": "花卉","type_id": "花卉种植"},
