@@ -85,7 +85,6 @@
       "filterable": 1,
       "ext": "./main/园艺栽培.json"
     },
-
     {
       "key": "棋牌",
       "name": "♟️棋牌",
@@ -95,6 +94,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./main/棋牌.json"
+    },
+    {
+      "key": "健康生活",
+      "name": "👩‍⚕️健康生活",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./main/健康生活.json"
     },
     {
       "key": "舞蹈",
