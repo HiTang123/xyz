@@ -5,6 +5,10 @@
       "type_id": "广场舞"
     },
     {
+      "type_name": "太极拳",
+      "type_id": "太极拳"
+    },
+    {
       "type_name": "秧歌",
       "type_id": "秧歌舞"
     },
