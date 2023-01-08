@@ -66,16 +66,6 @@
       "ext": "./main/书法国画.json"
     },
     {
-      "key": "乐器",
-      "name": "🎹乐器",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./main/乐器.json"
-    },
-    {
       "key": "园艺栽培",
       "name": "🌼园艺栽培",
       "type": 3,
@@ -86,14 +76,14 @@
       "ext": "./main/园艺栽培.json"
     },
     {
-      "key": "棋牌",
-      "name": "♟️棋牌",
+      "key": "乐器",
+      "name": "🎹乐器",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./main/棋牌.json"
+      "ext": "./main/乐器.json"
     },
     {
       "key": "健康生活",
@@ -106,7 +96,7 @@
       "ext": "./main/健康生活.json"
     },
     {
-      "key": "舞蹈",
+      "key": "舞蹈健身",
       "name": "💃舞蹈健身",
       "type": 3,
       "api": "csp_Bili",
@@ -114,6 +104,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./main/舞蹈.json"
+    },
+    {
+      "key": "棋牌",
+      "name": "♟️棋牌",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./main/棋牌.json"
     },
     {
       "key": "歌曲",
