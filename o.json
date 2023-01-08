@@ -76,6 +76,16 @@
       "ext": "./main/书法国画.json"
     },
     {
+      "key": "乐器",
+      "name": "🎹乐器",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./main/乐器.json"
+    },
+    {
       "key": "舞蹈",
       "name": "💃舞蹈",
       "type": 3,
