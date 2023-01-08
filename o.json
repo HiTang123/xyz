@@ -148,7 +148,7 @@
       "jar": "./jar/ali.jar;md5;EFB6AD1511FC45720E71386435ABE56C"
     },
     {
-      "key": "py_cctv",
+      "key": "央视节目",
       "name": "🌏央视节目",
       "type": 3,
       "api": "py_cctv",
