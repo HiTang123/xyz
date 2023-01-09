@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/main.jar",
+  "spider": "./jar/main.jar;md5;BE998DB821D8D81314856E248A917E8E",
   
   "wallpaper": "./main/wallpaper.png",
 
@@ -141,7 +141,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./main/alist.json",
-      "jar": "./jar/ali.jar"
+      "jar": "./jar/ali.jar;md5;EFB6AD1511FC45720E71386435ABE56C"
     },
     {
       "key": "py_cctv",
@@ -246,7 +246,7 @@
       "searchable": 1,
       "filterable": 0,
       "ext": "./main/token.txt",
-      "jar": "./jar/ali.jar"
+      "jar": "./jar/ali.jar;md5;EFB6AD1511FC45720E71386435ABE56C"
     },
     {
       "key": "易搜",
@@ -256,7 +256,7 @@
       "searchable": 1,
       "filterable": 0,
       "ext": "./main/token.txt",
-      "jar": "./jar/ali.jar"
+      "jar": "./jar/ali.jar;md5;EFB6AD1511FC45720E71386435ABE56C"
     },
     {
       "key": "盘搜",
@@ -266,7 +266,7 @@
       "searchable": 1,
       "filterable": 0,
       "ext": "./main/token.txt",
-      "jar": "./jar/ali.jar"
+      "jar": "./jar/ali.jar;md5;EFB6AD1511FC45720E71386435ABE56C"
     },
     {
       "key": "UP云搜",
@@ -276,7 +276,7 @@
       "searchable": 1,
       "filterable": 0,
       "ext": "./main/token.txt",
-      "jar": "./jar/ali.jar"
+      "jar": "./jar/ali.jar;md5;EFB6AD1511FC45720E71386435ABE56C"
     },
     {
       "key": "找资源",
@@ -286,7 +286,7 @@
       "searchable": 1,
       "filterable": 0,
       "ext": "./main/token.txt",
-      "jar": "./jar/ali.jar"
+      "jar": "./jar/ali.jar;md5;EFB6AD1511FC45720E71386435ABE56C"
     },
     {
       "key": "小雅",
