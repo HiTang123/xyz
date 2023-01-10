@@ -2002,11 +2002,6 @@ BRTV青年,http://111.13.42.235/PLTV/88888888/224/3221226562/1.m3u8
 福建武夷山玉女峰,http://gcksc.v.kcdnvip.com/gc/wysynf_1/index.m3u8
 福建武夷山玉女峰,http://gcbsc.v.live.baishancdnx.cn/gc/wysynf_1/index.m3u8
 
-🇨🇳丨抖音热舞,#genre#
-抖音姐姐热热轮播,http://epg.112114.xyz/douyu/8901218
-抖音姐姐热舞轮播,http://epg.112114.xyz/douyu/8759139
-抖音姐姐舞舞轮播,http://epg.112114.xyz/douyu/7971641
-
 🎸MTV现代,#genre#
 百视音乐,https://bp-caster.bestv.com.cn/894/3/video.m3u8
 百视天籁,https://bp-caster.bestv.com.cn/731/3/video.m3u8
