@@ -1006,15 +1006,6 @@ HBO2,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 怀旧剧场,http://111.48.50.41/r/baiducdncmn2.inter.iqiyi.com/tslive/c51_lb_109_600_t10/c51_lb_109_600_t10.m3u8
 谍战剧场,http://111.48.50.41/r/baiducdncmn2.inter.iqiyi.com/tslive/c57_lb_216_600_t10/c57_lb_216_600_t10.m3u8
 
-🎬百视通,#genre#
-健康,http://bp-caster.bestv.com.cn:80/402/1/video.m3u8
-读诗,http://bp-caster.bestv.com.cn:80/418/3/video.m3u8
-戏曲,http://bp-caster.bestv.com.cn:80/429/3/video.m3u8
-美食,http://bp-caster.bestv.com.cn:80/432/2/video.m3u8
-春晚,http://bp-caster.bestv.com.cn:80/435/3/video.m3u8
-跨年,http://bp-caster.bestv.com.cn:80/436/3/video.m3u8
-jj斗地主,http://bp-caster.bestv.com.cn:80/359/1/video.m3u8
-
 🎬埋堆堆,#genre#
 欧美大片,https://magselect-stirr.amagi.tv/playlist1080p.m3u8
 红牛TV,https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
