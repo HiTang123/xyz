@@ -243,9 +243,29 @@ CCTV-17 农业农村,http://cache.ott.fifalive.itv.cmvideo.cn:80/100000000500005
 
 
 🌏卫视频道,#genre#
-凤凰资讯,http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8
 凤凰中文,http://play-live.ifeng.com/live/06OLEGEGM4G.m3u8
-凤凰中文,https://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
+凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
+凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
+凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_tv2.m3u8
+凤凰中文,http://playtv-live.ifeng.com:80/live/06OLEGEGM4G.m3u8
+凤凰中文,http://playtv-live.ifeng.com:80/live/06OLEGEGM4G_tv1.m3u8
+凤凰中文,http://playtv-live.ifeng.com:80/live/06OLEGEGM4G_tv2.m3u8
+凤凰中文,https://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
+凤凰中文,https://playtv-live.ifeng.com/live/06OLEGEGM4G_tv2.m3u8
+
+凤凰资讯,http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8
+凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
+凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4_tv2.m3u8
+凤凰资讯,http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8
+凤凰资讯,http://playtv-live.ifeng.com:80/live/06OLEEWQKN4_tv1.m3u8
+凤凰资讯,http://playtv-live.ifeng.com:80/live/06OLEEWQKN4_tv2.m3u8
+凤凰资讯,https://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+凤凰资讯,https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
+凤凰资讯,https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv2.m3u8
+
+凤凰香港,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226251/index.m3u8
+
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 香港卫视,http://zhibo.hkstv.tv:80/livestream/mutfysrq.flv
 
@@ -636,7 +656,11 @@ CCTV-17 农业农村,http://cache.ott.fifalive.itv.cmvideo.cn:80/100000000500005
 西藏卫视,http://39.135.138.58:18890/PLTV/88888910/224/3221225723/index.m3u8
 西藏卫视,http://39.135.138.59:18890/PLTV/88888910/224/3221225723/index.m3u8
 
-
+TVBS新闻台,http://158.101.151.82:9000/jmsytb.m3u8?c=3
+东森新闻台,http://158.101.151.82:9000/jmsytb.m3u8?c=2
+台视新闻台,http://158.101.151.82:9000/jmsytb.m3u8?c=7
+中天新闻台,http://158.101.151.82:9000/jmsytb.m3u8?c=5
+三立新闻台,http://158.101.151.82:9000/jmsytb.m3u8?c=9
 
 人间卫视,https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
 
