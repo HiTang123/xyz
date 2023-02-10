@@ -1,45 +1,4 @@
 🌏央视频道,#genre#
-#百视通1
-CCTV-1 综合,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv1hd8m/8000000/mnf.m3u8
-CCTV-2 财经,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv2hd8m/8000000/mnf.m3u8
-CCTV-3 综艺,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv38m/8000000/mnf.m3u8
-CCTV-4 中文国际,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv4hd8m/8000000/mnf.m3u8
-CCTV-5 体育,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv58m/8000000/mnf.m3u8
-CCTV-5+ 体育赛事,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv5phd8m/8000000/mnf.m3u8
-CCTV-6 电影,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv68m/8000000/mnf.m3u8
-CCTV-7 国防军事,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv7hd8m/8000000/mnf.m3u8
-CCTV-8 电视剧,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv88m/8000000/mnf.m3u8
-CCTV-9 纪录,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv9hd8m/8000000/mnf.m3u8
-CCTV-10 科教,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv10hd8m/8000000/mnf.m3u8
-CCTV-11 戏曲,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv11hd8m/8000000/mnf.m3u8
-CCTV-12 社会与法,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv12hd8m/8000000/mnf.m3u8
-CCTV-13 新闻,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv13xwhd8m/8000000/mnf.m3u8
-CCTV-14 少儿,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctvsehd8m/8000000/mnf.m3u8
-CCTV-15 音乐,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv15hd8m/8000000/mnf.m3u8
-CCTV-16 奥林匹克,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv16hd8m/8000000/mnf.m3u8
-CCTV-16 奥林匹克 4K,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv16hd4k/15000000/mnf.m3u8
-CCTV-17 农业农村,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cctv17hd8m/8000000/mnf.m3u8
-
-#百视PHP
-CCTV-1 综合,https://live.v1.mk/api/bestv.php?id=cctv1hd8m/8000000
-CCTV-2 财经,https://live.v1.mk/api/bestv.php?id=cctv2hd8m/8000000
-CCTV-3 综艺,https://live.v1.mk/api/bestv.php?id=cctv38m/8000000
-CCTV-4 中文国际,https://live.v1.mk/api/bestv.php?id=cctv4hd8m/8000000
-CCTV-5 体育,https://live.v1.mk/api/bestv.php?id=cctv58m/8000000
-CCTV-5+ 体育赛事,https://live.v1.mk/api/bestv.php?id=cctv5phd8m/8000000
-CCTV-6 电影,https://live.v1.mk/api/bestv.php?id=cctv6hd8m/8000000
-CCTV-7 国防军事,https://live.v1.mk/api/bestv.php?id=cctv7hd8m/8000000
-CCTV-8 电视剧,https://live.v1.mk/api/bestv.php?id=cctv8hd8m/8000000
-CCTV-9 纪录,https://live.v1.mk/api/bestv.php?id=cctv9hd8m/8000000
-CCTV-10 科教,https://live.v1.mk/api/bestv.php?id=cctv10hd8m/8000000
-CCTV-11 戏曲,https://live.v1.mk/api/bestv.php?id=cctv11hd8m/8000000
-CCTV-12 社会与法,https://live.v1.mk/api/bestv.php?id=cctv12hd8m/8000000
-CCTV-13 新闻,https://live.v1.mk/api/bestv.php?id=cctv13xwhd8m/8000000
-CCTV-14 少儿,https://live.v1.mk/api/bestv.php?id=cctvsehd8m/8000000
-CCTV-15 音乐,https://live.v1.mk/api/bestv.php?id=cctv15hd8m/8000000
-CCTV-16 奥林匹克,https://live.v1.mk/api/bestv.php?id=cctv16hd8m/8000000
-CCTV-17 农业农村,https://live.v1.mk/api/bestv.php?id=cctv17hd8m/8000000
-
 #8K综合
 CCTV-1 综合,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctv1HD/__op/default/__f/index.m3u8
 CCTV-2 财经,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctv2HD/__op/default/__f/index.m3u8
@@ -58,6 +17,8 @@ CCTV-14 少儿,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctvseHD/
 CCTV-15 音乐,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctv15HD/__op/default/__f/index.m3u8
 CCTV-16 奥林匹克,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctv16HD/__op/default/__f/index.m3u8
 CCTV-17 农业农村,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/cctv17HD/__op/default/__f/index.m3u8
+
+
 
 CCTV-1 综合,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8?
 CCTV-1 综合,http://223.95.111.98:5555/newlive/live/hls/1/live.m3u8
@@ -270,64 +231,6 @@ CCTV-17 农业农村,http://cache.ott.fifalive.itv.cmvideo.cn:80/100000000500005
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 香港卫视,http://zhibo.hkstv.tv:80/livestream/mutfysrq.flv
 
-#百事通
-黑龙江卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/hljwshd8m/8000000/mnf.m3u8
-吉林卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/jlwshd8m/8000000/mnf.m3u8
-辽宁卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/lnwshd8m/8000000/mnf.m3u8
-甘肃卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/gswshd8m/8000000/mnf.m3u8
-北京卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/bjwshd8m/8000000/mnf.m3u8
-纪实科教,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/dajs8m/8000000/mnf.m3u8
-卡酷少儿,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/kkse8m/8000000/mnf.m3u8
-天津卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/tjwshd8m/8000000/mnf.m3u8
-河北卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/hbwshd8m/8000000/mnf.m3u8
-河南卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/hnwshd8m/8000000/mnf.m3u8
-山东卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/sdws8m/8000000/mnf.m3u8
-江苏卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/jswshd8m/8000000/mnf.m3u8
-东方卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/dfwshd8m/8000000/mnf.m3u8
-安徽卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/ahwshd8m/8000000/mnf.m3u8
-湖北卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/hubeiws8m/8000000/mnf.m3u8
-湖南卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/hunanwshd8m/8000000/mnf.m3u8
-金鹰纪实,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/jyjs8m/8000000/mnf.m3u8
-快乐垂钓,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/klcd8m/8000000/mnf.m3u8
-茶频道,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cpdhdavs8m/8000000/mnf.m3u8
-浙江卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/zjwshd8m/8000000/mnf.m3u8
-江西卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/jxws8m/8000000/mnf.m3u8
-东南卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/dnwshd8m/8000000/mnf.m3u8
-四川卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/scws8m/8000000/mnf.m3u8
-重庆卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/cqws8m/8000000/mnf.m3u8
-贵州卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/gzwshd8m/8000000/mnf.m3u8
-云南卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/ynwshd8m/8000000/mnf.m3u8
-广东卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/gdwshd8m/8000000/mnf.m3u8
-深圳卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/szwshd8m/8000000/mnf.m3u8
-广西卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/gxwshd8m/8000000/mnf.m3u8
-海南卫视,http://117.184.239.60/liveplay-kk.rtxapp.com/live/program/live/hainanwshd8m/8000000/mnf.m3u8
-
-#百视php
-江苏卫视,https://live.v1.mk/api/bestv.php?id=jswshd8m/8000000
-广西卫视,https://live.v1.mk/api/bestv.php?id=gxwshd8m/8000000
-四川卫视,https://live.v1.mk/api/bestv.php?id=scwshd/8000000
-湖南卫视,https://live.v1.mk/api/bestv.php?id=hunanwshd8m/8000000
-浙江卫视,https://live.v1.mk/api/bestv.php?id=zjwshd8m/8000000
-东方卫视,https://live.v1.mk/api/bestv.php?id=dfwshd8m/8000000
-北京卫视,https://live.v1.mk/api/bestv.php?id=bjwshd8m/8000000
-天津卫视,https://live.v1.mk/api/bestv.php?id=tjwshd8m/8000000
-辽宁卫视,https://live.v1.mk/api/bestv.php?id=lnwshd8m/8000000
-安徽卫视,https://live.v1.mk/api/bestv.php?id=ahwshd8m/8000000
-黑龙江卫视,https://live.v1.mk/api/bestv.php?id=hljwshd8m/8000000
-广东卫视,https://live.v1.mk/api/bestv.php?id=gdwshd8m/8000000
-深圳卫视,https://live.v1.mk/api/bestv.php?id=szwshd8m/8000000
-湖北卫视,https://live.v1.mk/api/bestv.php?id=hubeiws8m/8000000
-吉林卫视,https://live.v1.mk/api/bestv.php?id=jlwshd8m/8000000
-山东卫视,https://live.v1.mk/api/bestv.php?id=sdws8m/8000000
-江西卫视,https://live.v1.mk/api/bestv.php?id=jxws8m/8000000
-河南卫视,https://live.v1.mk/api/bestv.php?id=hnwshd8m/8000000
-河北卫视,https://live.v1.mk/api/bestv.php?id=hbwshd8m/8000000
-甘肃卫视,https://live.v1.mk/api/bestv.php?id=gswshd8m/8000000
-重庆卫视,https://live.v1.mk/api/bestv.php?id=cqws8m/8000000
-东南卫视,https://live.v1.mk/api/bestv.php?id=dnwshd8m/8000000
-云南卫视,https://live.v1.mk/api/bestv.php?id=ynwshd8m/8000000
-贵州卫视,https://live.v1.mk/api/bestv.php?id=gzwshd8m/8000000
-海南卫视,https://live.v1.mk/api/bestv.php?id=hainanwshd8m/8000000
 
 #8K综合
 东南卫视,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/dongnanHD/__op/default/__f/index.m3u8
@@ -359,6 +262,7 @@ CCTV-17 农业农村,http://cache.ott.fifalive.itv.cmvideo.cn:80/100000000500005
 三沙卫视,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/sanshaSD/__op/default/__f/index.m3u8
 教育卫视,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/sdjiaoyuSD/__op/default/__f/index.m3u8
 兵团卫视,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/bingtuanSD/__op/default/__f/index.m3u8
+
 
 浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 江苏卫视,http://223.109.123.15/liveplay-kk.rtxapp.com/live/program/live/jswshd8m/8000000/mnf.m3u8
