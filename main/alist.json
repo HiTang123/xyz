@@ -1,10 +1,6 @@
 {"drives":[
     {
-        "name" : "🙋小雅",
-        "server" : "http://alist.xiaoya.pro"
-    },
-    {
-        "name" : "🎞杜比",
+        "name" : "🗽杜比",
         "server" : "https://dubi.tk"
     }
 ]}
