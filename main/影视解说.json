@@ -1,10 +1,6 @@
 {
   "classes": [
     {
-      "type_name": "吾爱评测首发 感谢小伙伴整理",
-      "type_id": "吾爱评测"
-    },
-    {
       "type_name":"影视解说",
       "type_id": "影视解说"
     },
@@ -81,12 +77,7 @@
     {
       "type_name": "UFC",
       "type_id": "UFC"
-    },
-    {
-      "type_name": "持续更新",
-      "type_id": ""
     }
-
   ],
   "filter": {
    
