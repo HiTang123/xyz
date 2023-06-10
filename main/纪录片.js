@@ -1,5 +1,5 @@
 var rule = {
-    title:'我的哔哩',
+    title:'纪录片',
     host:'https://api.bilibili.com',
     homeUrl:'/x/web-interface/search/type?search_type=video&keyword=4K纪录片&page=1',
     url:'/x/web-interface/search/type?search_type=videofyfilter',
