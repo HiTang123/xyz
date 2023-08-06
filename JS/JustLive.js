@@ -5,19 +5,19 @@ var rule = {
     // homeUrl: '/api/live/getRecommend?page=1&size=20',//网站的首页链接,用于分类获取和推荐获取
     homeUrl: '',//网站的首页链接,用于分类获取和推荐获取
     url: '/api/live/getRecommendByPlatformArea?platform=fyclass&area=fyfilter&page=fypage&size=20', //网站的分类页面链接
-    class_name: '哔哩&虎牙&斗鱼',
-    class_url: 'bilibili&huya&douyu',
+    class_name: '虎牙&哔哩&斗鱼',
+    class_url: 'huya&bilibili&douyu',
     filterable: 1,
     filter_url: '{{fl.area}}',
     filter: {
         "douyu":[{"key":"area","name":"分区","value":[{"n":"原创IP","v":"原创IP"}]}],
         "huya":[{"key":"area","name":"分区","value":[{"n":"一起看","v":"一起看"}]}],
-        "bilibili":[{"key":"area","name":"分区","value":[{"n":"影音馆","v":"影音馆"}]}]
+        "bilibili":[{"key":"area","name":"分区","value":[{"n":"搞笑","v":"搞笑"}]}]
     },
     filter_def:{
         douyu:{area:'原创IP'},
         huya:{area:'一起看'},
-        bilibili:{area:'影音馆'},
+        bilibili:{area:'搞笑'},
     },
     // detailUrl: '/index/liveRoom?platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
