@@ -1,4 +1,4 @@
-import { Crypto, dayjs, jinja2, _ } from './lib/cat.js';
+import { Crypto, dayjs, jinja2, _ } from 'https://agit.ai/cacifer/xyz/raw/branch/master/cat/lib/cat.js';
 
 let key = 'kkys';
 let url = 'https://api1.baibaipei.com:8899';
