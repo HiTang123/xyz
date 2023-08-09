@@ -1,4 +1,4 @@
-import { Crypto, load, _ } from './lib/cat.js';
+import { Crypto, load, _ } from 'https://agit.ai/cacifer/xyz/raw/branch/master/cat/lib/cat.js';
 
 let key = 'ikanbot';
 let url = 'https://www.ikanbot.com';
