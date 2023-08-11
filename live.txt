@@ -119,6 +119,26 @@ CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
 
 🌏卫视频道,#genre#
+凤凰中文,http://r.jdshipin.com/cCCzW$IPV4
+凤凰中文,http://[2409:8087:2001:20:2800:0:df6e:eb24]:80/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8$IPV6
+凤凰中文,http://123.51.230.108:8515/.m3u8
+凤凰中文,http://107.151.203.111:2209/135/hk.php?id=fhzw
+凤凰中文,http://hz752.love:63/lsej/hkif.php?id=fhzw
+凤凰中文,http://hz752.love:63/lsej/hk.php?id=fhzw
+凤凰中文,https://17186.eu.org/php/phtv/fhzw.flv
+凤凰中文,http://hz752.love:63/lsej/cqyx.php?id=xfjcHD
+凤凰资讯,http://r.jdshipin.com/0Rp07$IPV4
+凤凰资讯,http://[2409:8087:2001:20:2800:0:df6e:eb27]:80/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8$IPV6
+凤凰资讯,http://107.151.203.111:2209/135/hk.php?id=fhzx
+凤凰资讯,http://123.51.230.108:18580/.m3u8
+凤凰资讯,http://hz752.love:63/lsej/hkif.php?id=fhzx
+凤凰资讯,http://hz752.love:63/lsej/hk.php?id=fhzx
+凤凰资讯,https://17186.eu.org/php/phtv/fhzx.flv
+凤凰资讯,http://r.jdshipin.com/0Rp07
+香港卫视,http://107.151.203.111:2209/135/hk.php?id=hkws
+香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+
+
 浙江卫视,http://125.210.152.19:9120/live/hzgq-zjwsgq-h264.m3u8
 湖南卫视,http://125.210.152.19:9120/live/hzgq-hnwsgq-h264.m3u8
 江苏卫视,http://125.210.152.19:9120/live/hzgq-jswsgq-h264.m3u8
