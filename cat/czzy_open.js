@@ -1,7 +1,7 @@
 import { Crypto, load, _ } from 'https://agit.ai/cacifer/xyz/raw/branch/master/cat/lib/cat.js';
 
 let key = 'czzy';
-let url = 'https://cz01.cc/';
+let url = 'https://cz01.cc';
 let siteKey = '';
 let siteType = 0;
 
