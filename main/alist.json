@@ -1,10 +1,16 @@
 [
     {
             "name": "👧小丫",
-            "server": "http://shicheng.wang:555/"
+            "server": "http://shicheng.wang:555/",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
           },
           {
             "name": "🌊ECVE",
-            "server": "https://pan.ecve.cn"
+            "server": "https://pan.ecve.cn",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
           }
 ]
