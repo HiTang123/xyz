@@ -1,6 +1,10 @@
 {"drives":[
     {
-        "name" : "🗽杜比",
-        "server" : "https://dubi.tk"
-    }
+            "name": "👧小丫",
+            "server": "http://shicheng.wang:555/"
+          },
+          {
+            "name": "🌊ECVE",
+            "server": "https://pan.ecve.cn"
+          }
 ]}
