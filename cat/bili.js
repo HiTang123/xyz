@@ -233,11 +233,27 @@ function turnDHM(duration) {
   }
   return null;
 }
-
+async function homeVod() {
+  let html = HOST + '/x/web-interface/search/type?search_type=video&keyword='+homeName;
+  let data = JSON.parse(await request(html)).data.result;
+  let videos = [];
+  data.forEach(function(it) {
+      videos.push({
+          vod_id: it.aid,
+          vod_name: stripHtmlTag(it.title),
+          vod_pic: 'http:'+it.pic,
+          vod_remarks: turnDHM(it.duration) || '',
+      });
+  });
+  return JSON.stringify({
+      list: videos,
+  });
+}
 export function __jsEvalReturn() {
   return {
       init: init,
       home: home,
+      homeVod: homeVod,
       category: category,
       detail: detail,
       play: play,
