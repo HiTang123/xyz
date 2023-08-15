@@ -97,13 +97,13 @@ class Spider(Spider):  # 元类 默认的元类 type
 		elif tid=='节目大全':
 			cid=''#频道
 			if 'datacid' in extend.keys():
-				cid=extend['cid']
+				cid=extend['datacid']
 			fc=''#分类
 			if 'datafc' in extend.keys():
-				fc=extend['fc']
+				fc=extend['datafc']
 			fl=''#字母
 			if 'datafl' in extend.keys():
-				fl=extend['fl']
+				fl=extend['datafl']
 			url = 'https://api.cntv.cn/lanmu/columnSearch?&fl={0}&fc={1}&cid={2}&p={3}&n=20&serviceId=tvcctv&t=json&cb=ko'.format(fl,fc,cid,pg)
 			pagecount=20
 		else:
