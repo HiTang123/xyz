@@ -96,15 +96,15 @@ class Spider(Spider):  # 元类 默认的元类 type
 			url='https://api.cntv.cn/list/getVideoAlbumList?channelid=CHAL1460955953877151&channel={0}&sc={1}&fc={2}&bigday=&letter={3}&p={4}&n=24&serviceId=tvcctv&topv=1&t=json'.format(channel,datafl,id,letter,pg)
 		elif tid=='节目大全':
 			cid=''#频道
-			if 'cid' in extend.keys():
-				cid=extend['cid']
+			if 'datacid' in extend.keys():
+				cid=extend['datacid']
 			fc=''#分类
-			if 'fc' in extend.keys():
-				fc=extend['fc']
+			if 'datafc' in extend.keys():
+				fc=extend['datafc']
 			fl=''#字母
-			if 'fl' in extend.keys():
-				fl=extend['fl']
-			url = 'https://api.cntv.cn/lanmu/columnSearch?&fl={0}&fc={1}&cid={2}&p={3}&n=20&serviceId=tvcctv&t=json&cb=ko'.format(fl,fc,cid,pg)
+			if 'datafl' in extend.keys():
+				fl=extend['datafl']
+			url = 'https://api.cntv.cn/lanmu/columnSearch?&fl={0}&fc={1}&cid={2}&p={3}&n=20&serviceId=tvcctv&t=jsonp&cb=ko'.format(fl,fc,cid,pg)
 			pagecount=20
 		else:
 			url = 'https://tv.cctv.com/epg/index.shtml'
