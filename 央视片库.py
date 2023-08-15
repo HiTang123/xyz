@@ -157,7 +157,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 			pagecount=20
 		else:
 			url = 'https://tv.cctv.com/epg/index.shtml'
-
+'''
 		videos=[]
 		htmlText =self.webReadFile(urlStr=url,header=self.header)
 		if tid=='节目大全':
@@ -168,7 +168,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		else:
 			videos =self.get_list(html=htmlText,tid=tid)
 		#print(videos)
-		
+'''	
 		result['list'] = videos
 		result['page'] = pg
 		result['pagecount'] = 9999 if len(videos)>=pagecount else pg
