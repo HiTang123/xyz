@@ -129,35 +129,13 @@ class Spider(Spider):  # 元类 默认的元类 type
                 "cid":"",
                 "p":"1"
             }
-            suffix = ""
-            for key in filterMap.keys():
-                if key in extend.keys():
-                    filterMap[key] = extend[key]
-                suffix = suffix + '&' + key + '=' + str(filterMap[key])
-            url = 'https://api.cntv.cn/lanmu/columnSearch?{0}&n=20&serviceId=tvcctv&t=json'.format(suffix)
-            jo = self.fetch(url,headers=self.header).json()
-            vodList = jo['response']['docs']
-            videos = []
-            for vod in vodList:
-                lastVideo = vod['lastVIDE']['videoSharedCode']
-                if len(lastVideo) == 0:
-                    lastVideo = '_'
-                guid = prefix+'###'+vod['column_name']+'###'+lastVideo+'###'+vod['column_logo']
-                # guid = prefix+'###'+vod['column_website']+'###'+vod['column_logo']
-                title = vod['column_name']
-                img = vod['column_logo']
-                videos.append({
-                    "vod_id":guid,
-                    "vod_name":title,
-                    "vod_pic":img,
-                    "vod_remarks":''
-                })
+
             #111111111111111111111111111111111111111111
 			url = 'https://api.cntv.cn/lanmu/columnSearch?&fl={0}&fc={1}&cid={2}&p={3}&n=20&serviceId=tvcctv&t=json&cb=ko'.format(fl,fc,cid,pg)
 			pagecount=20
 		else:
 			url = 'https://tv.cctv.com/epg/index.shtml'
-'''
+
 		videos=[]
 		htmlText =self.webReadFile(urlStr=url,header=self.header)
 		if tid=='节目大全':
@@ -168,7 +146,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		else:
 			videos =self.get_list(html=htmlText,tid=tid)
 		#print(videos)
-'''	
+
 		result['list'] = videos
 		result['page'] = pg
 		result['pagecount'] = 9999 if len(videos)>=pagecount else pg
