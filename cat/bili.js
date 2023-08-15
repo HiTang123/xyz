@@ -77,6 +77,22 @@ async function home(filter) {
       filters: filterObj,
   });
 }
+async function homeVod() {
+  let html = HOST + '/x/web-interface/search/type?search_type=video&keyword='+homeName;
+  let data = JSON.parse(await request(html)).data.result;
+  let videos = [];
+  data.forEach(function(it) {
+      videos.push({
+          vod_id: it.aid,
+          vod_name: stripHtmlTag(it.title),
+          vod_pic: 'http:'+it.pic,
+          vod_remarks: turnDHM(it.duration) || '',
+      });
+  });
+  return JSON.stringify({
+      list: videos,
+  });
+}
 
 async function category(tid, pg, filter, extend) {
   let html = HOST + '/x/web-interface/search/type?search_type=video&page=' + pg + '&keyword=' + (extend.tid || tid) + '&duration=' + (extend.duration || '') + '&order=' + (extend.order || '');
@@ -233,22 +249,7 @@ function turnDHM(duration) {
   }
   return null;
 }
-async function homeVod() {
-  let html = HOST + '/x/web-interface/search/type?search_type=video&keyword='+homeName;
-  let data = JSON.parse(await request(html)).data.result;
-  let videos = [];
-  data.forEach(function(it) {
-      videos.push({
-          vod_id: it.aid,
-          vod_name: stripHtmlTag(it.title),
-          vod_pic: 'http:'+it.pic,
-          vod_remarks: turnDHM(it.duration) || '',
-      });
-  });
-  return JSON.stringify({
-      list: videos,
-  });
-}
+
 export function __jsEvalReturn() {
   return {
       init: init,
