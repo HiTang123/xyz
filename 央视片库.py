@@ -119,18 +119,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 			month = extend['month']
             if 'year' in extend.keys():
                 year = extend['year']
-            if year == '':
-                month = ''
-            prefix = year + month
-            extend['p'] = pg
-            filterMap = {
-                "fl":"",
-                "fc":"",
-                "cid":"",
-                "p":"1"
-            }
 
-            #111111111111111111111111111111111111111111
 			url = 'https://api.cntv.cn/lanmu/columnSearch?&fl={0}&fc={1}&cid={2}&p={3}&n=20&serviceId=tvcctv&t=json&cb=ko'.format(fl,fc,cid,pg)
 			pagecount=20
 		else:
