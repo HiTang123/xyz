@@ -114,12 +114,6 @@ class Spider(Spider):  # 元类 默认的元类 type
 			fl=''#字母
 			if 'fl' in extend.keys():
 				fl=extend['fl']
-            #11111111111111111111111111111111111111111
-            if 'month' in extend.keys():
-			month = extend['month']
-            if 'year' in extend.keys():
-                year = extend['year']
-
 			url = 'https://api.cntv.cn/lanmu/columnSearch?&fl={0}&fc={1}&cid={2}&p={3}&n=20&serviceId=tvcctv&t=json&cb=ko'.format(fl,fc,cid,pg)
 			pagecount=20
 		else:
