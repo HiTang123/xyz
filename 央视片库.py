@@ -40,16 +40,6 @@ class Spider(Spider):  # 元类 默认的元类 type
 			})
 		result['class'] = classes
 		if(filter):
-            #11111111111111
-            import datetime
-			current_year = datetime.datetime.now().year
-			yearList = [{"n":"全部","v":""}]
-			for year in range(current_year, current_year - 10, -1):
-				yearList.append({"n":year,"v":year})
-			yearDict = {"key":"year","name":"年份","value":yearList}
-			for classe in classes:
-				self.config['filter'][classe['type_id']].append(yearDict)
-            #11111111111111
 			result['filters'] = self.config['filter']
 		return result
 	def homeVideoContent(self):
