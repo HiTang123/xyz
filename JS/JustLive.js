@@ -23,7 +23,7 @@ var rule = {
     detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
     // searchable: 2,
-    searchable: 2,
+    searchable: 1,
     quickSearch: 0,
     headers: {
         'User-Agent': 'MOBILE_UA'
