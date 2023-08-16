@@ -260,7 +260,7 @@ export function __jsEvalReturn() {
   return {
       init: init,
       home: home,
-      homeVod: category,
+      homeVod: homeVod,
       category: category,
       detail: detail,
       play: play,
