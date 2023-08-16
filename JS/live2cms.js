@@ -24,7 +24,7 @@ const RKEY = 'live2cms'; // 源的唯一标识
 const VERSION = 'live2cms 20230619';
 const UA = 'Mozilla/5.0'; //默认请求ua
 const __ext = {data_dict:{}};
-const tips = `马来西亚`;
+const tips = ``;
 const def_pic = 'https://avatars.githubusercontent.com/u/97389433?s=120&v=4';
 
 /**
@@ -392,8 +392,8 @@ function detail(tid) { // ⛵  港•澳•台
         		vod_content: tid,
         		vod_play_from: vod_play_from,
         		vod_play_url: vod_play_url,
-        		vod_director: tips,
-        		//vod_remarks: `马来西亚`,
+        		vod_director: vod_name,
+        		//vod_remarks: ``,
 			}]
 		});
 	}
