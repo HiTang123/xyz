@@ -384,8 +384,9 @@ function detail(tid) { // ⛵  港•澳•台
     let _tab = tid.split('$')[1];
 
 	let pic1=def_pic;
+	let pic=tid.split('$')[2]
 	if(pic!=""){
-		pic1=tid.split('$')[2];
+		pic1=pic;
 	}
 
 
