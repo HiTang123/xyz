@@ -421,7 +421,7 @@ function detail(tid) { // ⛵  港•澳•台
         if(it.trim()){
             let t = it.trim().split(',')[0];
             let u = it.trim().split(',')[1];
-            _list.push(t+'$'+u);
+            _list.push(t+'hello$'+u);
         }
     });
 
