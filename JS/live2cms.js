@@ -270,6 +270,9 @@ function init(ext) {
 	print('init执行完毕');
 }
 
+
+
+
 function home(filter) {
 	let classes = __ext.data.map(it => ({
 		type_id: it.url,
@@ -346,16 +349,23 @@ function category(tid, pg, filter, extend) {
     // let arr = html.match(/.*?[,，]#[\s\S].*?#/g);
     let arr = html.match(/.*?[,，]#[\s\S].*?#/g); // 可能存在中文逗号
     let _list = [];
+
+	let pic1=def_pic;
+	if(pic!=""){
+		pic1=__ext.data[2].pic;
+	}
+
 	try {
 		arr.forEach(it=>{
 			let vname = it.split(/[,，]/)[0];
+			
 			//let vtab = it.match(/#(.*?)#/)[0];
      let vtab = null;
 			_list.push({
 				// vod_name:it.split(',')[0],
 				vod_name:vname,
 				vod_id:_get_url+'$'+vname,
-				vod_pic:def_pic,
+				vod_pic:pic1,
 				vod_remarks:vtab,
 			});
 		});
@@ -446,10 +456,7 @@ function detail(tid) { // ⛵  港•澳•台
 		vod_play_from = vod_name;
 	}
 
-	let pic1=def_pic;
-	if(pic!=""){
-		pic1=__ext.data[2].pic;
-	}
+	
 
 
     let vod = {
