@@ -352,7 +352,7 @@ function category(tid, pg, filter, extend) {
 			_list.push({
 				// vod_name:it.split(',')[0],
 				vod_name:vname,
-				vod_id:_get_url+'-->'+vname,
+				vod_id:_get_url+'$'+vname,
 				vod_pic:def_pic,
 				vod_remarks:vtab,
 			});
