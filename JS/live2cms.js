@@ -421,7 +421,7 @@ function detail(tid) { // ⛵  港•澳•台
         if(it.trim()){
             let t = it.trim().split(',')[0];
             let u = it.trim().split(',')[1];
-            _list.push(t+'hello$'+u);
+            _list.push(t+'$'+u);
         }
     });
 
@@ -450,7 +450,7 @@ function detail(tid) { // ⛵  港•澳•台
         vod_pic: def_pic,
         vod_content: tid,
         vod_play_from: vod_play_from,
-        vod_play_url: vod_play_url,
+        vod_play_url: vod_name,
         vod_director: vod_name,
         //vod_remarks: vod_name,
     };
