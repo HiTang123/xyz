@@ -25,8 +25,8 @@ const VERSION = 'live2cms 20230619';
 const UA = 'Mozilla/5.0'; //默认请求ua
 const __ext = {data_dict:{}};
 const tips = ``;
-const def_pic = 'https://avatars.githubusercontent.com/u/97389433?s=120&v=4';
-
+//const def_pic = 'https://avatars.githubusercontent.com/u/97389433?s=120&v=4';
+const def_pic = 'https://agit.ai/cacifer/xyz/raw/branch/master/live/img/live.png';
 /**
  * 存在数据库配置表里, key字段对应值value,没有就新增,有就更新,调用此方法会清除key对应的内存缓存
  * @param k 键
