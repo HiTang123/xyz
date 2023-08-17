@@ -383,12 +383,6 @@ function detail(tid) { // ⛵  港•澳•台
     let _get_url = tid.split('$')[0];
     let _tab = tid.split('$')[1];
 
-	let pic1=def_pic;
-	let pic=tid.split('$')[2];
-	if(pic!=""){
-		pic1=pic;
-	}
-
 
 	if(tid.includes('#search#')){
 		let vod_name = _tab.replace('#search#','');
