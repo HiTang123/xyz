@@ -448,7 +448,7 @@ function detail(tid) { // ⛵  港•澳•台
         vod_name: _tab,
         type_name: "📋直播列表",
         vod_pic: def_pic,
-        vod_content: 'tid',
+        vod_content: vod_name+'-->'+_tab,
         vod_play_from: vod_play_from,
         vod_play_url: vod_play_url,
         vod_director: vod_name,
