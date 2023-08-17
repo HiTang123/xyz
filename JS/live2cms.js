@@ -349,11 +349,10 @@ function category(tid, pg, filter, extend) {
 			let vname = it.split(/[,，]/)[0];
 			//let vtab = it.match(/#(.*?)#/)[0];
      let vtab = null;
-	 let vod_name1 = __ext.data.find(x=>x.url===_get_url).name;
 			_list.push({
 				// vod_name:it.split(',')[0],
 				vod_name:vname,
-				vod_id:vod_name1+'-->'+vname,
+				vod_id:_get_url+'-->'+vname,
 				vod_pic:def_pic,
 				vod_remarks:vtab,
 			});
