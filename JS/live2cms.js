@@ -362,7 +362,7 @@ function category(tid, pg, filter, extend) {
 				// vod_name:it.split(',')[0],
 				vod_name:vname,
 				vod_id:_get_url+'$'+vname,
-				vod_pic:tid.split('$')[2],
+				vod_pic:def_pic,
 				vod_remarks:vtab,
 			});
 		});
@@ -462,7 +462,7 @@ function detail(tid) { // ⛵  港•澳•台
         vod_id: tid,
         vod_name: _tab,
         type_name: "📋直播列表",
-        vod_pic: tid.split('$')[2],
+        vod_pic: def_pic,
         //vod_content: ''+vod_name+''+'→'+''+_tab+'',
         vod_play_from: vod_play_from,
         vod_play_url: vod_play_url,
