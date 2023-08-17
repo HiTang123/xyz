@@ -384,7 +384,7 @@ function detail(tid) { // ⛵  港•澳•台
     let _tab = tid.split('$')[1];
 
 	let pic1=def_pic;
-	let pic=tid.split('$')[2]
+	let pic=tid.split('$')[2];
 	if(pic!=""){
 		pic1=pic;
 	}
@@ -468,7 +468,7 @@ function detail(tid) { // ⛵  港•澳•台
         vod_id: tid,
         vod_name: _tab,
         type_name: "📋直播列表",
-        vod_pic: pic1,
+        vod_pic: tid.split('$')[2],
         //vod_content: ''+vod_name+''+'→'+''+_tab+'',
         vod_play_from: vod_play_from,
         vod_play_url: vod_play_url,
