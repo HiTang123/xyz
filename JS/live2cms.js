@@ -349,10 +349,11 @@ function category(tid, pg, filter, extend) {
 			let vname = it.split(/[,，]/)[0];
 			//let vtab = it.match(/#(.*?)#/)[0];
      let vtab = null;
+	 let _get_name = __ext.data[0].name;
 			_list.push({
 				// vod_name:it.split(',')[0],
 				vod_name:vname,
-				vod_id:_get_url+'$'+vname,
+				vod_id:_get_name+'-->'+vname,
 				vod_pic:def_pic,
 				vod_remarks:vtab,
 			});
@@ -450,7 +451,7 @@ function detail(tid) { // ⛵  港•澳•台
         vod_pic: def_pic,
         vod_content: tid,
         vod_play_from: vod_play_from,
-        vod_play_url: vod_name,
+        vod_play_url: vod_play_url,
         vod_director: vod_name,
         //vod_remarks: vod_name,
     };
