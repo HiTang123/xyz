@@ -350,10 +350,7 @@ function category(tid, pg, filter, extend) {
     let arr = html.match(/.*?[,，]#[\s\S].*?#/g); // 可能存在中文逗号
     let _list = [];
 
-	let pic1=def_pic;
-	if(pic!=""){
-		pic1=__ext.data[2].pic;
-	}
+
 
 	try {
 		arr.forEach(it=>{
@@ -365,7 +362,7 @@ function category(tid, pg, filter, extend) {
 				// vod_name:it.split(',')[0],
 				vod_name:vname,
 				vod_id:_get_url+'$'+vname,
-				vod_pic:pic1,
+				vod_pic:def_pic,
 				vod_remarks:vtab,
 			});
 		});
@@ -385,6 +382,13 @@ function category(tid, pg, filter, extend) {
 function detail(tid) { // ⛵  港•澳•台
     let _get_url = tid.split('$')[0];
     let _tab = tid.split('$')[1];
+
+	let pic1=def_pic;
+	if(pic!=""){
+		pic1=tid.split('$')[2];
+	}
+
+
 	if(tid.includes('#search#')){
 		let vod_name = _tab.replace('#search#','');
 		let vod_play_from = '来自搜索';
