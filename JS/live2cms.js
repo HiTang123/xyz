@@ -274,6 +274,8 @@ function home(filter) {
 	let classes = __ext.data.map(it => ({
 		type_id: it.url,
 		type_name: it.name,
+		//11111111111
+		type_pic: it.pic,
 	}));
 	print("----home----");
 	let filter_dict = {};
@@ -443,11 +445,18 @@ function detail(tid) { // ⛵  港•澳•台
 		vod_play_url = _list.join('#');
 		vod_play_from = vod_name;
 	}
+
+	let pic=def_pic;
+	if(pic!=""){
+		pic=__ext.data[2].pic;
+	}
+
+
     let vod = {
         vod_id: tid,
         vod_name: _tab,
         type_name: "📋直播列表",
-        vod_pic: def_pic,
+        vod_pic: pic,
         //vod_content: ''+vod_name+''+'→'+''+_tab+'',
         vod_play_from: vod_play_from,
         vod_play_url: vod_play_url,
