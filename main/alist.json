@@ -1,13 +1,13 @@
 [
     {
-            "name": "💿",
+            "name": "🏷️",
             "server": "http://shicheng.wang:555/",
         "startPage" : "/我的影视",
         "showAll" : false,
         "search" : true
           },
           {
-            "name": "📀",
+            "name": "🏷️",
             "server": "https://pan.ecve.cn",
         "startPage" : "/",
         "showAll" : false,
