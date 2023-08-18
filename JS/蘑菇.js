@@ -9,7 +9,7 @@ muban.mxone5.二级.desc = '.video-info-items:eq(4)&&Text;;;.video-info-actor:eq
 var rule = {
     title:'蘑菇',
     模板:'mxone5',
-    host:'https://www.muguys.com/',
+    host:'https://www.movie4k.vip/',
     // host:'https://www.moguys.xyz/label/web.html',
     // hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"p:eq(0)&&a:eq(0)&&href");print(src);HOST=src',
     url:'/vodshow/fyfilter.html',
