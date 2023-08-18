@@ -2,7 +2,7 @@
     {
             "name": "👧小丫",
             "server": "http://shicheng.wang:555/",
-        "startPage" : "/",
+        "startPage" : "/我的影视",
         "showAll" : false,
         "search" : true
           },
