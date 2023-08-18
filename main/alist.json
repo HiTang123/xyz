@@ -1,13 +1,13 @@
 [
     {
-            "name": "🍿",
+            "name": "🍿爆米花",
             "server": "http://shicheng.wang:555/",
         "startPage" : "/我的影视",
         "showAll" : false,
         "search" : true
           },
           {
-            "name": "🍟",
+            "name": "🥤饮料",
             "server": "https://pan.ecve.cn",
         "startPage" : "/",
         "showAll" : false,
