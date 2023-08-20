@@ -277,8 +277,6 @@ function home(filter) {
 	let classes = __ext.data.map(it => ({
 		type_id: it.url,
 		type_name: it.name,
-		//11111111111
-		type_pic: it.pic,
 	}));
 	print("----home----");
 	let filter_dict = {};
@@ -292,36 +290,8 @@ function home(filter) {
 	return JSON.stringify({ 'class': classes,'filters': filter_dict});
 }
 
-function homeVod(params) {
-	let _get_url = __ext.data[0].url;
-	let html;
-    if(__ext.data_dict[_get_url]){
-        html = __ext.data_dict[_get_url];
-    }else{
-        html = http.get(_get_url).text();
-		if(/#EXTM3U/.test(html)){
-			html = convertM3uToNormal(html);
-		}
-        __ext.data_dict[_get_url] = html;
-    }
-    // let arr = html.match(/.*?,#[\s\S].*?#/g);
-	let arr = html.match(/.*?[,，]#[\s\S].*?#/g); // 可能存在中文逗号
-	let _list = [];
-	try {
-		arr.forEach(it=>{
-			let vname = it.split(/[,，]/)[0];
-			let vtab = null;
-			_list.push({
-				vod_name:vname,
-				vod_id:_get_url+'$'+vname,
-				vod_pic:def_pic,
-				vod_remarks:vtab,
-			});
-		});
-	}catch (e) {
-		print('Live2cms获取首页推荐发送错误:'+e.message);
-	}
-	return JSON.stringify({ 'list': _list });
+function homeVod() {
+	return null;
 }
 
 function category(tid, pg, filter, extend) {
@@ -540,7 +510,7 @@ function search(wd, quick) {
 export default {
 	init: init,
 	home: home,
-	homeVod: category,
+	homeVod: homeVod,
 	category: category,
 	detail: detail,
 	play: play,
