@@ -3,10 +3,10 @@ var rule = {
     title: 'JustLive',
     host: 'http://live.yj1211.work',
     // homeUrl: '/api/live/getRecommend?page=1&size=20',//网站的首页链接,用于分类获取和推荐获取
-    homeUrl: '/api/live/getRecommendByPlatformArea?platform=bilibili&area=舞见&page=1&size=20',//网站的首页链接,用于分类获取和推荐获取
+    homeUrl: '',//网站的首页链接,用于分类获取和推荐获取
     url: '/api/live/getRecommendByPlatformArea?platform=fyclass&area=fyfilter&page=fypage&size=20', //网站的分类页面链接
-    class_name: '斗鱼&虎牙&哔哩&网易',
-    class_url: 'douyu&huya&bilibili&cc',
+    class_name: '虎牙&哔哩&斗鱼&网易',
+    class_url: 'huya&bilibili&douyu&cc',
     filterable: 1,
     filter_url: '{{fl.area}}',
     filter: {
