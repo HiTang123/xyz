@@ -7,19 +7,13 @@
       "pass": "alist"
     },
     {
-      "name": "影視庫",
-      "server": "https://esir.eu.org/dav",
-      "user": "alist",
-      "pass": "alist"
-    },
-    {
       "name": "ecve",
       "server": "https://pan.ecve.cn/dav",
       "user": "dav",
       "pass": "dav"
     },{
       "name": "haokan",
-      "server": "http://192.168.124.3:5885",
+      "server": "http://192.168.124.3:5885/曲剧",
       "user": "123",
       "pass": "123"
     }
