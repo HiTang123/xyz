@@ -1,21 +1,10 @@
 {
   "drives": [
     {
-      "name": "七米藍",
-      "server": "https://al.chirmyram.com/dav",
-      "user": "alist",
-      "pass": "alist"
-    },
-    {
-      "name": "ecve",
-      "server": "https://pan.ecve.cn/dav",
-      "user": "dav",
-      "pass": "dav"
-    },{
-      "name": "haokan",
-      "server": "http://192.168.124.3:5885/曲剧",
+      "name": "🌈好看",
+      "server": "http://192.168.124.3:5885/",
       "user": "123",
       "pass": "123"
-    }
+    } 
   ]
 }
