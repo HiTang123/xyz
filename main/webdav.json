@@ -17,6 +17,11 @@
       "server": "https://pan.ecve.cn/dav",
       "user": "dav",
       "pass": "dav"
+    }{
+      "name": "haokan",
+      "server": "http://192.168.124.3:5885",
+      "user": "123",
+      "pass": "123"
     }
   ]
 }
