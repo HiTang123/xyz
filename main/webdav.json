@@ -11,6 +11,12 @@
       "server": "https://esir.eu.org/dav",
       "user": "alist",
       "pass": "alist"
+    },
+    {
+      "name": "ecve",
+      "server": "https://pan.ecve.cn/dav",
+      "user": "alist",
+      "pass": "alist"
     }
   ]
 }
