@@ -15,8 +15,8 @@
     {
       "name": "ecve",
       "server": "https://pan.ecve.cn/dav",
-      "user": "alist",
-      "pass": "alist"
+      "user": "dav",
+      "pass": "dav"
     }
   ]
 }
