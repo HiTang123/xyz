@@ -6,7 +6,7 @@
 
 哔哩,#genre#
 海绵宝宝,https://d1--ov-gotcha105.bilivideo.com/live-bvc/902161/live_393312118_63201693.m3u8?expires=1693303165&len=0&oi=57693166&pt=h5&qn=10000&trid=1003e386ef8d41a646e2b838eadb04747563&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=ov-gotcha105&sign=6d18011798f0e47f2a08dbf2f24ae2ab&sk=28fa386efcf76f3b1161ace8c290a776&p2p_type=0&sl=3&free_type=0&mid=0&pp=rtmp&source=onetier&trace=0&site=8f0028806a7b8ff66ad14dd979de8c22&order=1
-猫和老鼠,https://d1--ov-gotcha07.bilivideo.com/live-bvc/189772/live_3493274528516449_8642675.flv?expires=1693303779&len=0&oi=57693166&pt=h5&qn=10000&trid=100048cc19a6213941629d04ad8b4299c782&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=ov-gotcha07&sign=9df3d7372d60a5035fa40af8d1b009d1&sk=1040680e84f64bcb0d752765ce44cb63&p2p_type=0&sl=1&free_type=0&mid=0&pp=rtmp&source=onetier&trace=0&site=627112194c40788bebdae0f00f43cf1a&order=1
+猫和老鼠,https://d1--ov-gotcha07.bilivideo.com/live-bvc/237449/live_3493274528516449_8642675.flv?expires=1693305062&len=0&oi=57693166&pt=h5&qn=10000&trid=10000f9603cdaf3242398efc4ee4ba668b0b&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=ov-gotcha07&sign=c228a569f490ec5c7bde99b6bf6d5b2c&sk=1040680e84f64bcb0d752765ce44cb63&p2p_type=0&sl=2&free_type=0&mid=0&pp=rtmp&source=onetier&trace=0&site=c38cb5e4125a925433d57c0756215707&order=1
 
 
 
