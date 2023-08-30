@@ -29,6 +29,8 @@ CCTV5,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226635/1.m3u8
 CCTV5,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226487/1.m3u8
 CCTV5,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226305/1.m3u8
 
+CCTV5+,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225761/1.m3u8
+CCTV5+,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225761/1.m3u8
 CCTV5+,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226477/1.m3u8
 CCTV5+,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226609/1.m3u8
 
@@ -82,6 +84,7 @@ CCTV17,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226630/1.m3u8
 
 CETV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226471/1.m3u8
 CETV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226592/1.m3u8
+CETV3,http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 CETV2,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227194/1.m3u8
 CETV4,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227200/1.m3u8
 
@@ -94,8 +97,7 @@ CCTV3,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/322122639
 CCTV4,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226191/1.m3u8
 CCTV5,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8
 CCTV5,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8
-CCTV5+,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225761/1.m3u8
-CCTV5+,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225761/1.m3u8
+
 CCTV6,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226393/1.m3u8
 CCTV7,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226192/1.m3u8
 CCTV8,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226012/1.m3u8
@@ -156,10 +158,8 @@ CCTV17,http://58.205.220.58:8088/tlivectfree-cdn.ysp.cctv.cn/ysp/2000204203.m3u8
 央视台球,http://58.205.220.58:8088/tlivectfree-cdn.ysp.cctv.cn/ysp/2012513703.m3u8
 电视指南,http://58.205.220.58:8088/tlivectfree-cdn.ysp.cctv.cn/ysp/2012514003.m3u8
 卫生健康,http://58.205.220.58:8088/tlivectfree-cdn.ysp.cctv.cn/ysp/2012513502.m3u8
-CCTV4k,http://58.205.220.58:8088/tlivectfree-cdn.ysp.cctv.cn/ysp/2000266303.m3u8
 CETV1,http://txycsbl.centv.cn/zb/0628cetv1.m3u8
 CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
-CETV3,http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
 
