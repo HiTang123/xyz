@@ -181,9 +181,9 @@ CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 重庆卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226676/1.m3u8
 重庆卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226420/1.m3u8
 
-上海卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227199/1.m3u8
-上海卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226681/1.m3u8
-上海卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226450/1.m3u8
+东方卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227199/1.m3u8
+东方卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226681/1.m3u8
+东方卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226450/1.m3u8
 
 江苏卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227228/1.m3u8
 江苏卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226722/1.m3u8
@@ -252,7 +252,7 @@ CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 宁夏卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226418/1.m3u8
 宁夏卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226710/1.m3u8
 
-甘肃标清,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226547/1.m3u8
+甘肃卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226547/1.m3u8
 
 陕西卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226458/1.m3u8
 
