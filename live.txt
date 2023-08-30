@@ -84,8 +84,8 @@ CCTV17,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226630/1.m3u8
 
 CETV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226471/1.m3u8
 CETV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226592/1.m3u8
-CETV3,http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 CETV2,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227194/1.m3u8
+CETV3,http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 CETV4,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227200/1.m3u8
 
 
