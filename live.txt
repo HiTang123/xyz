@@ -1114,7 +1114,7 @@ BesTV-4K-IPV6,http://[2409:8087:5e01:34::30]:6610/ZTE_CMS/0000000100000006000000
 孟州综合,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227035/1.m3u8
 济源,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226693/1.m3u8
 
-iHOT,#genre#
+iHOT-IPV6,#genre#
 iHOT爱院线,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000030630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000030630&livemode=1&stbId=3
 iHOT爱科幻,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000020630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000020630&livemode=1&stbId=3
 iHOT爱浪漫,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000040630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000040630&livemode=1&stbId=3
