@@ -276,47 +276,47 @@ CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 河南卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226639/1.m3u8
 河南卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226463/1.m3u8
 
-河南民生频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227268/1.m3u8
-河南民生频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226685/1.m3u8
-河南民生频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226433/1.m3u8
+民生频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227268/1.m3u8
+民生频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226685/1.m3u8
+民生频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226433/1.m3u8
 
-河南都市频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227241/1.m3u8
-河南都市频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226430/1.m3u8
-河南都市频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226649/1.m3u8
+都市频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227241/1.m3u8
+都市频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226430/1.m3u8
+都市频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226649/1.m3u8
 
-河南电视剧,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227270/1.m3u8
-河南电视剧,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226437/1.m3u8
-河南电视剧,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226438/1.m3u8
-河南电视剧,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226521/1.m3u8
+电视剧频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227270/1.m3u8
+电视剧频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226437/1.m3u8
+电视剧频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226438/1.m3u8
+电视剧频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226521/1.m3u8
 
-河南梨园频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226438/1.m3u8
-河南梨园频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226561/1.m3u8
+戏曲频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226438/1.m3u8
+戏曲频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226561/1.m3u8
 
 移动戏曲,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226628/1.m3u8
 移动戏曲,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226436/1.m3u8
 移动电视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226871/1.m3u8
 
-河南公共,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227243/1.m3u8
-河南公共,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226441/1.m3u8
-河南公共,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226566/1.m3u8
+公共频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227243/1.m3u8
+公共频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226441/1.m3u8
+公共频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226566/1.m3u8
 
-河南乡村频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226443/1.m3u8
-河南乡村频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226576/1.m3u8
+乡村频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226443/1.m3u8
+乡村频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226576/1.m3u8
 
 河南国际,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226434/1.m3u8
 河南国际,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226588/1.m3u8
 
-河南新闻,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226439/1.m3u8
-河南新闻,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226544/1.m3u8
+新闻频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226439/1.m3u8
+新闻频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226544/1.m3u8
 
-河南法制,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226435/1.m3u8
-河南法制,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226724/1.m3u8
+法制频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226435/1.m3u8
+法制频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226724/1.m3u8
 
-河南收藏,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226447/1.m3u8
-河南收藏,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226638/1.m3u8
+收藏天下,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226447/1.m3u8
+收藏天下,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226638/1.m3u8
 
-河南中华功夫,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226692/1.m3u8
-河南中华功夫,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226440/1.m3u8
+中华功夫,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226692/1.m3u8
+中华功夫,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226440/1.m3u8
 
 河南4K,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226526/1.m3u8
 欢腾购物,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226641/1.m3u8
@@ -338,8 +338,8 @@ CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 郑州1新闻综合,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226618/1.m3u8
 郑州1新闻综合,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226404/1.m3u8
 
-郑州2商都,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226402/1.m3u8
-郑州2商都,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226650/1.m3u8
+郑州2商都频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226402/1.m3u8
+郑州2商都频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226650/1.m3u8
 
 郑州3文体旅游,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226407/1.m3u8
 郑州3文体旅游,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226627/1.m3u8
@@ -358,7 +358,7 @@ CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 焦作公共,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226391/1.m3u8
 睛彩焦作   ,http://zhpull.dxhmt.cn/jiaozuo/c5eb91b47f0e42318f34fc0247c8acaa/playlist.m3u8?zhend
 孟州综合,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227035/1.m3u8
-济源,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226693/1.m3u8
+济源1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226693/1.m3u8
 
 
 
