@@ -1,5 +1,5 @@
 
-央视频道,#genre#
+央视IPV4,#genre#
 CCTV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227262/1.m3u8
 CCTV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227163/1.m3u8
 CCTV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226706/1.m3u8
@@ -151,7 +151,7 @@ CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
 CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
 
-卫视频道,#genre#
+卫视IPV4,#genre#
 
 
 北京卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227179/1.m3u8
