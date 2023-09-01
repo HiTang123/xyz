@@ -335,23 +335,23 @@ CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
 健康河南,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227110/1.m3u8
 
-郑州1新闻综合,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226618/1.m3u8
-郑州1新闻综合,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226404/1.m3u8
+郑州1-新闻综合,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226618/1.m3u8
+郑州1-新闻综合,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226404/1.m3u8
 
-郑州2商都频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226402/1.m3u8
-郑州2商都频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226650/1.m3u8
+郑州2-商都频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226402/1.m3u8
+郑州2-商都频道,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226650/1.m3u8
 
-郑州3文体旅游,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226407/1.m3u8
-郑州3文体旅游,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226627/1.m3u8
+郑州3-文体旅游,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226407/1.m3u8
+郑州3-文体旅游,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226627/1.m3u8
 
-郑州4影视戏曲,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226645/1.m3u8
-郑州4影视戏曲,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226405/1.m3u8
+郑州4-影视戏曲,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226645/1.m3u8
+郑州4-影视戏曲,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226405/1.m3u8
 
-郑州5妇女儿童,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226686/1.m3u8
-郑州5妇女儿童,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226403/1.m3u8
+郑州5-妇女儿童,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226686/1.m3u8
+郑州5-妇女儿童,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226403/1.m3u8
 
-郑州6都市生活,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226400/1.m3u8
-郑州6都市生活,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226708/1.m3u8
+郑州6-都市生活,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226400/1.m3u8
+郑州6-都市生活,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226708/1.m3u8
 
 焦作综合,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226604/1.m3u8
 焦作教育,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226648/1.m3u8
