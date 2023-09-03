@@ -1,5 +1,5 @@
-import {_} from "assets://js/lib/cat.js";
-import {def_conf} from "./def_biliconf.js";
+import {_} from "https://agit.ai/cacifer/xyz/raw/branch/master/cat/lib/cat.js";
+import {def_conf} from "https://agit.ai/cacifer/xyz/raw/branch/master/JS/def_biliconf.js";
 import {config} from "http://127.0.0.1:9978/file/tvbox/Bili源.js";
 
 let diy_conf={};
