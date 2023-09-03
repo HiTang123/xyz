@@ -2,16 +2,16 @@
 var rule = {
     title: 'JustLive',
     host: 'http://live.yj1211.work',
-    uid:config.uid,
+    uid:yslb_conf.uid,
     // homeUrl: '/api/live/getRecommend?page=1&size=20',//网站的首页链接,用于分类获取和推荐获取
     homeUrl: '',//网站的首页链接,用于分类获取和推荐获取
     url: '/api/live/getRecommendByPlatformArea?platform=fyclass&area=fyfilter&page=fypage&size=20', //网站的分类页面链接
-    class_name: config.className,
-    class_url: config.classId,
+    class_name: yslb_conf.className,
+    class_url: yslb_conf.classId,
     filterable: 1,
     filter_url: '{{fl.area}}',
-    filter:config.filter ,
-    filter_def:config.def,
+    filter:yslb_conf.filter ,
+    filter_def:yslb_conf.def,
     // detailUrl: '/index/liveRoom?platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
