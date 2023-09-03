@@ -16,8 +16,8 @@ var rule = {
     //searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
     searchUrl: '/api/live/search?platform=all&keyWords=**&uid='+yslb_conf.uid,
     // searchable: 2,
-    searchable: 0,
-    quickSearch: 0,
+    searchable: 1,
+    quickSearch: 1,
     headers: {
         'User-Agent': 'MOBILE_UA'
     },
