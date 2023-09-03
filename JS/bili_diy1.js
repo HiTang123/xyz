@@ -1,10 +1,26 @@
 import {_} from "assets://js/lib/cat.js";
+import {def_conf} from "./def_biliconf.js";
 import {config} from "http://127.0.0.1:9978/file/tvbox/Bili源.js";
 
+let diy_conf={};
 if(config.localable==0){
-
+	diy_conf={
+		cookie:def_conf.cookie,
+		searchable:def_conf.searchable,
+		homeSwitch:def_conf.homeSwitch,
+		homeName:def_conf.homeName,
+		classes:def_conf.classes,
+		filterObj:def_conf.filterObj
+	};
 }else{
-
+	diy_conf={
+		cookie:config.cookie,
+		searchable:config.searchable,
+		homeSwitch:config.homeSwitch,
+		homeName:config.homeName,
+		classes:config.classes,
+		filterObj:config.filterObj
+	};
 };
 
 let key = "bili_diy",
@@ -12,7 +28,7 @@ let key = "bili_diy",
 	siteKey = "",
 	siteType = 0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
-let cookie = config.cookie;
+let cookie = diy_conf.cookie;
 async function request(e) {
 	return (await req(e, {
 		headers: getMb()
@@ -23,13 +39,13 @@ async function init(e) {
 }
 async function home(e) {
 	return JSON.stringify({
-		class: config.classes,
-		filters: config.filterObj
+		class: diy_conf.classes,
+		filters: diy_conf.filterObj
 	})
 }
 async function homeVod() {
-	if(1 != config.homeSwitch) return null; {
-		var e = HOST + "/x/web-interface/search/type?search_type=video&keyword=" + config.homeName,
+	if(1 != diy_conf.homeSwitch) return null; {
+		var e = HOST + "/x/web-interface/search/type?search_type=video&keyword=" + diy_conf.homeName,
 			e = JSON.parse(await request(e)).data.result;
 		let t = [];
 		return e.forEach(function(e) {
@@ -100,7 +116,7 @@ async function play(e, t, i) {
 	})
 }
 async function search(e, t, i) {
-	if(1 != config.searchable) return null; {
+	if(1 != diy_conf.searchable) return null; {
 		(i <= 0 || void 0 === i) && (i = 1);
 		e = HOST + "/x/web-interface/search/type?search_type=video&keyword=" + e + "&page=" + i, i = JSON.parse(await request(e)).data;
 		let t = [];
