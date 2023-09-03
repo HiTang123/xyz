@@ -1,5 +1,4 @@
 // 搜索功能需登录使用
-import {config} from "http://127.0.0.1:9978/file/tvbox/影视轮播源.js";
 var rule = {
     title: 'JustLive',
     host: 'http://live.yj1211.work',
