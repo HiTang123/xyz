@@ -2,7 +2,6 @@
 var rule = {
     title: 'JustLive',
     host: 'http://live.yj1211.work',
-    uid:yslb_conf.uid,
     // homeUrl: '/api/live/getRecommend?page=1&size=20',//网站的首页链接,用于分类获取和推荐获取
     homeUrl: '',//网站的首页链接,用于分类获取和推荐获取
     url: '/api/live/getRecommendByPlatformArea?platform=fyclass&area=fyfilter&page=fypage&size=20', //网站的分类页面链接
