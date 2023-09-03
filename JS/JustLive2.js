@@ -14,7 +14,8 @@ var rule = {
     filter_def:yslb_conf.def,
     // detailUrl: '/index/liveRoom?platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
-    searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
+    //searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
+    searchUrl: '/api/live/search?platform=all&keyWords=**&uid='+yslb_conf.uid,
     // searchable: 2,
     searchable: 0,
     quickSearch: 0,
