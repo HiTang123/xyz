@@ -3,16 +3,7 @@ import {def_conf} from "./def_biliconf.js";
 import {config} from "http://127.0.0.1:9978/file/tvbox/Bili源.js";
 
 let diy_conf={};
-if(config.localable==0){
-	diy_conf={
-		cookie:def_conf.cookie,
-		searchable:def_conf.searchable,
-		homeSwitch:def_conf.homeSwitch,
-		homeName:def_conf.homeName,
-		classes:def_conf.classes,
-		filterObj:def_conf.filterObj
-	};
-}else{
+if(config.localable!=0){
 	diy_conf={
 		cookie:config.cookie,
 		searchable:config.searchable,
@@ -20,6 +11,15 @@ if(config.localable==0){
 		homeName:config.homeName,
 		classes:config.classes,
 		filterObj:config.filterObj
+	};
+}else{
+	diy_conf={
+		cookie:def_conf.cookie,
+		searchable:def_conf.searchable,
+		homeSwitch:def_conf.homeSwitch,
+		homeName:def_conf.homeName,
+		classes:def_conf.classes,
+		filterObj:def_conf.filterObj
 	};
 };
 
