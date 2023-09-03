@@ -1,4 +1,5 @@
 // 搜索功能需登录使用
+import {uid} from "http://";
 var rule = {
     title: 'JustLive',
     host: 'http://live.yj1211.work',
