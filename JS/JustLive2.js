@@ -14,13 +14,13 @@ var rule = {
     // detailUrl: '/index/liveRoom?platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     //searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
-    searchUrl: '/api/live/search?platform=all&keyWords=**&uid='+yslb_conf.uid,
+    searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
     // searchable: 2,
     searchable: 0,
     quickSearch: 1,
     headers: {
-        //'User-Agent': 'MOBILE_UA'
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
+        'User-Agent': 'MOBILE_UA'
+        //'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
     },
     timeout: 5000,
     play_parse: true,
@@ -68,5 +68,5 @@ var rule = {
         }).join("#");
         setResult(d)
     `,
-    搜索: 'json:data;nickName;headPic;cateName;roomId',
+    搜索: '*',
 }
