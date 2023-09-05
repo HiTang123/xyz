@@ -1,12 +1,7 @@
-import {
-	_
-} from "assets://js/lib/cat.js";
-import {
-	def_conf
-} from "./def_biliconf.js";
-import {
-	config
-} from "http://127.0.0.1:9978/file/tvbox/%E9%85%8D%E7%BD%AE_Bili%E6%BA%90.js";
+import {_} from "assets://js/lib/cat.js";
+import {def_conf} from "./def_biliconf.js";
+//import {config} from "http://127.0.0.1:9978/file/tvbox/%E9%85%8D%E7%BD%AE_Bili%E6%BA%90.js";
+let config={};
 let diy_conf = {};
 if(config.启用本地配置 != 1) {
 	diy_conf = {
