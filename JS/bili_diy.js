@@ -18,12 +18,12 @@ if(config.启用本地配置 != 1) {
 	}
 } else {
 	diy_conf = {
-		cookie: config.cookie,
-		searchable: config.搜索功能,
-		homeSwitch: config.显示推荐页,
-		homeName: config.推荐页显示内容,
-		classes: config.自定义分类,
-		filterObj: config.自定义筛选
+		cookie: 配置.cookie,
+		searchable: 配置.搜索功能,
+		homeSwitch: 配置.显示推荐页,
+		homeName: 配置.推荐页显示内容,
+		classes: 配置.自定义分类,
+		filterObj: 配置.自定义筛选
 	}
 };
 let cookie = diy_conf.cookie;
