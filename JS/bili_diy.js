@@ -1,7 +1,11 @@
 import {_} from "assets://js/lib/cat.js";
 import {def_conf} from "./def_biliconf.js";
-//import {config} from "http://127.0.0.1:9978/file/tvbox/%E9%85%8D%E7%BD%AE_Bili%E6%BA%90.js";
-let config={};
+import {配置} from "http://127.0.0.1:9978/file/tvbox/%E9%85%8D%E7%BD%AE_Bili%E6%BA%90.js";
+let key = 'bili_diy';
+let HOST = 'https://api.bilibili.com';
+let siteKey = '';
+let siteType = 0;
+const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
 let diy_conf = {};
 if(config.启用本地配置 != 1) {
 	diy_conf = {
@@ -22,11 +26,6 @@ if(config.启用本地配置 != 1) {
 		filterObj: config.自定义筛选
 	}
 };
-let key = 'bili_diy';
-let HOST = 'https://api.bilibili.com';
-let siteKey = '';
-let siteType = 0;
-const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
 let cookie = diy_conf.cookie;
 async function request(reqUrl) {
 	const res = await req(reqUrl, {
