@@ -5,12 +5,12 @@ var rule = {
     // homeUrl: '/api/live/getRecommend?page=1&size=20',//网站的首页链接,用于分类获取和推荐获取
     homeUrl: '',//网站的首页链接,用于分类获取和推荐获取
     url: '/api/live/getRecommendByPlatformArea?platform=fyclass&area=fyfilter&page=fypage&size=20', //网站的分类页面链接
-    class_name: yslb_conf.className,
-    class_url: yslb_conf.classId,
+    class_name: yslb_conf.分类名,
+    class_url: yslb_conf.分类id,
     filterable: 1,
     filter_url: '{{fl.area}}',
-    filter:yslb_conf.filter ,
-    filter_def:yslb_conf.def,
+    filter:yslb_conf.自定义筛选,
+    filter_def:yslb_conf.默认显示,
     // detailUrl: '/index/liveRoom?platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     //searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
