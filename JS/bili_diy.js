@@ -86,13 +86,14 @@ async function category(tid, pg, filter, extend) {
 }
 async function detail(id) {
 	let data = JSON.parse(await request(HOST + '/x/web-interface/view?aid=' + id)).data;
+	let cd = getFullTime(data.duration);
 	let vod = {
 		vod_id: data.aid,
 		vod_name: stripHtmlTag(data.title),
 		vod_pic: data.pic,
 		type_name: data.tname,
 		vod_year: new Date(data.pubdate * 1000).getFullYear(),
-		vod_remarks: getFullTime(data.duration) || '',
+		vod_remarks: cd || '',
 		vod_director: data.owner.name,
 		vod_content: stripHtmlTag(data.desc),
 	};
