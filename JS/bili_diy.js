@@ -92,7 +92,7 @@ async function detail(id) {
 		vod_pic: data.pic,
 		type_name: data.tname,
 		vod_year: new Date(data.pubdate * 1000).getFullYear(),
-		vod_remarks: data.duration || '',
+		vod_remarks: getFullTime(data.duration) || '',
 		vod_director: data.owner.name,
 		vod_content: stripHtmlTag(data.desc),
 	};
