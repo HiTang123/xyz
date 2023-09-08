@@ -1,7 +1,7 @@
-import { Crypto, load, _ } from 'https://agit.ai/cacifer/xyz/raw/branch/master/cat/lib/cat.js';
+import { Crypto, load, _ } from './lib/cat.js';
 
 let key = 'czzy';
-let url = 'https://czzy.pw';
+let url = 'https://cz01.cc';
 let siteKey = '';
 let siteType = 0;
 
@@ -133,7 +133,7 @@ async function detail(id) {
     const detail = $('ul.moviedteail_list > li');
     let vod = {
         vod_id: id,
-        vod_name: $('div.moviedteail_tt h1').text(),
+        vod_name: $('div.moviedteail_tt > h1').text().trim(),
         vod_pic: $('div.dyimg img:first').attr('src'),
         vod_remarks: '',
         vod_content: stripHtmlTag($('div.yp_context').html()).trim(),
