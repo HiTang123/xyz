@@ -62,7 +62,7 @@ var rule = {
                 })
             }
         });
-        d.push({{
+        d.push({
 	                title: "斗鱼解析",
 	                url: "http://159.75.85.63:35455/douyu/" + jo.roomId
                 });
