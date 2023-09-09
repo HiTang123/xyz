@@ -59,16 +59,16 @@ var rule = {
                 d.push({
                     title: name[key],
                     url: playurl[key]
-                },
-                {
+                })
+            }
+        });
+        d.push({
                 	title: "虎牙解析",
 	                url: "http://159.75.85.63:35455/huya/" + jo.roomId
                 }, {
 	                title: "斗鱼解析",
 	                url: "http://159.75.85.63:35455/douyu/" + jo.roomId
-                })
-            }
-        });
+                });
         VOD.vod_play_from = "选择画质";
         VOD.vod_play_url = d.map(function(it) {
             return it.title + "$" + it.url
