@@ -62,9 +62,11 @@ var rule = {
                 })
             }
         });
+        let a="http://159.75.85.63:35455/huya/"+jo.roomId;
+        let parse=request(a);
         d.push({
                     title:"虎牙解析",
-                    url:request("http://159.75.85.63:35455/huya/"+jo.roomId)
+                    url: parse
             },{
 	                title: "斗鱼解析",
 	                url: "https://www.aois.eu.org/live/douyu/" + jo.roomId
