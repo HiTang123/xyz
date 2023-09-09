@@ -72,7 +72,7 @@ var rule = {
                     title:"虎牙解析",
                     url: "http://159.75.85.63:35455/huya/"+jo.roomId
             });
-        };
+        }else{return null;};
         
         VOD.vod_play_from = "选择画质";
         VOD.vod_play_url = d.map(function(it) {
