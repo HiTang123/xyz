@@ -69,7 +69,7 @@ var rule = {
 	                url: "https://www.aois.eu.org/live/douyu/" + jo.roomId
                 },{
                     title: "斗鱼解析2",
-	                url: "http://159.75.85.63:35455/douyu/" + jo.roomId
+	                url: "http://192.168.124.3:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/douyu/" + jo.roomId
                 }
             );
         };
