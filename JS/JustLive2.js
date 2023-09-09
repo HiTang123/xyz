@@ -71,7 +71,7 @@ var rule = {
         };
         if(jo.platForm.includes("huya")){
             d.push({
-                    title: "斗鱼解析",
+                    title: "虎牙解析",
 	                url: "http://192.168.124.3:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/huya/" + jo.roomId
                 }
             );
