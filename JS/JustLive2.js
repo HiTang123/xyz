@@ -62,13 +62,18 @@ var rule = {
                 })
             }
         });
-        d.push({
-                    title:"虎牙解析",
-                    url: "http://159.75.85.63:35455/huya/"+jo.roomId
-            },{
+        if(jo.platForm="douyu"){
+            d.push({
 	                title: "斗鱼解析",
 	                url: "https://www.aois.eu.org/live/douyu/" + jo.roomId
-                });
+            });
+        }else if(jo.platForm="huya"){
+            d.push({
+                    title:"虎牙解析",
+                    url: "http://159.75.85.63:35455/huya/"+jo.roomId
+            });
+        };
+        
         VOD.vod_play_from = "选择画质";
         VOD.vod_play_url = d.map(function(it) {
             return it.title + "$" + it.url
