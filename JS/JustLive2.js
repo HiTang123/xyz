@@ -65,7 +65,7 @@ var rule = {
         if(jo.platForm.includes("douyu")){
             d.push({
                     title: "斗鱼解析",
-	                url: "https://oio.cacifer.repl.co/douyu/" + jo.roomId
+	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=https://oio.cacifer.repl.co/douyu/" + jo.roomId
                 }
             );
         };
