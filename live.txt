@@ -1614,8 +1614,8 @@ Miu-初彤【纯御】_伊沃哥up,http://mmitv.top/pltv/huya.php?id=691265&u=11
 嘉佳卡通,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226601/1.m3u8
 优漫卡通,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226606/1.m3u8
 金鹰卡通,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226624/1.m3u8
-北京卡酷,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226640/1.m3u8
 北京卡酷,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227212/1.m3u8
+北京卡酷,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226640/1.m3u8
 哈哈炫动,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226596/1.m3u8
 浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8?k=1a7559a51eeb880b021619a07f463ac4&t=1577153787
