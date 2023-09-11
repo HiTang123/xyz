@@ -65,7 +65,7 @@ var rule = {
         if(jo.platForm.includes("douyu")){
             d.push({
                     title: "斗鱼解析",
-	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=https://oio.cacifer.repl.co/douyu/" + jo.roomId
+	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/douyu/" + jo.roomId
                 }
             );
         };
@@ -73,6 +73,13 @@ var rule = {
             d.push({
                     title: "虎牙解析",
 	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/huya/" + jo.roomId
+                }
+            );
+        };
+        if(jo.platForm.includes("huya")){
+            d.push({
+                    title: "哔哩解析",
+	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/bilibili/" + jo.roomId
                 }
             );
         };
