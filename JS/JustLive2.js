@@ -76,7 +76,7 @@ var rule = {
                 }
             );
         };
-        if(jo.platForm.includes("huya")){
+        if(jo.platForm.includes("bili")){
             d.push({
                     title: "哔哩解析",
 	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/bilibili/" + jo.roomId
