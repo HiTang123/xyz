@@ -38,7 +38,7 @@ var rule = {
             vod_name: jo.roomName,
             vod_pic: jo.roomPic,
             type_name: jo.platForm.replace("huya", "虎牙").replace("douyu", "斗鱼").replace("cc", "网易CC").replace("bilibili", "哔哩哔哩") + "." + jo.categoryName,
-            vod_content: "🏷UP主：" + jo.ownerName + " <br/>🏷人气：" + jo.online + "<br/>"+(jo.isLive === 1 ? " 🏷状态：正在直播" : "状态：未开播")
+            vod_content: "🏷UP主:" + jo.ownerName + "🏷人气:" + jo.online +(jo.isLive === 1 ? "🏷状态:正在直播" : "状态:未开播")
         };
         var playurl = JSON.parse(request("http://live.yj1211.work/api/live/getRealUrl?platform=" + jo.platForm + "&roomId=" + jo.roomId)).data;
         var name = {
