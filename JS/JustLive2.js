@@ -39,7 +39,7 @@ var rule = {
             vod_pic: jo.roomPic,
             vod_remarks:'',
             vod_director:(jo.isLive === 1 ? "🟢" : "🔴")+jo.ownerName+"&nbsp &nbsp "+"人气：" + jo.online,
-            type_name: jo.platForm.replace("huya", "🐯虎牙").replace("douyu", "🦈斗鱼").replace("cc", "🕸️网易CC").replace("bilibili", "🅱️哔哩哔哩") + "." + jo.categoryName,
+            type_name: jo.platForm.replace("huya", "🐯虎牙").replace("douyu", "🦈斗鱼").replace("cc", "🕸️网易CC").replace("bilibili", "🅱️哔哩哔哩") + "·" + jo.categoryName,
             vod_content: ''
         };
         var playurl = JSON.parse(request("http://live.yj1211.work/api/live/getRealUrl?platform=" + jo.platForm + "&roomId=" + jo.roomId)).data;
