@@ -37,6 +37,8 @@ var rule = {
             vod_id: jo.roomId,
             vod_name: jo.roomName,
             vod_pic: jo.roomPic,
+            vod_remarks:"🏷UP主:" + jo.ownerName + "🏷人气:" + jo.online,
+            vod_director:jo.ownerName,
             type_name: jo.platForm.replace("huya", "虎牙").replace("douyu", "斗鱼").replace("cc", "网易CC").replace("bilibili", "哔哩哔哩") + "." + jo.categoryName,
             vod_content: "🏷UP主:" + jo.ownerName + "🏷人气:" + jo.online +(jo.isLive === 1 ? "🏷状态:正在直播" : "状态:未开播")
         };
