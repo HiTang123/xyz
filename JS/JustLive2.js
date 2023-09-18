@@ -124,5 +124,5 @@ var rule = {
         }).join("#");
         setResult(d)
     `,
-    搜索: 'json:data;nickName;headPic;platform;roomId',
+    搜索: '*',
 }
