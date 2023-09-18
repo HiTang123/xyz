@@ -15,9 +15,8 @@ var rule = {
     detailUrl: '/api/live/getRoomInfo?uid=843186b3fad84f2899bbaf09f17a6266&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     //searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
     searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0&uid=843186b3fad84f2899bbaf09f17a6266',
-    // searchable: 2,
-    searchable: 1,
-    quickSearch: 1,
+    searchable: 0,
+    quickSearch: 0,
     headers: {
         'User-Agent': 'MOBILE_UA'
         //'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
@@ -110,14 +109,8 @@ var rule = {
         };
         if(jo.platForm.includes("bili")){
             d.push({
-                    title: "虎牙解析",
-	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/huya/" + jo.roomId
-                },{
                     title: "哔哩解析",
 	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/bilibili/" + jo.roomId
-                },{
-                    title: "斗鱼解析",
-	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/douyu/" + jo.roomId
                 }
             );
         };
