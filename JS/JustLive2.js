@@ -63,7 +63,7 @@ var rule = {
         if (typeof play_url === "undefined") {
             var play_url = ""
         }
-        input = /platform=&/.test(input) ? input.replace("platform=", "platform=jiexi") : input;
+        input = /platform=&/.test(input) ? input.replace("platform=", "platform=bilibili") : input;
         var jo = JSON.parse(request(input)).data;
         VOD = {
             vod_id: jo.roomId,
