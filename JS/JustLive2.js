@@ -92,5 +92,5 @@ var rule = {
         }).join("#");
         setResult(d)
     `,
-    搜索: '*',
+    搜索: 'json:data.list;*;*;*;roomId',
 }
