@@ -96,19 +96,6 @@ var rule = {
                 })
             }
         });
-        if(jo.platForm.includes("jiexi")){
-            d.push({
-                    title: "斗鱼解析",
-	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/douyu/" + jo.roomId
-                },{
-                    title: "虎牙解析",
-	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/huya/" + jo.roomId
-                },{
-                    title: "哔哩解析",
-	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/bilibili/" + jo.roomId
-                }
-            );
-        };
         if(jo.platForm.includes("douyu")){
             d.push({
                     title: "斗鱼解析",
@@ -137,5 +124,70 @@ var rule = {
         }).join("#");
         setResult(d)
     `,
-    搜索: 'json:data;nickName;headPic;platform;roomId',
+    搜索: `js:
+        var d = [];
+        if (typeof play_url === "undefined") {
+            var play_url = ""
+        }
+        input = /platform=&/.test(input) ? input.replace("platform=", "platform=bilibili") : input;
+        var jo = JSON.parse(request(input)).data;
+        VOD = {
+            vod_id: jo.roomId,
+            vod_name: jo.nickName,
+            vod_pic: jo.headPic,
+            vod_remarks:'jo.platform',
+            vod_director:(jo.isLive === 1 ? "🟢" : "🔴")+jo.ownerName+"&nbsp &nbsp "+"人气：" + jo.online,
+            type_name: jo.platForm.replace("huya", "🐯虎牙").replace("douyu", "🦈斗鱼").replace("cc", "🕸️网易CC").replace("bilibili", "🅱️哔哩哔哩") + "·" + jo.categoryName,
+            vod_content: ''
+        };
+        var playurl = JSON.parse(request("http://live.yj1211.work/api/live/getRealUrl?platform=" + jo.platForm + "&roomId=" + jo.roomId)).data;
+        var name = {
+            "OD": "原画",
+            "FD": "流畅",
+            "LD": "标清",
+            "SD": "高清",
+            "HD": "超清",
+            "2K": "2K",
+            "4K": "4K",
+            "FHD": "全高清",
+            "XLD": "极速",
+            "SQ": "普通音质",
+            "HQ": "高音质"
+        };
+        Object.keys(playurl).forEach(function(key) {
+            if (!/ayyuid|to/.test(key)) {
+                d.push({
+                    title: name[key],
+                    url: playurl[key]
+                })
+            }
+        });
+        if(jo.platForm.includes("douyu")){
+            d.push({
+                    title: "斗鱼解析",
+	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/douyu/" + jo.roomId
+                }
+            );
+        };
+        if(jo.platForm.includes("huya")){
+            d.push({
+                    title: "虎牙解析",
+	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/huya/" + jo.roomId
+                }
+            );
+        };
+        if(jo.platForm.includes("bili")){
+            d.push({
+                    title: "哔哩解析",
+	                url: "http://127.0.0.1:9978/proxy?do=ali&type=push&url=http://159.75.85.63:35455/bilibili/" + jo.roomId
+                }
+            );
+        };
+        
+        VOD.vod_play_from = "选择画质";
+        VOD.vod_play_url = d.map(function(it) {
+            return it.title + "$" + it.url
+        }).join("#");
+        setResult(d)
+    `,
 }
