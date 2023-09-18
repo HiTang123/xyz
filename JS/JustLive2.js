@@ -12,7 +12,7 @@ var rule = {
     filter:yslb_conf.自定义筛选,
     filter_def:yslb_conf.默认显示,
     // detailUrl: '/index/liveRoom?platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
-    detailUrl: '/api/live/getRoomInfo?uid=&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
+    detailUrl: '/api/live/getRoomInfo?uid=843186b3fad84f2899bbaf09f17a6266&platform=fyclass&roomId=fyid',//二级详情拼接链接(json格式用)
     //searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
     searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0&uid=843186b3fad84f2899bbaf09f17a6266',
     // searchable: 2,
