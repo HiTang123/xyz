@@ -123,8 +123,8 @@ var rule = {
         };
         
         VOD.vod_play_from = "选择画质";
-        if (typeof play_url === "undefined") {
-            var play_url = ""
+        if (VOD.vod_play_url === "undefined") {
+            VOD.vod_play_url = "解析播放→"
         }else{
             VOD.vod_play_url = d.map(function(it) {
                 return it.title + "$" + it.url
