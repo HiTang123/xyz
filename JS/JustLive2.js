@@ -16,7 +16,7 @@ var rule = {
     //searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
     searchUrl: '/api/live/search?platform=all&keyWords=**&isLive=0',
     // searchable: 2,
-    searchable: 0,
+    searchable: 1,
     quickSearch: 1,
     headers: {
         'User-Agent': 'MOBILE_UA'
@@ -24,7 +24,36 @@ var rule = {
     },
     timeout: 5000,
     play_parse: true,
-    lazy: '',
+    //lazy: '',
+    lazy:`js:
+        let purl = input.split("|")[0];
+        let pfrom = input.split("|")[1];
+        let cid = input.split("|")[2];
+        print("purl:" + purl);
+        print("pfrom:" + pfrom);
+        print("cid:" + cid);
+        let dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + cid;
+        if (/bilibili/.test(pfrom)){
+            let result = {};
+            result['parse'] = 0;
+            result['playUrl'] = '';
+            result['url'] = unescape(purl);
+            result['header'] = {
+                Referer: 'https://live.bilibili.com',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+            };
+            result['danmaku'] = dan;
+            if (/h5/.test(purl)) {
+                result['contentType'] = '';
+                input = result
+            } else {
+                result['contentType'] = 'video/x-flv';
+                input = result
+            }
+        } else {
+            input = purl
+        }
+    `,
     limit: 6,
     推荐: '*',
     一级: 'json:data;roomName;roomPic;ownerName;roomId',
