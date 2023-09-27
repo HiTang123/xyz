@@ -2,7 +2,7 @@
 var rule={
 	title:'农民影视',
 
-	host:'https://www.nmddd.com',
+	host:'https://www.nmddd.com/',
 	//host:'https://v.xiangdao.me',
 	// host:'https://v.emsdn.cn',
 	//host:'https://www.nmdvd.com/',
@@ -20,7 +20,7 @@ var rule={
     searchUrl:'/index.php?m=vod-search&wd=**',
 	searchable:2,//是否启用全局搜索,
 	headers:{//网站的请求头,完整支持所有的,常带ua和cookies
-		'User-Agent': 'MOBILE_UA',
+		'User-Agent': 'Mozilla/5.0 (Linux; Android 10; LYA-AL00; HMSCore 6.4.0.312; GMSCore 20.15.16) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.4.300 Mobile Safari/537.36',
 	},
 	class_parse: '#topnav li:lt(4);a&&Text;a&&href;/.*-(\\d+)-.*.html',
 	play_parse: true,
