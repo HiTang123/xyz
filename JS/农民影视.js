@@ -6,7 +6,7 @@ var rule={
 	//host:'https://v.xiangdao.me',
 	//host:'https://v.emsdn.cn',
 	//host:'https://www.nmdvd.com/',
-	hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});let src = jsp.pdfh(html,"body&&a:eq(1)&&href");print(src);HOST=src',
+	hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":"Mozilla/5.0 (Linux; Android 10; LYA-AL00; HMSCore 6.4.0.312; GMSCore 20.15.16) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.4.300 Mobile Safari/537.36"}});let src = jsp.pdfh(html,"body&&a:eq(1)&&href");print(src);HOST=src',
 	url:'/vod-list-id-fyfilter.html',
 	filterable:1,//是否启用分类筛选,
 	filter_url:'{{fl.cateId}}-pg-fypage-order--by-{{fl.by}}-class-0-year-{{fl.year}}-letter--area-{{fl.area}}-lang-',
