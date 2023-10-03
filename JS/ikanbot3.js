@@ -55,7 +55,7 @@ try {
             arr.push({
         flag: '快看',
         url: map[key],
-            sort:5
+            sort:6
       })}
 
       else if('jsm3u8'==key){
@@ -82,6 +82,13 @@ try {
         else if('lzm3u8'==key){
             arr.push({
         flag: '量子',
+        url: map[key],
+            sort:5
+      })}
+
+      else if('zuidam3u8'==key){
+            arr.push({
+        flag: '最大',
         url: map[key],
             sort:4
       })}
