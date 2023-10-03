@@ -57,27 +57,27 @@ try {
         else if('ffm3u8'==key){arr.push({flag:'非凡',url: map[key],sort:4})}
         else if('zuidam3u8'==key){arr.push({flag:'最大',url: map[key],sort:5})}
         else if('kuaikan'==key){arr.push({flag:'快看',url: map[key],sort:6})}
-        else if('tkm3u8'==key){arr.push({flag:'天空',url: map[key]})}
-        else if('wjm3u8'==key){arr.push({flag:'无极',url: map[key]})}
-        else if('kcm3u8'==key){arr.push({flag:'快车',url: map[key]})}
-        else if('sdm3u8'==key){arr.push({flag:'闪电',url: map[key]})}
-        else if('1080zyk'==key){arr.push({flag:'1080',url: map[key]})}
-        else if('wolong'==key){arr.push({flag:'卧龙',url: map[key]})}
-        else if('gsm3u8'==key){arr.push({flag:'光速',url: map[key]})}
-        else if('xlm3u8'==key){arr.push({flag:'新浪',url: map[key]})}
-        else if('jinyingm3u8'==key){arr.push({flag:'金鹰',url: map[key]})}
-        else if('fsm3u8'==key){arr.push({flag:'飞速',url: map[key]})}
-        else if('ukm3u8'==key){arr.push({flag:'U酷',url: map[key]})}
-        else if('yhm3u8'==key){arr.push({flag:'樱花',url: map[key]})}
-        else if('lem3u8'==key){arr.push({flag:'鱼乐',url: map[key]})}
-        else if('dbm3u8'==key){arr.push({flag:'百度',url: map[key]})}
-        else if('snm3u8'==key){arr.push({flag:'索尼',url: map[key]})}
-        else if('tpm3u8'==key){arr.push({flag:'淘片',url: map[key]})}
-        else if('ikm3u8'==key){arr.push({flag:'爱坤',url: map[key]})}
-        else if('M3U8'==key){arr.push({flag:'M3U8',url: map[key]})}
-        else if('bjm3u8'==key){arr.push({flag:'八戒',url: map[key]})}
-        else if('qhm3u8'==key){arr.push({flag:'奇虎',url: map[key]})}
-        else{arr.push({flag: key,url: map[key]})}
+        else if('tkm3u8'==key){arr.push({flag:'天空',url: map[key],sort:7})}
+        else if('wjm3u8'==key){arr.push({flag:'无极',url: map[key],sort:8})}
+        else if('kcm3u8'==key){arr.push({flag:'快车',url: map[key],sort:9})}
+        else if('sdm3u8'==key){arr.push({flag:'闪电',url: map[key],sort:10})}
+        else if('1080zyk'==key){arr.push({flag:'1080',url: map[key],sort:11})}
+        else if('wolong'==key){arr.push({flag:'卧龙',url: map[key],sort:12})}
+        else if('gsm3u8'==key){arr.push({flag:'光速',url: map[key],sort:13})}
+        else if('xlm3u8'==key){arr.push({flag:'新浪',url: map[key],sort:14})}
+        else if('jinyingm3u8'==key){arr.push({flag:'金鹰',url: map[key],sort:15})}
+        else if('fsm3u8'==key){arr.push({flag:'飞速',url: map[key],sort:16})}
+        else if('ukm3u8'==key){arr.push({flag:'U酷',url: map[key],sort:17})}
+        else if('yhm3u8'==key){arr.push({flag:'樱花',url: map[key],sort:18})}
+        else if('lem3u8'==key){arr.push({flag:'鱼乐',url: map[key],sort:19})}
+        else if('dbm3u8'==key){arr.push({flag:'百度',url: map[key],sort:20})}
+        else if('snm3u8'==key){arr.push({flag:'索尼',url: map[key],sort:21})}
+        else if('tpm3u8'==key){arr.push({flag:'淘片',url: map[key],sort:22})}
+        else if('ikm3u8'==key){arr.push({flag:'爱坤',url: map[key],sort:23})}
+        else if('M3U8'==key){arr.push({flag:'M3U8',url: map[key],sort:24})}
+        else if('bjm3u8'==key){arr.push({flag:'八戒',url: map[key],sort:25})}
+        else if('qhm3u8'==key){arr.push({flag:'奇虎',url: map[key],sort:26})}
+        else{arr.push({flag: key,url: map[key],sort:27})}
   }
     arr.sort((a, b) => a.sort - b.sort);
     
