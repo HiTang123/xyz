@@ -74,7 +74,7 @@ try {
         else if('snm3u8'==key){arr.push({flag:'索尼',url: map[key]})}
         else if('tpm3u8'==key){arr.push({flag:'淘片',url: map[key]})}
         else if('M3U8'==key){arr.push({flag:'M3U8',url: map[key]})}
-        //else{arr.push({flag: key,url: map[key],sort:7})}
+        else{arr.push({flag: key,url: map[key]})}
   }
     arr.sort((a, b) => a.sort - b.sort);
     
