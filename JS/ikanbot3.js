@@ -70,9 +70,10 @@ try {
         else if('ukm3u8'==key){arr.push({flag:'U酷',url: map[key]})}
         else if('yhm3u8'==key){arr.push({flag:'樱花',url: map[key]})}
         else if('lem3u8'==key){arr.push({flag:'鱼乐',url: map[key]})}
-        else if('dbm3u8'==key){arr.push({flag:'db',url: map[key]})}
+        else if('dbm3u8'==key){arr.push({flag:'百度',url: map[key]})}
         else if('snm3u8'==key){arr.push({flag:'索尼',url: map[key]})}
         else if('tpm3u8'==key){arr.push({flag:'淘片',url: map[key]})}
+        else if('ikm3u8'==key){arr.push({flag:'爱坤',url: map[key]})}
         else if('M3U8'==key){arr.push({flag:'M3U8',url: map[key]})}
         else{arr.push({flag: key,url: map[key]})}
   }
