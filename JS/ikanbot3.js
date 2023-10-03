@@ -55,49 +55,42 @@ try {
             arr.push({
         flag: '快看',
         url: map[key],
-            sort:6
       })}
 
       else if('jsm3u8'==key){
             arr.push({
         flag: '极速',
         url: map[key],
-            sort:1
       })}
 
         else if('bfzym3u8'==key){
             arr.push({
         flag: '暴风',
         url: map[key],
-            sort:2
       })}
 
         else if('ffm3u8'==key){
             arr.push({
         flag: '非凡',
         url: map[key],
-            sort:3
       })}
       
         else if('lzm3u8'==key){
             arr.push({
         flag: '量子',
         url: map[key],
-            sort:5
       })}
 
       else if('zuidam3u8'==key){
             arr.push({
         flag: '最大',
         url: map[key],
-            sort:4
       })}
 
         else{
             arr.push({
         flag: key,
         url: map[key],
-            sort:5
       })}
 
   }
