@@ -57,6 +57,18 @@ try {
         else if('ffm3u8'==key){arr.push({flag:'非凡',url: map[key],sort:4})}
         else if('zuidam3u8'==key){arr.push({flag:'最大',url: map[key],sort:5})}
         else if('kuaikan'==key){arr.push({flag:'快看',url: map[key],sort:6})}
+        else if('tk'==key){arr.push({flag:'天空',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
+        else if(''==key){arr.push({flag:'',url: map[key]})}
         else{arr.push({flag: key,url: map[key],sort:7})}
   }
     arr.sort((a, b) => a.sort - b.sort);
