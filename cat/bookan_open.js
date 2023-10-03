@@ -17,7 +17,11 @@ async function init(cfg) {
     siteKey = cfg.skey;
     siteType = cfg.stype;
 }
-
+async function homeVod() {
+  return JSON.stringify({
+      list: [],
+  });
+}
 async function home(filter) {
     return JSON.stringify({
         class: [
@@ -35,11 +39,7 @@ async function home(filter) {
         ],
     });
 }
-async function homeVod() {
-  return JSON.stringify({
-      list: [],
-  });
-}
+
 async function category(tid, pg, filter, extend) {
     pg = pg || 1;
     if (pg == 0) pg = 1;
