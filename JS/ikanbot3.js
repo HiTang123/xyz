@@ -55,6 +55,13 @@ try {
             arr.push({
         flag: '快看',
         url: map[key],
+            sort:5
+      })}
+
+      else if('jsm3u8'==key){
+            arr.push({
+        flag: '极速',
+        url: map[key],
             sort:1
       })}
 
