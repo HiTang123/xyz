@@ -35,7 +35,11 @@ async function home(filter) {
         ],
     });
 }
-
+async function homeVod() {
+  return JSON.stringify({
+      list: [],
+  });
+}
 async function category(tid, pg, filter, extend) {
     pg = pg || 1;
     if (pg == 0) pg = 1;
