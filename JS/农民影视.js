@@ -2,10 +2,10 @@
 var rule={
 	title:'农民影视',
 
-	//host:'https://www.nmddd.com',
+	host:'https://nmddd.com',
 	//host:'https://v.xiangdao.me',
-	// host:'https://v.emsdn.cn',
-	host:'https://www.nmdvd.com/',
+	//host:'https://v.emsdn.cn',
+	//host:'https://www.nmdvd.com/',
 	hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});let src = jsp.pdfh(html,"body&&a:eq(1)&&href");print(src);HOST=src',
 	url:'/vod-list-id-fyfilter.html',
 	filterable:1,//是否启用分类筛选,
