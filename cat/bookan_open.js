@@ -1,4 +1,4 @@
-import { _ } from 'https://agit.ai/cacifer/xyz/raw/branch/master/cat/lib/cat.js';
+import { _ } from 'assets://js/lib/cat.js';
 
 let key = 'bookan';
 let url = 'https://api.bookan.com.cn';
