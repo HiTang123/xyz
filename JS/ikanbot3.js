@@ -57,19 +57,24 @@ try {
         else if('ffm3u8'==key){arr.push({flag:'非凡',url: map[key],sort:4})}
         else if('zuidam3u8'==key){arr.push({flag:'最大',url: map[key],sort:5})}
         else if('kuaikan'==key){arr.push({flag:'快看',url: map[key],sort:6})}
-        else if('tk'==key){arr.push({flag:'天空',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else if(''==key){arr.push({flag:'',url: map[key]})}
-        else{arr.push({flag: key,url: map[key],sort:7})}
+        else if('tkm3u8'==key){arr.push({flag:'天空',url: map[key]})}
+        else if('wjm3u8'==key){arr.push({flag:'无极',url: map[key]})}
+        else if('kcm3u8'==key){arr.push({flag:'快车',url: map[key]})}
+        else if('sdm3u8'==key){arr.push({flag:'闪电',url: map[key]})}
+        else if('1080zyk'==key){arr.push({flag:'1080',url: map[key]})}
+        else if('wolong'==key){arr.push({flag:'卧龙',url: map[key]})}
+        else if('gsm3u8'==key){arr.push({flag:'光速',url: map[key]})}
+        else if('xlm3u8'==key){arr.push({flag:'新浪',url: map[key]})}
+        else if('jinyingm3u8'==key){arr.push({flag:'金鹰',url: map[key]})}
+        else if('fsm3u8'==key){arr.push({flag:'飞速',url: map[key]})}
+        else if('ukm3u8'==key){arr.push({flag:'U酷',url: map[key]})}
+        else if('yhm3u8'==key){arr.push({flag:'樱花',url: map[key]})}
+        else if('lem3u8'==key){arr.push({flag:'鱼乐',url: map[key]})}
+        else if('dbm3u8'==key){arr.push({flag:'db',url: map[key]})}
+        else if('snm3u8'==key){arr.push({flag:'索尼',url: map[key]})}
+        else if('tpm3u8'==key){arr.push({flag:'淘片',url: map[key]})}
+        else if('M3U8'==key){arr.push({flag:'M3U8',url: map[key]})}
+        //else{arr.push({flag: key,url: map[key],sort:7})}
   }
     arr.sort((a, b) => a.sort - b.sort);
     
