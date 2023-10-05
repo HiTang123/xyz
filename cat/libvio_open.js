@@ -1,5 +1,5 @@
 // 自动从 地址发布页 获取&跳转url地址
-import { _ } from './lib/cat.js';
+import { load,_ } from './lib/cat.js';
 
 var key = 'libvio';
 var HOST = 'https://www.libvio.pro'; 
