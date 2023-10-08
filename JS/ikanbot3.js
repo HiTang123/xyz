@@ -51,7 +51,9 @@ try {
     });
     
     for(var key in map){
-        if('jsm3u8'==key){arr.push({flag:'极速',url: map[key],sort:1})}
+        if('myValues'==key){arr.push()}
+        else if('values'==key){arr.push()}
+        else if('jsm3u8'==key){arr.push({flag:'极速',url: map[key],sort:1})}
         else if('bfzym3u8'==key){arr.push({flag:'暴风',url: map[key],sort:2})}
         else if('lzm3u8'==key){arr.push({flag:'量子',url: map[key],sort:3})}
         else if('ffm3u8'==key){arr.push({flag:'非凡',url: map[key],sort:4})}
