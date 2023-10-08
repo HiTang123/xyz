@@ -1,4 +1,7 @@
 老电影,#genre#
+画皮,https://m3u8.mstopq.com/202305/31/Lz2mccAH383/video/index.m3u8
+赛虎,https://vod1.xmyysw.com/20221116/TvgAN9PM/index.m3u8
+武当,https://vip.lz-cdn1.com/20220424/3107_597eb07e/index.m3u8
 
 
 
