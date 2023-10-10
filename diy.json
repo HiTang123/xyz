@@ -348,7 +348,7 @@
       "searchable": 1,
       "changeable": 1,
       "playerType":2,
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/json/nmys.json",
+      "ext": "./main/nmys.json",
       "timeout": 30
     },
     {
