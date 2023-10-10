@@ -420,7 +420,7 @@
       "key": "布雷影视[cat]",
       "name": "⚡布雷 | 影视",
       "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bulei_open.js",
+      "api": "./cat/bulei_open.js",
       "searchable": 1,
       "playerType":2,
       "changeable": 1,
@@ -430,7 +430,7 @@
       "key": "伊人影视[cat]",
       "name": "🪆伊人 | 影视",
       "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/yrzj_open.js",
+      "api": "./cat/yrzj_open.js",
       "searchable": 1,
       "playerType":2,
       "changeable": 1,
@@ -476,7 +476,7 @@
       "changeable": 1,
       "playerType":2,
       "timeout": 30,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+      "ext": "file://tvbox/token.txt"
     },
     {
       "key": "小纸条_cli",
@@ -486,7 +486,7 @@
       "searchable": 1,
       "changeable": 1,
       "playerType":2,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
+      "ext": "file://tvbox/token.txt",
       "timeout": 30
     },
     {
@@ -498,7 +498,7 @@
       "changeable": 1,
       "playerType":2,
       "timeout": 30,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$http://tvfan.xxooo.cf/"
+      "ext": "file://tvbox/token.txt+4k|auto|fhd$$$http://tvfan.xxooo.cf/"
     },
     {
       "key": "七夜",
@@ -509,7 +509,7 @@
       "changeable": 1,
       "playerType":2,
       "timeout": 30,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"
+      "ext": "file://tvbox/token.txt+4k|auto|fhd"
     },
     {
       "key": "Zhaozy",
@@ -520,7 +520,7 @@
       "changeable": 1,
       "playerType":2,
       "timeout": 30,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$fanfan$$$qqq111"
+      "ext": "file://tvbox/token.txt+4k|auto|fhd$$$fanfan$$$qqq111"
     },
     {
       "key": "YiSo",
@@ -531,7 +531,7 @@
       "changeable": 1,
       "playerType":2,
       "timeout": 30,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"
+      "ext": "file://tvbox/token.txt+4k|auto|fhd"
     },
     {
       "key": "PanSou",
@@ -542,7 +542,7 @@
       "changeable": 1,
       "playerType":2,
       "timeout": 30,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"
+      "ext": "file://tvbox/token.txt+4k|auto|fhd"
     },
     {
       "key": "UpYun",
@@ -553,7 +553,7 @@
       "changeable": 1,
       "playerType":2,
       "timeout": 30,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"
+      "ext": "file://tvbox/token.txt+4k|auto|fhd"
     },
     {
       "key": "PanSearch",
@@ -564,7 +564,7 @@
       "changeable": 1,
       "playerType":2,
       "timeout": 30,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"
+      "ext": "file://tvbox/token.txt+4k|auto|fhd"
     },
     {
       "key": "push_agent",
@@ -574,7 +574,7 @@
       "searchable": 0,
       "changeable": 1,
       "playerType":2,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"
+      "ext": "file://tvbox/token.txt+4k|auto|fhd"
     }
         /*{
       "key": "push_agent",
@@ -586,7 +586,7 @@
       "playerType":2,
       "recordable":0,
       "timeout": 60,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+      "ext": "file://tvbox/token.txt"
     }*/
   ],
   "parses": [
