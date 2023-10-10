@@ -6,9 +6,9 @@
       "name": "默认直播源",
       "type": 0,
       "playerType": 2,
-      "url": "https://agit.ai/cacifer/xyz/raw/branch/master/live.txt",
+      "url": "./live/live.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://agit.ai/cacifer/xyz/raw/branch/master/live/logo/{name}.png"
+      "logo": "./live/logo/{name}.png"
     },
     {
       "name": "自定义直播源",
@@ -26,14 +26,14 @@
       "type": 3,
       "searchable": 0,
       "changeable": 1,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy.js"
+      "api": "./JS/drpy2.min.js",
+      "ext": "./JS/drpy.js"
     },
     {
       "key": "哔哩",
       "name": "🅱哔哩哔哩 | DIY",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/bili.min.js",
+      "api": "./JS/bili.min.js",
       "searchable": 1,
       "changeable": 0,
       "playerType":2,
@@ -43,7 +43,7 @@
       "key": "直播转点播",
       "name": "📺点播列表 | DIY",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/lf_live2vod.js",
+      "api": "./JS/lf_live2vod.js",
       "ext": "file://tvbox/%E7%82%B9%E6%92%AD%E5%88%97%E8%A1%A8/%E6%8C%82%E8%BD%BD%E7%AE%A1%E7%90%86.txt",
       "searchable": 1,
       "changeable": 1,
@@ -57,7 +57,7 @@
       "key": "csp_AList",
       "name": "🅰AList网盘 | DIY",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/alist.min.js",
+      "api": "./JS/alist.min.js",
       "searchable": 1,
       "changeable": 1,
       "playerType":1,
@@ -92,8 +92,8 @@
       "key": "JustLive",
       "name": "📺网络直播 | DIY",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/JustLive3.js",
+      "api": "./JS/drpy2.min.js",
+      "ext": "./JS/JustLive3.js",
       "searchable": 1,
       "changeable": 0,
       "playerType":2,
@@ -125,7 +125,7 @@
       "style": {
         "type": "list"
       },
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/央视片库.py"
+      "ext": "./main/央视片库.py"
     },
 
     {
@@ -144,7 +144,7 @@
       "key": "博看[cat]",
       "name": "🎧博看 | 读物",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/bookan_open.js",
+      "api": "./cat/bookan_open.js",
       "searchable": 1,
       "changeable": 1,
       "playerType":2,
@@ -154,8 +154,8 @@
       "key": "有声小说js",
       "name": "🎧有声 | 小说",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/爱上你听书网.js",
+      "api": "./JS/drpy2.min.js",
+      "ext": "./JS/爱上你听书网.js",
       "searchable": 0,
       "changeable": 0,
       "playerType":1,
@@ -216,7 +216,7 @@
       "key": "快看影视[cat]",
       "name": "🚀快看 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/kkys_open.js",
+      "api": "./cat/kkys_open.js",
       "searchable": 1,
       "playerType":2,
       "changeable": 1,
@@ -247,34 +247,34 @@
       "key": "ikanbot",
       "name": "🤖采集 | 聚合",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "playerType":2,
       "changeable": 1,
       "timeout": 30,
-      "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/ikanbot3.js"
+      "ext":"./JS/ikanbot3.js"
     },
     // {
     //   "key": "解析sougou",
     //   "name": "🤖解析 | 聚合",
     //   "type": 3,
-    //   "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+    //   "api": "./JS/drpy2.min.js",
     //   "searchable": 1,
     //   "playerType":2,
     //   "changeable": 1,
     //   "timeout": 30,
-    //   "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/菜狗.js"
+    //   "ext":"./JS/菜狗.js"
     // },
     {
       "key": "解析360",
       "name": "🐋解析 | 聚合",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "playerType":2,
       "changeable": 1,
       "timeout": 30,
-      "ext":"https://agit.ai/cacifer/xyz/raw/branch/master/JS/360影视.js"
+      "ext":"./JS/360影视.js"
     },
     {
       "key": "lf_js_p2p",
@@ -284,17 +284,17 @@
       "changeable": 1,
       "playerType": 1,
       "timeout": 300,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/lf_p2pjm2_min.js"
+      "api": "./JS/lf_p2pjm2_min.js"
     },
     /*{
       "key": "荐片",
       "name": "🚀荐片 | 磁力",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
       "playerType":1,
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/荐片.js",
+      "ext": "./JS/荐片.js",
       "timeout": 30
     },*/
 
@@ -302,7 +302,7 @@
       "key": "琨娱七七[cat]",
       "name": "‍🏳️‍🌈七七 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/kunyu77_open.js",
+      "api": "./cat/kunyu77_open.js",
       "searchable": 1,
       "playerType":2,
       "changeable": 1,
@@ -313,7 +313,7 @@
       "key": "厂长影视[cat]",
       "name": "🏭厂长 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/czzy_open.js",
+      "api": "./cat/czzy_open.js",
       "searchable": 1,
       "playerType":2,
       "changeable": 1,
@@ -333,11 +333,11 @@
       "key": "低端影视[js]",
       "name": "📔低端 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
       "playerType":2,
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/ddys.js",
+      "ext": "./JS/ddys.js",
       "timeout": 30
     },
     {
@@ -355,44 +355,44 @@
       "key": "子子影视[js]",
       "name": "🎐子子 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
       "playerType":2,
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/%e5%ad%90%e5%ad%90%e5%bd%b1%e8%a7%86.js",
+      "ext": "./JS/%e5%ad%90%e5%ad%90%e5%bd%b1%e8%a7%86.js",
       "timeout": 30
     },
     {
       "key": "csp_Bttoo",
       "name": "🍄比特 | 直连",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
       "playerType": 1,
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/两个BT.js",
+      "ext": "./JS/两个BT.js",
       "timeout": 30
     },   
     {
       "key": "骚火影视[js]",
       "name": "🔥骚火 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
       "playerType":2,
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/骚火电影.js",
+      "ext": "./JS/骚火电影.js",
       "timeout": 30
     },
     {
       "key": "新视觉影视[js]",
       "name": "🔆视觉 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
       "playerType":2,
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/新视觉影视.js",
+      "ext": "./JS/新视觉影视.js",
       "timeout": 30
     },
     {
@@ -440,7 +440,7 @@
       "key": "南瓜影视[cat]",
       "name": "🎃南瓜 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/ng_open.js",
+      "api": "./cat/ng_open.js",
       "searchable": 1,
       "playerType":2,
       "changeable": 1,
@@ -450,7 +450,7 @@
       "key": "荔波影视[cat]",
       "name": "🍍荔波 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/MyCatLibvio.js",
+      "api": "./cat/MyCatLibvio.js",
       "searchable": 1,
       "playerType":2,
       "changeable": 1,
@@ -460,11 +460,11 @@
       "key": "爱看影视[js]",
       "name": "🍭爱看 | 影视",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
       "playerType":2,
-      "ext": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/爱看.js",
+      "ext": "./JS/爱看.js",
       "timeout": 30
     }, 
     {
@@ -580,7 +580,7 @@
       "key": "push_agent",
       "name": "🛴磁力|阿里推送",
       "type": 3,
-      "api": "https://agit.ai/cacifer/xyz/raw/branch/master/JS/lf_pushagentjm1_5_min.js",
+      "api": "./JS/lf_pushagentjm1_5_min.js",
       "searchable": 0,
       "changeable": 0,
       "playerType":2,
