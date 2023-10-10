@@ -601,12 +601,12 @@
     //   "url": "Web"
     // },
     {
-      "name": "所有",
+      "name": "wogg",
       "type": 1,
       "url": "http://jx.wogg.link:63/jiexi/饭特析.php?url="
     },
     {
-      "name": "解析",
+      "name": "战狼",
       "type": 1,
       "url": "https://jx.zhanlangbu.com/?url=",
       "ext": {
@@ -635,17 +635,12 @@
       }
     },
     {
-      "name": "全部",
-      "type": 1,
-      "url": "https://api.json.icu/api/?key=4f8fb5042b695d5c515f6343af716af8&url="
-    },
-    {
-      "name": "来自",
+      "name": "key521",
       "type": 0,
       "url": "https://json.key521.cn/api/?key=df27d9ca9ec97e22c47f8565a50aa6f5&url="
     },
     {
-      "name": "网络",
+      "name": "cs",
       "type": 1,
       "url": "http://119.91.123.253:1234/Api/cs.php?url="
     },
@@ -681,12 +676,17 @@
       }
     },
     {
-      "name": "佚名",
+      "name": "佚名1",
+      "type": 1,
+      "url": "https://api.json.icu/api/?key=4f8fb5042b695d5c515f6343af716af8&url="
+    },
+    {
+      "name": "佚名2",
       "type": 1,
       "url": "https://jx.ccabc.cc/xc/?key=5567332json&url="
     },
     {
-      "name": "佚名",
+      "name": "佚名3",
       "type": 0,
       "url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
       "ext": {
@@ -717,7 +717,7 @@
       }
     },
     {
-      "name": "佚名",
+      "name": "佚名4",
       "type": 1,
       "url": "http://xiaoxin.1080p.fun/home/api?type=ys&uid=91198&key=bhntuwyAJLMTUY1478&url="
     }
