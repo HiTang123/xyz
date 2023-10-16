@@ -30,6 +30,14 @@
       "ext": "./JS/drpy.js"
     },
     {
+      "key": "豆瓣1",
+      "name": "🎬影视1",
+      "type": 3,
+      "searchable": 0,
+      "changeable": 1,
+      "api": "./JS/lf_search3_min.js"
+    },
+    {
       "key": "哔哩",
       "name": "🅱哔哩哔哩 | DIY",
       "type": 3,
