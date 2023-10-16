@@ -20,7 +20,7 @@
     }
   ],
   "sites": [
-    {
+    /*{
       "key": "豆瓣",
       "name": "🎬影视",
       "type": 3,
@@ -28,10 +28,10 @@
       "changeable": 1,
       "api": "./JS/drpy2.min.js",
       "ext": "./JS/drpy.js"
-    },
+    },*/
     {
-      "key": "豆瓣1",
-      "name": "🎬影视1",
+      "key": "豆瓣",
+      "name": "🎬影视",
       "type": 3,
       "searchable": 0,
       "changeable": 1,
