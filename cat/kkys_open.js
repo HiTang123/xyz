@@ -1,7 +1,7 @@
 import { Crypto, dayjs, jinja2, _ } from 'https://agit.ai/cacifer/xyz/raw/branch/master/cat/lib/cat.js';
 
-import config from 'http://127.0.0.1:9978/file/tvbox/配置_DRPY.js';
-//var config={域名:{"快看影视":"https://api1.baibaipei.com:8899"}}
+//import config from 'http://127.0.0.1:9978/file/tvbox/配置_DRPY.js';
+var config={域名:{"快看影视":"https://api1.baibaipei.com:8899"}}
 let key = 'kkys';
 //let url = 'https://api1.baibaipei.com:8899';
 let url=config.域名.快看影视;
