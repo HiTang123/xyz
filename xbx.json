@@ -46,17 +46,7 @@
         "type": "list"
       }
     },
-    {
-      "key": "本地",
-      "name": "📂本地文件",
-      "type": 3,
-      "api": "csp_Local",
-      "searchable": 0,
-      "changeable": 0,
-      "playerType":2,
-      "recordable":0,
-      "jar": "./jar/fm.diy.jar;md5;F6970CA32DB9412EC486DFD29993A2B0"
-    },
+
         {
             "key": "戏曲",
             "name": "🎪戏曲大全",
@@ -443,6 +433,17 @@
       "playerType":2,
       "timeout": 30,
       "ext": "file://tvbox/token.txt+4k|auto|fhd"
+    },
+{
+      "key": "本地",
+      "name": "📂本地文件",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+      "changeable": 0,
+      "playerType":2,
+      "recordable":0,
+      "jar": "./jar/fm.diy.jar;md5;F6970CA32DB9412EC486DFD29993A2B0"
     },
     {
       "key": "push_agent",
