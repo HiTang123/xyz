@@ -368,19 +368,8 @@
       "timeout": 30
     },
     {
-      "key": "csp_wogg_cli",
-      "name": "☁云搜1",
-      "type": 4,
-      "api": "http://home.jundie.top:9520/spider/csp_Wogg",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType":2,
-      "timeout": 30,
-      "ext": "file://tvbox/token.txt"
-    },
-    {
       "key": "csp_WoGG",
-      "name": "☁云搜2",
+      "name": "☁云搜1",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -391,7 +380,7 @@
     },
     {
       "key": "七夜",
-      "name": "☁云搜3",
+      "name": "☁云搜2",
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,
@@ -402,7 +391,7 @@
     },
     {
       "key": "Zhaozy",
-      "name": "☁云搜4",
+      "name": "☁云搜3",
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
@@ -413,7 +402,7 @@
     },
     {
       "key": "YiSo",
-      "name": "☁云搜5",
+      "name": "☁云搜4",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
@@ -424,7 +413,7 @@
     },
     {
       "key": "PanSou",
-      "name": "☁云搜6",
+      "name": "☁云搜5",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
@@ -435,7 +424,7 @@
     },
     {
       "key": "UpYun",
-      "name": "☁云搜7",
+      "name": "☁云搜6",
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
@@ -446,7 +435,7 @@
     },
     {
       "key": "PanSearch",
-      "name": "☁云搜8",
+      "name": "☁云搜7",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
