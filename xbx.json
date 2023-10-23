@@ -18,7 +18,7 @@
       "type": 3,
       "searchable": 0,
       "changeable": 1,
-      "api": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
       "ext": "./JS/drpy.js"
     },
     {
