@@ -9,14 +9,6 @@
       "url": "./live/live.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "./live/logo/{name}.png"
-    },
-    {
-      "name": "自定义直播源",
-      "type": 0,
-      "playerType": 1,
-      "url": "file://tvbox/自定义_电视直播源.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "sites": [
@@ -156,17 +148,6 @@
             "api": "./cat/main/奇巧手工.js"
         },
         {
-            "key": "自学教程",
-            "name": "📋自学教程",
-            "type": 3,           
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style":{"type":"rect","ratio":1.597},
-            "api": "./cat/main/自学教程.js"
-        },
-        {
             "key": "舞蹈健身",
             "name": "💃舞蹈健身",
             "type": 3,            
@@ -291,19 +272,8 @@
       "jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/XYQ.jar"
     },
     {
-      "key": "解析360",
-      "name": "🔍搜索源5",
-      "type": 3,
-      "api": "./JS/drpy2.min.js",
-      "searchable": 1,
-      "playerType":2,
-      "changeable": 1,
-      "timeout": 30,
-      "ext":"./JS/360影视.js"
-    },
-    {
       "key": "琨娱七七[cat]",
-      "name": "‍🔍搜索源6",
+      "name": "‍🔍搜索源5",
       "type": 3,
       "api": "./cat/kunyu77_open.js",
       "searchable": 1,
@@ -313,7 +283,7 @@
     },
     {
       "key": "在线之家[js]",
-      "name": "🔍搜索源7",
+      "name": "🔍搜索源6",
       "type": 3,
       "api": "./cat/zxzj_open.js",
       "searchable": 1,
@@ -323,7 +293,7 @@
     },
     {
       "key": "低端影视[js]",
-      "name": "🔍搜索源8",
+      "name": "🔍搜索源7",
       "type": 3,
       "api": "./JS/drpy2.min.js",
       "searchable": 1,
@@ -334,7 +304,7 @@
     },
     {
       "key": "农民影视[js]",
-      "name": "🔍搜索源9",
+      "name": "🔍搜索源8",
       "type": 3,
       "api": "csp_Nmys",
       "searchable": 1,
@@ -345,7 +315,7 @@
     },
     {
       "key": "子子影视[js]",
-      "name": "🔍搜索源10",
+      "name": "🔍搜索源9",
       "type": 3,
       "api": "./JS/drpy2.min.js",
       "searchable": 1,
@@ -356,7 +326,7 @@
     },
     {
       "key": "csp_Bttoo",
-      "name": "🔍搜索源11",
+      "name": "🔍搜索源10",
       "type": 3,
       "api": "./JS/drpy2.min.js",
       "searchable": 1,
@@ -367,7 +337,7 @@
     },   
     {
       "key": "骚火影视[js]",
-      "name": "🔍搜索源12",
+      "name": "🔍搜索源11",
       "type": 3,
       "api": "./JS/drpy2.min.js",
       "searchable": 1,
@@ -378,7 +348,7 @@
     },
     {
       "key": "Mino[jar]",
-      "name": "🔍搜索源14",
+      "name": "🔍搜索源12",
       "type": 3,
       "api": "csp_AppMao",
       "playerType":1,
@@ -389,7 +359,7 @@
     },
     {
       "key": "一起看[cat]",
-      "name": "🔍搜索源15",
+      "name": "🔍搜索源13",
       "type": 3,
       "api": "./cat/yqktv_open.js",
       "searchable": 1,
@@ -397,57 +367,6 @@
       "changeable": 1,
       "timeout": 30
     },
-    {
-      "key": "布雷影视[cat]",
-      "name": "🔍搜索源16",
-      "type": 3,
-      "api": "./cat/bulei_open.js",
-      "searchable": 1,
-      "playerType":2,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "伊人影视[cat]",
-      "name": "🔍搜索源17",
-      "type": 3,
-      "api": "./cat/yrzj_open.js",
-      "searchable": 1,
-      "playerType":2,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "南瓜影视[cat]",
-      "name": "🔍搜索源18",
-      "type": 3,
-      "api": "./cat/ng_open.js",
-      "searchable": 1,
-      "playerType":2,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "荔波影视[cat]",
-      "name": "🔍搜索源19",
-      "type": 3,
-      "api": "./cat/MyCatLibvio.js",
-      "searchable": 1,
-      "playerType":2,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "爱看影视[js]",
-      "name": "🔍搜索源20",
-      "type": 3,
-      "api": "./JS/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType":2,
-      "ext": "./JS/爱看.js",
-      "timeout": 30
-    }, 
     {
       "key": "csp_wogg_cli",
       "name": "☁云搜1",
