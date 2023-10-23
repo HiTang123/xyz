@@ -5,13 +5,13 @@
       {
         "name": "电视正式版",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "电视内测版",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
@@ -29,7 +29,7 @@
       {
         "name": "Android-4.x",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       } 
     ]
   },
@@ -39,62 +39,62 @@
       {
         "name": "荐片",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libjpa_armeabi_v7a.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "磁力-1",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_stat_armeabi_v7a.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "磁力-2",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_thunder_sdk_armeabi_v7a.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "晴天",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libmitv.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P2P",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp2p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P3P",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp3p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P4P",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp4p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P5P",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp5p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P6P",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp6p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P7P",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp7p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P8P",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp8p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P9P",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp9p.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       }
     ]
   },
@@ -104,12 +104,12 @@
       {
         "name": "watson",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/js-1019.zip",
-        "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/catpaw.jpeg"
       },
       {
         "name": "香雅情",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/XYQTVBox_本地包.zip",
-        "icon": "https://i.imgs.ovh/2023/10/20/2IO0D.jpeg"
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/xyq.jpeg"
       }
     ]
   }
