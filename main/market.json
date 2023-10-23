@@ -17,13 +17,13 @@
       {
         "name": "手机正式版",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "手机内测版",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+        "icon": "https://ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
