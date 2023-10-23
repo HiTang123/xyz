@@ -591,7 +591,8 @@
       "api": "csp_Market",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./mian/market.json"
+      "ext": "./mian/market.json",
+      "jar":"https://gh-proxy.com/raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "key": "push_agent",
