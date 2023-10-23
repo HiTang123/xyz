@@ -230,7 +230,7 @@
       "changeable": 1,
       "timeout": 30
     },
-    {
+    /*{
       "key": "荐片[T4]",
       "name": "🚀荐片 | T4",
       "type": 4,
@@ -239,6 +239,16 @@
       "playerType":1,
       "changeable": 1,
       "timeout": 30
+    },*/
+    {
+      "key": "荐片[jar]",
+      "name": "🚀荐片 | 磁力",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "./main/jianpian.json",
+      "jar": "./jar/fm1023.jar;md5;2EE58B5027E6444F80A022808FC1888E"
     },
     {
       "key": "ikanbot",
