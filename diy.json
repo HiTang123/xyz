@@ -592,7 +592,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "./main/market.json",
-      "jar":"https://gh-proxy.com/raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+      "jar":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;9cc15b83a755468e6b725667ef362a04"
     },
     {
       "key": "push_agent",
