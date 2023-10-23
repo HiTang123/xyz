@@ -233,18 +233,6 @@
             "api": "./cat/main/美食秘笈.js"
         },
     {
-      "key": "MV_vod",
-      "name": "🎸明星MV",
-      "type": 1,
-      "api": "https://mv.wogg.link/mv/vod",
-      "searchable": 1,
-      "changeable": 0,
-      "playerType":1,
-      "style": {
-        "type": "oval"
-      }
-    },
-    {
       "key": "Aid",
       "name": "🚑急救教学",
       "type": 3,
