@@ -251,14 +251,14 @@
       "timeout": 30
     },
     {
-      "key": "荐片[T4]",
+      "key": "荐片",
       "name": "🔍搜索源3",
-      "type": 4,
-      "api": "http://home.jundie.top:9520/spider/csp_JP",
+      "type": 3,
+      "api": "csp_Jianpian",
       "searchable": 1,
-      "playerType":1,
       "changeable": 1,
-      "timeout": 30
+      "ext": "./main/jianpian.json",
+      "jar": "./jar/fm1023.jar;md5;2EE58B5027E6444F80A022808FC1888E"
     },
     {
       "key": "ikanbot",
@@ -444,7 +444,16 @@
       "timeout": 30,
       "ext": "file://tvbox/token.txt+4k|auto|fhd"
     },
-
+        {
+      "key": "应用商店",
+      "name": "🏪应用商店",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./main/market.json",
+      "jar":"./jar/fm1023.jar;md5;2EE58B5027E6444F80A022808FC1888E"
+    },
     {
       "key": "push_agent",
       "name": "🛴手机推送",
