@@ -73,7 +73,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/戏曲大全.js"
+            "api": "./cat/main/戏曲大全.js"
         },
         {
             "key": "相声小品",
@@ -84,7 +84,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/相声小品.js"
+            "api": "./cat/main/相声小品.js"
         },
     {
       "key": "央视节目",
@@ -108,7 +108,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/纪录片.js"
+            "api": "./cat/main/纪录片.js"
         },
         {
             "key": "书法国画",
@@ -119,7 +119,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/书法国画.js"
+            "api": "./cat/main/书法国画.js"
         },
         {
             "key": "园艺栽培",
@@ -130,7 +130,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/园艺栽培.js"
+            "api": "./cat/main/园艺栽培.js"
         },
         {
             "key": "乐器",
@@ -141,7 +141,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/吹拉弹唱.js"
+            "api": "./cat/main/吹拉弹唱.js"
         },
         {
             "key": "奇巧手工",
@@ -152,7 +152,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/奇巧手工.js"
+            "api": "./cat/main/奇巧手工.js"
         },
         {
             "key": "自学教程",
@@ -163,7 +163,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/自学教程.js"
+            "api": "./cat/main/自学教程.js"
         },
         {
             "key": "舞蹈健身",
@@ -174,7 +174,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/舞蹈健身.js"
+            "api": "./cat/main/舞蹈健身.js"
         },
         {
             "key": "棋牌",
@@ -185,7 +185,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/棋牌合集.js"
+            "api": "./cat/main/棋牌合集.js"
         },
 		{
 			"key": "csp_XPath_企鹅体育",
@@ -197,7 +197,7 @@
 			"filterable": 0,
 			"changeable": 0,
 			"style":{"type":"list","ratio":1.597},
-			"ext": "https://agit.ai/cacifer/xyz/raw/branch/master/main/企鹅直播.json"
+			"ext": "./main/企鹅直播.json"
 		},
         {
             "key": "影音",
@@ -208,7 +208,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/音乐鉴赏.js"
+            "api": "./cat/main/音乐鉴赏.js"
         },
         {
             "key": "影视解说",
@@ -219,7 +219,7 @@
             "filterable": 1,
 		       	"changeable": 0,
              "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/影视解说.js"
+            "api": "./cat/main/影视解说.js"
         },
         {
             "key": "食谱",
@@ -230,7 +230,7 @@
             "filterable": 1,
             "changeable": 0,
             "style":{"type":"rect","ratio":1.597},
-            "api": "https://agit.ai/cacifer/xyz/raw/branch/master/cat/main/美食秘笈.js"
+            "api": "./cat/main/美食秘笈.js"
         },
     {
       "key": "MV_vod",
