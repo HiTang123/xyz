@@ -26,7 +26,8 @@
       "type": 3,
       "searchable": 0,
       "changeable": 1,
-      "api": "./JS/lf_search3_min.js"
+      "api": "./JS/drpy2.min.js",
+      "ext": "./JS/drpy.js"
     },
     {
       "key": "csp_AList",
