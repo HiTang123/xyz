@@ -249,7 +249,7 @@
       "playerType":2,
       "changeable": 1,
       "timeout": 30,
-      "jar":"http://w.nxog.top/m/jar.php?id=ou"
+      "jar":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/XYQ.jar"
     },
     /*{
       "key": "ikanbot",
@@ -273,7 +273,7 @@
     //   "timeout": 30,
     //   "ext":"./JS/菜狗.js"
     // },
-    /*{
+    {
       "key": "解析360",
       "name": "🐋解析 | 聚合",
       "type": 3,
@@ -283,21 +283,6 @@
       "changeable": 1,
       "timeout": 30,
       "ext":"./JS/360影视.js"
-    },*/
-    {
-      "key": "csp_Sp360",
-      "name": "🐋解析 | 聚合",
-      "type": 3,
-      "api": "csp_Sp360",
-      "searchable": 1,
-      "playerType":2,
-      "changeable": 1,
-      "timeout": 30,
-      "ext": {
-        "danmu": true
-      },
-      "jar": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/jar/1022.repl.jar;md5;698f192dd9dffdf73e45572b4b72be39",
-      "timeout": 30
     },
     {
       "key": "lf_js_p2p",
