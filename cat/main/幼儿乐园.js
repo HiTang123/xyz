@@ -6,9 +6,7 @@ let siteKey = '';
 let siteType = 0;
 let searchable= 0;//searchable=1 启用搜索
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
-// let cookie = "DedeUserID=690781341;DedeUserID__ckMd5=cabc96906269c5b6;SESSDATA=2245ba24%2C1684212125%2C466fd%2Ab2;bili_jct=de6fdb60c10f8a83910aa55d79407b4e;"; // 可更换成自己的cookie
-let cookie = "https://agit.ai/cacifer/xyz/raw/branch/master/main/cookie.txt"; // 可更换成自己的cookie
-
+let cookie = "http://127.0.0.1:9978/file/tvbox/bcookie.txt";
 async function request(reqUrl) {
   const res = await req(reqUrl, {
       headers: getMb(),
