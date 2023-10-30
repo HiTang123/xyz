@@ -259,7 +259,7 @@
       "playerType":2,
       "changeable": 1,
       "timeout": 30,
-      "jar":"https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/XYQ.jar"
+      "jar":"./jar/XYQ.jar;md5;ccd12ddbc8857f88a6f52af005cd016e"
     },
     /*{
       "key": "ikanbot",
