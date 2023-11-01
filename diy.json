@@ -34,7 +34,7 @@
 {"key":"lf_js_p2p","name":"🧲磁力|聚合","type":3,"searchable":1,"changeable":1,"playerType":1,"timeout":300,"api":"./JS/lf_p2pjm2_min.js"},
 //{"key":"荐片","name":"🚀荐片|磁力","type":3,"api":"./JS/drpy2.min.js","searchable":1,"changeable":1,"playerType":1,"ext":"./JS/荐片.js","timeout":30},
 {"key":"琨娱七七[cat]","name":"‍🏳️‍🌈七七|影视","type":3,"api":"./cat/kunyu77_open.js","searchable":1,"playerType":2,"changeable":1,"timeout":30},
-{"key":"厂长影视[cat]","name":"🏭厂长|影视","type":3,"api":"./cat/czzy_open.js","searchable":1,"playerType":2,"changeable":1,"timeout":30},
+//{"key":"厂长影视[cat]","name":"🏭厂长|影视","type":3,"api":"./cat/czzy_open.js","searchable":1,"playerType":2,"changeable":1,"timeout":30},
 {"key":"在线之家[js]","name":"🏠在线|之家","type":3,"api":"./cat/zxzj_open.js","searchable":1,"changeable":1,"playerType":2,"timeout":30},
 {"key":"低端影视[js]","name":"📔低端|影视","type":3,"api":"./JS/drpy2.min.js","searchable":1,"changeable":1,"playerType":2,"ext":"./JS/ddys.js","timeout":30},
 {"key":"农民影视[js]","name":"🌾农民|影视","type":3,"api":"csp_Nmys","searchable":1,"changeable":1,"playerType":2,"ext":"./main/nmys.json","timeout":30},
