@@ -3,7 +3,7 @@ import { Crypto, load, _ } from './lib/cat.js';
 let key = 'czzy';
 //发布页 https://cz01.vip
 //let url = 'https://cz01.cc';
-let url = 'https://www.czzy88.com ';
+let url = "https://www.czzy88.com";
 let siteKey = '';
 let siteType = 0;
 
