@@ -15,7 +15,7 @@
 {"key":"本地","name":"📂本地文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"playerType":2,"recordable":0,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;8aa91b90065d8517ba322655bdd2127b"},
 {"key":"央视节目","name":"🌏央视|节目","api":"py_cctv","type":3,"searchable":0,"changeable":0,"playerType":1,"style":{"type":"list"},"ext":"./main/央视片库.py"},
 {"key":"MV_vod","name":"🎸明星|MV","type":1,"api":"https://mv.wogg.link/mv/vod","searchable":1,"changeable":0,"playerType":1,"style":{"type":"oval"}},
-{"key":"Music_spider","name":"🎶音乐|欣赏","api":"csp_Music","type":3,"filterable":0,"quickSearch":1,"searchable":1,"style":{"type":"list"},"ext":""},
+{"key":"Music_spider","name":"🎶音乐|欣赏","api":"csp_Music","type":3,"filterable":0,"quickSearch":1,"searchable":1,"style":{"type":"list"},"ext":"","jar":"http://cdn.qiaoji8.com/fix1102.jar;md5;a08a2fee3ccc85c05a7a584c9c4d1cf3"},
 {"key":"博看[cat]","name":"🎧博看|读物","type":3,"api":"./cat/bookan_open.js","searchable":1,"changeable":1,"playerType":2,"timeout":30},
 {"key":"Aid","name":"🚑急救|教学","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"rect","ratio":3.8}},
 {"key":"YGP","name":"🎬新片|预告","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
