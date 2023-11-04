@@ -4,7 +4,7 @@
 "lives":[{"name":"默认直播源","type":0,"playerType":2,"url":"./live/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"./live/logo/{name}.png"}],
 "sites":[
 {"key":"豆瓣","name":"🎬影视","type":3,"searchable":0,"changeable":1,"api":"./JS/lf_search3_min.js"},
-{"key":"哔哩","name":"🅱影视|解说","type":3,"api":"./JS/bili.4k.js","searchable":1,"changeable":0,"playerType":2,"recordable":0},
+{"key":"哔哩","name":"🅱影视|解说","type":3,"api":"./JS/bili.min.js","searchable":1,"changeable":0,"playerType":2,"recordable":0},
 {"key":"AList","name":"🅰AList|网盘","type":3,"api":"csp_AList","searchable":1,"changeable":1,"playerType":1,"recordable":0,"ext":"file://tvbox/%E6%8C%82%E8%BD%BD_Alist.json","jar":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;2ea1762a8c802608c2222c7051709afc"},
 {"key":"本地","name":"📂本地文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"playerType":2,"recordable":0,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;2ea1762a8c802608c2222c7051709afc"},
 {"key":"应用商店","name":"🛒应用|商店","type":3,"api":"csp_Market","searchable":0,"changeable":1,"ext":"./main/market.json","jar":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;2ea1762a8c802608c2222c7051709afc"},
