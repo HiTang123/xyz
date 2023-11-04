@@ -4,6 +4,14 @@
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/diy.json",
       "name": "Diy"
     },
+	{
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+      "name": "FongMi"
+    },
+	{
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json",
+      "name": "FongMi 18+"
+    },
     {
       "url": "http://pandown.pro/tvbox/tvbox.json",
       "name": "巧计"
@@ -16,17 +24,25 @@
       "url": "http://我不是.肥猫.love:63/接口禁止贩卖",
       "name": "肥猫"
     },
-    {
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json",
-      "name": "霜辉月明 py"
+	{
+      "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index2&jar=index2&123&b=欧歌",
+      "name": "欧歌家庭"
+    },
+	{
+      "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=all&jar=all&b=欧歌",
+      "name": "欧歌阿里"
+    },
+	{
+      "url": "https://la.kstore.space/download/2863/01.txt",
+      "name": "萧洒"
+    },
+	{
+      "url": "http://8.210.232.168/xc.json",
+      "name": "玉玉"
     },
     {
       "url": "https://weixine.net/ysc.json",
       "name": "运输车"
-    },
-    {
-      "url": "https://yydsys.top/duo",
-      "name": "多多"
     },
     {
       "url": "https://100km.top/0",
@@ -67,10 +83,6 @@
     {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
       "name": "高天流云 XYQ"
-    },
-    {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/9918.json",
-      "name": "高天流云 18+"
     }
   ]
 }
