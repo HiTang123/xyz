@@ -11,7 +11,7 @@
 {"key":"csp_KungFu404","name":"⚙️阿里┃设置","type":3,"api":"csp_KungFu404","searchable":0,"changeable":0,"recordable":0,"jar":"http://tv.nxog.top/m/jar.php?id=404;md5;332d0e5a28640ee88589390ad4a23a39"},
 {"key":"csp_wogg_cli","name":"☁玩偶┃T4","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","playerType":2,"ext":"file://tvbox/tok.txt"},
 {"key":"小纸条_cli","name":"☁小纸条┃T4","type":4,"api":"http://home.jundie.top:9520/spider/cli_gitCafe","playerType":2,"ext":"file://tvbox/tok.txt"},
-{"key":"荐片","name":"🧲荐片┃FongMi","type":3,"api":"csp_Jianpian","timeout":30,"playerType":1,"jar":"./jar/1023.repl.jar;md5;bab8f39fda844e7b2a8a423010aec3dd"},
+{"key":"荐片","name":"🧲荐片┃FongMi","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"danmu":true},"jar":"./jar/1023.repl.jar;md5;bab8f39fda844e7b2a8a423010aec3dd","timeout":60},
 {"key":"新6V","name":"🧲新6V┃FongMi","type":3,"api":"csp_Xb6v","timeout":30,"playerType":1,"jar":"file://Download/custom_spider.jar"},
 {"key":"lf_js_p2p","name":"🧲磁力┃聚合","type":3,"api":"./JS/lf_p2pjm2_min.js","timeout":30,"playerType":1},
 {"key":"csp_WoGG","name":"👽玩偶┃FTY","type":3,"api":"csp_WoGG","playerType":2,"ext":"file://tvbox/tok.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹","jar":"file://Download/uyv0t678c488189af47bb91dc108484d17431"},
@@ -79,6 +79,7 @@
 {"name":"爱豆","type":0,"url":"https://jx.aidouer.net/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36","referer":"https://jiejie.uk/"}}}
 ],
 "rules":[
+{"name":"proxy","hosts":["wogg.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
 {"name":"海外看","hosts":["haiwaikan"],"regex":["8.1748","10.0099","10.3333","16.0599"]},
 {"name":"星星","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"暴風","hosts":["bfzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,\\r*\\n*/video/adjump/time/[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
