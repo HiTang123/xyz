@@ -90,16 +90,10 @@
 		"version": "fix1102.jar"
       },
       {
-        "name": "阿里设置",
-        "url": "http://tv.nxog.top/m/jar.php?id=404",
+        "name": "香雅晴",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/XYQ.jar",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
-		"version": "404.jar"
-      },
-      {
-        "name": "讴歌",
-        "url": "http://tv.nxog.top/m/jar.php?id=ou",
-        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
-		"version": "ou.jar"
+		"version": "XYQ.jar"
       }
      ]
   },
