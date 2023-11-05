@@ -1,7 +1,7 @@
 {
 "spider":"file://Download/XYQ.jar",
 "wallpaper":"https://hitang.cacifer.repl.co",
-"lives":[{"name":"默认直播源","type":0,,"url":"./live/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"./live/logo/{name}.png"}],
+"lives":[{"name":"默认直播源","type":0,"playerType":2,"url":"./live/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"./live/logo/{name}.png"}],
 "sites":[
 {"key":"豆瓣","name":"🎬影视","type":3,"searchable":0,"api":"./JS/lf_search3_min.js"},
 {"key":"哔哩","name":"🅱影视┃解说","type":3,"api":"./JS/bili.min.js","changeable":0,"playerType":2},
@@ -42,7 +42,7 @@
 {"key":"csp_XYQHiker_土拨鼠搜索","name":"📀土拨┃XYQ","type":3,"api":"csp_XYQHiker","playerType":2,"ext":"https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQHiker/土拨鼠搜索.json"},
 {"key":"csp_XYQHiker_盘搜索","name":"📀盘搜┃XYQ","type":3,"api":"csp_XYQHiker","playerType":2,"ext":"https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQHiker/盘搜索.json"},
 {"key":"csp_Mp4Mov","name":"🧲Mp4电影┃XYQ","type":3,"api":"csp_Mp4Mov","timeout":30,"playerType":2},
-{"key":"csp_New6v","name":"🧲新6V┃XYQ","type":3,"api":"csp_New6v","timeout":30,,"playerType":2,"ext":"http://www.xb6v.com"},
+{"key":"csp_New6v","name":"🧲新6V┃XYQ","type":3,"api":"csp_New6v","timeout":30,"playerType":2,"ext":"http://www.xb6v.com"},
 {"key":"csp_SeedHub","name":"🧲SeedHub┃XYQ","type":3,"api":"csp_SeedHub","timeout":30,"playerType":2},
 {"key":"csp_KubaCL","name":"🧲酷吧电影┃XYQ","type":3,"api":"csp_KubaCL","timeout":30,"playerType":2},
 {"key":"csp_MeijuTT","name":"🧲美剧天堂┃XYQ","type":3,"api":"csp_MeijuTT","timeout":30,"playerType":2},
