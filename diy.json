@@ -42,7 +42,7 @@
 {"key":"UpYun","name":"😻Up搜┃FTY","type":3,"api":"csp_UpYun","playerType":2,"ext":"file://tvbox/token.txt+4k|auto|fhd"},
 {"key":"PanSearch","name":"🙀盘Se┃FTY","type":3,"api":"csp_PanSearch","playerType":2,"ext":"file://tvbox/token.txt+4k|auto|fhd"},
 {"key":"七夜","name":"😾七夜┃FTY","type":3,"api":"csp_Dovx","playerType":2,"ext":"file://tvbox/token.txt+4k|auto|fhd"},
-{"key": "玩偶","name":"☁玩偶┃FongMi","type":3,"api":"csp_Wogg","playerType":2,"ext":{"tokenen":"file://tvbox/token.txt","filter":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/wogg.json"},"jar":"./jar/1023.repl.jar;md5;bab8f39fda844e7b2a8a423010aec3dd"},
+{"key": "玩偶","name":"☁玩偶┃FongMi","type":3,"api":"csp_Wogg","playerType":2,"ext":{"tokenen":"file://tvbox/token.txt","filter":"./main/wogg.json"},"jar":"file://Download/custom_spider.jar"},
 {"key":"七夜","name":"☁七夜┃FongMi","type":3,"api":"csp_Dovx","playerType":2,"ext":"file://tvbox/token.txt","jar":"file://Download/custom_spider.jar"},
 {"key":"易搜","name":"☁易搜┃FongMi","type":3,"api":"csp_YiSo","playerType":2,"ext":"file://tvbox/token.txt","jar":"file://Download/custom_spider.jar"},
 {"key":"雲搜","name":"☁雲搜┃FongMi","type":3,"api":"csp_UpYun","playerType":2,"ext":"file://tvbox/token.txt","jar":"file://Download/custom_spider.jar"},
