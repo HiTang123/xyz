@@ -3,7 +3,7 @@
 "wallpaper":"https://hitang.cacifer.repl.co",
 "lives":[{"name":"默认直播源","type":0,"playerType":2,"url":"./live/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"./live/logo/{name}.png"}],
 "sites":[
-{"key":"豆瓣","name":"🎬豆瓣┃影视","type":3,"searchable":0,"api":"./JS/lf_search3_min.js"},
+{"key":"豆瓣","name":"🎬豆瓣┃推荐","type":3,"searchable":0,"api":"./JS/lf_search3_min.js"},
 {"key":"哔哩","name":"🅱Bilibili┃视频","type":3,"api":"./JS/bili.min.js","changeable":0,"playerType":2},
 {"key":"AList","name":"🅰AList┃网盘","type":3,"api":"csp_AList","playerType":1,"ext":"file://tvbox/%E6%8C%82%E8%BD%BD_Alist.json","jar":"file://Download/custom_spider.jar"},
 {"key":"本地","name":"📂本地┃文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"recordable":0,"jar":"file://Download/custom_spider.jar"},
@@ -54,7 +54,7 @@
 {"key":"csp_XYQHiker_蚂蚁4K","name":"🧲蚂蚁4K┃XYQ","type":3,"api":"csp_XYQHiker","timeout":30,"playerType":1,"ext":"https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQHiker/蚂蚁4K.json"},
 {"key":"csp_XYQHiker_哔嘀影视","name":"🧲哔嘀影视┃XYQ","type":3,"api":"csp_XYQHiker","timeout":30,"playerType":1,"ext":"https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQHiker/哔嘀影视.json"},
 {"key":"csp_XYQHiker_磁力熊","name":"🧲磁力熊┃XYQ","type":3,"api":"csp_XYQHiker","timeout":30,"playerType":1,"ext":"https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQHiker/磁力熊.json"},
-{"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","timeout":30,"changeable":0,"playerType":1,"ext":"file://tvbox/token.txt+4k|auto|fhd","jar":"file://Download/uyv0t678c488189af47bb91dc108484d17431"}
+{"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_PushAgent","timeout":300,"changeable":0,"playerType":1,"ext":"file://tvbox/token.txt","jar":"file://Download/XYQ.jar"}
 ],
 "parses":[
 {"name":"Json聚合","type":3,"url":"Demo"},
