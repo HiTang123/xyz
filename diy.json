@@ -6,7 +6,7 @@
 {"name":"自定义直播源","type":0,"playerType":1,"url":"file://tvbox/自定义_电视直播源.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
 ],
 "sites":[
-{"key":"豆瓣","name":"🎬豆瓣┃推荐","type":3,"searchable":0,"api":"./JS/lf_search3_min.js"},
+{"key":"豆瓣","name":"🎬影视┃推荐","type":3,"searchable":0,"api":"./JS/lf_search3_min.js"},
 {"key":"哔哩","name":"🅱Bilibili┃视频","type":3,"api":"./JS/bili.min.js","changeable":0,"playerType":2,"recordable":0},
 {"key":"AList","name":"🅰AList┃网盘","type":3,"api":"csp_AList","playerType":1,"recordable":0,"ext":"file://tvbox/%E6%8C%82%E8%BD%BD_Alist.json","jar":"file://Download/custom_spider.jar"},
 {"key":"WebDAV","name":"🌈WebDAV┃网盘","type":3,"api":"csp_WebDAV","playerType":1,"recordable":0,"ext":"file://tvbox/%E6%8C%82%E8%BD%BD_WebDAV.json","jar":"file://Download/custom_spider.jar"},
@@ -20,7 +20,7 @@
 {"key":"Aid","name":"🚑急救┃教学","type":3,"api":"csp_FirstAid","searchable":0,"changeable":0,"style":{"type":"rect","ratio":3.8}},
 {"key":"YGP","name":"🎬新片┃预告","type":3,"api":"csp_YGP","searchable":0,"changeable":0},
 {"key":"荐片[jar]","name":"🚀荐片┃磁力","type":3,"api":"csp_Jianpian","ext":"./main/jianpian.json","jar":"file://Download/custom_spider.jar"},
-{"key":"ikanbot","name":"🤖采集┃聚合","type":3,"api":"csp_Ikanbot","playerType":2,"timeout":30},
+{"key":"ikanbot","name":"🤖采集┃聚合","type":3,"api":"csp_Ikanbot","playerType":2,"timeout":30,"jar":"file://Download/XYQ.jar"},
 {"key":"csp_Sp360","name":"🐋解析┃聚合","type":3,"api":"csp_Sp360","ext":{"danmu":true},"jar":"./jar/1023.repl.jar;md5;bab8f39fda844e7b2a8a423010aec3dd","timeout":30},
 {"key":"lf_js_p2p","name":"🧲磁力┃聚合","type":3,"playerType":1,"timeout":300,"api":"./JS/lf_p2pjm2_min.js"},
 {"key":"77","name":"👒七七┃App","type":3,"api":"csp_Kunyu77","playerType":2},
@@ -34,7 +34,7 @@
 {"key":"骚火影视[js]","name":"🔥骚火┃影视","type":3,"api":"./JS/drpy2.min.js","playerType":2,"ext":"./JS/骚火电影.js","timeout":30},
 {"key":"一起看[cat]","name":"🎉一起┃影视","type":3,"api":"./cat/yqktv_open.js","playerType":2,"timeout":30},
 {"key":"荔波影视[cat]","name":"🍍荔波┃影视","type":3,"api":"./cat/MyCatLibvio.js","playerType":2,"timeout":30},
-{"key":"玉米","name":"🚀玉米┃采集","type":0,"api":"http://124.222.116.5/macos/api.php/provide/vod/at/xml/","playerType":2},
+{"key":"玉米","name":"🚀玉米┃采集","type":0,"api":"http://124.222.116.5/macos/api.php/provide/vod/at/xml/"},
 {"key":"csp_WoGG","name":"👽玩偶┃FTY","type":3,"api":"csp_WoGG","playerType":2,"ext":"file://tvbox/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"},
 {"key":"YiSo","name":"😹易搜┃FTY","type":3,"api":"csp_YiSo","playerType":2,"ext":"file://tvbox/token.txt+4k|auto|fhd"},
 {"key":"Zhaozy","name":"🐺找资源┃FTY","type":3,"api":"csp_Zhaozy","playerType":2,"ext":"file://tvbox/token.txt+4k|auto|fhd$$$fanty$$$qqq111"},
