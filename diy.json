@@ -6,8 +6,8 @@
 {"name":"自定义直播源","type":0,"playerType":1,"url":"file://tvbox/自定义_电视直播源.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
 ],
 "sites":[
-//{"key":"豆瓣","name":"🎬影视┃推荐","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"ext":"./main/douban.json","jar":"file://Download/custom_spider.jar"},
-{"key":"豆瓣","name":"🎬影视┃推荐","type":3,"api":"./JS/lf_search3_min.js","searchable":0,"changeable":1},
+{"key":"豆瓣","name":"🎬影视┃推荐","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"ext":"./main/douban.json","jar":"file://Download/custom_spider.jar"},
+//{"key":"豆瓣","name":"🎬影视┃推荐","type":3,"api":"./JS/lf_search3_min.js","searchable":0,"changeable":1},
 {"key":"哔哩","name":"🅱Bilibili┃视频","type":3,"api":"./JS/bili.min.js","changeable":0,"playerType":2,"recordable":0},
 {"key":"AList","name":"🅰AList┃网盘","type":3,"api":"csp_AList","playerType":1,"recordable":0,"ext":"file://tvbox/%E6%8C%82%E8%BD%BD_Alist.json","jar":"file://Download/custom_spider.jar"},
 {"key":"WebDAV","name":"🌈WebDAV┃网盘","type":3,"api":"csp_WebDAV","playerType":1,"recordable":0,"ext":"file://tvbox/%E6%8C%82%E8%BD%BD_WebDAV.json","jar":"file://Download/custom_spider.jar"},
