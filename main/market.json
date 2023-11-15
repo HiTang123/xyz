@@ -4,31 +4,31 @@
     "list": [
       {
         "name": "电视正式版",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "电视内测版",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "手机正式版",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "手机内测版",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "Android-4.x",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       } 
     ]
@@ -79,7 +79,7 @@
       },
 	  {
         "name": "FongMi",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
 		"version": "custom_spider.jar"
       },
@@ -96,92 +96,92 @@
     "list": [
 	  {
         "name": "ffmpeg",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libffmpegJNI.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libffmpegJNI.so",
+        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "EXO"
       },
       {
         "name": "av1",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libgav1JNI.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libgav1JNI.so",
+        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "EXO"
       },
       {
         "name": "ffmpeg",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libijkffmpeg.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libijkffmpeg.so",
+        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "IJK"
       },
       {
         "name": "sdl",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libijksdl.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libijksdl.so",
+        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "IJK"
       },
       {
         "name": "player",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libplayer.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libplayer.so",
+        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "IJK"
       },
       {
         "name": "荐片",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libjpa_armeabi_v7a.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libjpa_armeabi_v7a.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "磁力-1",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_stat_armeabi_v7a.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libxl_stat_armeabi_v7a.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "磁力-2",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libxl_thunder_sdk_armeabi_v7a.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libxl_thunder_sdk_armeabi_v7a.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "晴天",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libmitv.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libmitv.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P2P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp2p.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libp2p.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P3P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp3p.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libp3p.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P4P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp4p.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libp4p.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P5P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp5p.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libp5p.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P6P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp6p.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libp6p.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P7P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp7p.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libp7p.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P8P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp8p.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libp8p.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P9P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/libp9p.so",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/FongMi/Release/main/so/libp9p.so",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       }
     ]
@@ -192,12 +192,14 @@
       {
         "name": "watson",
         "url": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/local/js-1115.zip",
-        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/catpaw.jpeg"
+        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/catpaw.jpeg",
+        "version": "11-15"
       },
       {
         "name": "香雅情",
         "url": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/local/XYQTVBox_本地包.zip",
-        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/xyq.jpeg"
+        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/xyq.jpeg",
+        "version": "11-13"
       }
     ]
   }
