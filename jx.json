@@ -9,7 +9,7 @@
 {"key":"爱奇艺","name":"爱奇艺","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/爱奇艺.js"},
 {"key":"优酷","name":"优酷","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/优酷.js"},
 {"key":"腾讯","name":"腾讯","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/腾讯.js"},
-{"key":"芒果","name":"芒果","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/芒果.js"},{"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","changeable":0,"style":{"type":"list"}},{"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":0,"changeable":0},{"key":"應用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json"}
+{"key":"芒果","name":"芒果","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/芒果.js"},{"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","changeable":0,"style":{"type":"list"}},{"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":0,"changeable":0},{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json"}
 ],
 "parses":[
 {"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
