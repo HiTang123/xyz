@@ -14,9 +14,9 @@
 "parses":[
 {"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url="},
-{"name":"K影院","type":1,"url":"http://pandown.pro/app/lvdou.php?url=","ext":{"flag":["qq","qiyi","youku","sohu","letv","levp","leshi","mgtv","imgo","bilibili","bilibili1","m1905","1905","xigua","douyin"]}},
-{"name":"左岸","type":1,"url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["qq","qiyi","youku","sohu","letv","levp","leshi","mgtv","imgo","bilibili","bilibili1","m1905","1905","xigua","douyin"]}},
-{"name":"巧技","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url=","ext":{"flag":["qq","qiyi","youku","sohu","letv","levp","leshi","mgtv","imgo","bilibili","bilibili1","m1905","1905","xigua","douyin"]}}
+{"name":"K影院","type":1,"url":"http://pandown.pro/app/lvdou.php?url="},
+{"name":"左岸","type":1,"url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
+{"name":"巧技","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url="}
 ],
 "flags":["qq","qiyi","youku","sohu","letv","levp","leshi","mgtv","imgo","bilibili","bilibili1","m1905","1905","xigua","douyin"],
 "rules":[
