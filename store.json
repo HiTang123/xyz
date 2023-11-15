@@ -9,6 +9,10 @@
       "name": "4K"
     },
 	{
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/jx.json",
+      "name": "jx"
+    },
+	{
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
       "name": "FongMi"
     },
