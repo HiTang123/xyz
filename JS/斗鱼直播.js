@@ -80,23 +80,10 @@ var rule = {
             vod_director: (jo.isLive === 1 ? "🟢" : "🔴")+jo.ownerName+"&nbsp &nbsp "+"人气：" + jo.online
           };
         var playurl = JSON.parse(request("http://live.yj1211.work/api/live/getRealUrl?platform=" + jo.platForm + "&roomId=" + jo.roomId)).data;
-        var name = {
-            OD: "JustLive",
-            FD: "流畅",
-            LD: "标清",
-            SD: "高清",
-            HD: "超清",
-            "2K": "2K",
-            "4K": "4K",
-            FHD: "全高清",
-            XLD: "极速",
-            SQ: "普通音质",
-            HQ: "高音质"
-        };
         Object.keys(playurl).forEach(function(key) {
-             if (!/ayyuid|to/.test(key)) {
+             if (/OD/.test(key)) {
                 d.push({
-                    title: name[key],
+                    title: 'JustLive',
                     url: playurl[key]
                 })
             }
