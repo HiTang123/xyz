@@ -2,7 +2,7 @@
 "spider":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;a71b8fa729618f6a1f11fb1b96b5278f",
 "wallpaper":"https://hitang.cacifer.repl.co",
 "lives":[
-{"name":"默认直播源","url":"./live/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"./live/logo/{name}.png"},
+{"name":"默认直播源","url":"./live/live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"./live/logo/{name}.png"}
 ],
 "sites":[
 {"key":"爱奇艺","name":"爱奇艺","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱奇艺.js","playUrl":"https://jx.777jiexi.com/player/?url="},
