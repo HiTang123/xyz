@@ -1,7 +1,7 @@
 var rule = {
     title:'虎牙直播',
     host:'https://www.huya.com',
-    homeUrl:'/cache.php?m=LiveList&do=getLiveListByPage&gameId=2168&tagAll=0&page=1',//用于"分类获取"和"推荐获取"
+    homeUrl:'/cache.php?m=LiveList&do=getLiveListByPage&gameId=6861&tagAll=0&page=1',//用于"分类获取"和"推荐获取"
     url:'/cache.php?m=LiveList&do=getLiveListByPage&gameId=fyfilter&tagAll=0&page=fypage',
     class_name:'娱乐&网游&单机&手游',
     class_url:'8&1&2&3',
