@@ -13,10 +13,12 @@
 {"key":"优酷","name":"优酷","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/优酷.js"},
 {"key":"腾讯","name":"腾讯视频","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/腾讯.js"},
 {"key":"芒果","name":"芒果TV","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/芒果.js"},
+{"key":"py_bilimd","name":"B站影视","type":3,"api":"py_bilimd","ext":"./JS/py_bilimd.py"},
 {"key":"虎牙直播","name":"虎牙直播","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/虎牙直播.js","style":{"type":"rect","ratio":1.597}},
 {"key":"斗鱼直播","name":"斗鱼直播","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/斗鱼直播.js","style":{"type":"rect","ratio":1.597}},
-{"key":"哔哩直播","name":"哔哩直播","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/哔哩直播.js","style":{"type":"rect","ratio":1.597}},{"key":"看球","name":"88看球","type":3,"api":"csp_Kanqiu","changeable":0,"style":{"type":"list"}},
-{"key":"Aid","name":"急救指南","type":3,"api":"csp_FirstAid","searchable":0,"changeable":0,"style":{"type":"rect","ratio":3.8}},{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market.json"},
+{"key":"哔哩直播","name":"哔哩直播","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/哔哩直播.js","style":{"type":"rect","ratio":1.597}},
+{"key":"酷狗","name":"酷狗音乐","type":3,"api":"csp_Kugou","searchable":0,"changeable":0},{"key":"看球","name":"88看球","type":3,"api":"csp_Kanqiu","changeable":0,"style":{"type":"list"}},
+{"key":"Aid","name":"急救指南","type":3,"api":"csp_FirstAid","searchable":0,"changeable":0,"style":{"type":"rect","ratio":3.8},"jar": "./jar/fan.txt;md5;364c0f012e73a8801a69900fc25ae9c1"},{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market.json"},
 {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":0,"changeable":0}
 ],
 "parses":[
