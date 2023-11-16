@@ -65,6 +65,11 @@
         "name": "TVBox助手",
         "url": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/tvbox_zhushou.apk",
         "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+      },
+	  {
+        "name": "阿里云Webdav",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/阿里云Webdav.apk",
+        "icon": "https://gh-proxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/阿里云Webdav.png"
       }
      ]
   },
