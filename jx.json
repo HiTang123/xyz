@@ -31,7 +31,14 @@
 {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url="},
 {"name":"K影院","type":1,"url":"http://pandown.pro/app/lvdou.php?url="},
 {"name":"左岸","type":1,"url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
-{"name":"巧技","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url="}
+{"name":"巧技","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url="},
+{"name":"咸鱼","type":0,"url":"https://jx.xyflv.cc/?url="},
+{"name":"夜幕","type":0,"url":"https://www.yemu.xyz/?url="},
+{"name":"m3u8","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
+{"name":"冰豆","type":0,"url":"https://bd.jx.cn/?url="},
+{"name":"BL","type":0,"url":"https://vip.bljiex.com/?v="},
+{"name":"8090","type":0,"url":"https://www.8090g.cn/?url="},
+{"name":"json","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
 ],
 "flags": ["youku","优酷","优 酷","优酷视频","qq","腾讯","腾 讯","腾讯视频","iqiyi","qiyi","奇艺","爱奇艺","爱 奇 艺","m1905","xigua","letv","levp","leshi","乐视","乐 视","sohu","搜狐","搜 狐","搜狐视频","tudou","pptv","mgtv","芒果","imgo","芒果TV","芒 果 T V","bilibili","bilibili1","哔 哩","哔 哩 哔 哩","cntv","CNTV","C N T V","央视频","央 视 频"],
 "rules":[
