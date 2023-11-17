@@ -74,7 +74,9 @@ async function category(tid, pg, filter, extend) {
 
 async function detail(id) {
     let content = await request(`${url}/voice/album/units?album_id=${id}&page=1&num=200&order=1`);
+	let info=await request(`${url}/voice/album/info?album_id=${id}`);
     let data = JSON.parse(content).data;
+    let data1 = JSON.parse(info).data;
     console.log(JSON.stringify(data));
 
     let book = {
@@ -82,9 +84,9 @@ async function detail(id) {
         type_name: '',
         vod_year: '',
         vod_area: '',
-        vod_remarks: '累计播放'+data.extra.play+'次',
-        vod_actor: data.extra.author,
-        vod_director:data.press,
+        vod_remarks: '累计播放'+data1.extra.play+'次',
+        vod_actor: data1.extra.author,
+        vod_director:data1.press,
         vod_content: '',
     };
     let us = _.map(data.list, function (b) {
