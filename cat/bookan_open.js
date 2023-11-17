@@ -82,9 +82,9 @@ async function detail(id) {
         type_name: '',
         vod_year: '',
         vod_area: '',
-        vod_remarks: '',
-        vod_actor: '',
-        vod_director: '',
+        vod_remarks: '累计播放'+data.extra.play+'次',
+        vod_actor: data.extra.author,
+        vod_director:data.press,
         vod_content: '',
     };
     let us = _.map(data.list, function (b) {
