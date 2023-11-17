@@ -21,17 +21,24 @@ async function init(cfg) {
 async function home(filter) {
     return JSON.stringify({
         class: [
-            { type_id: '1305', type_name: '少年读物' },
-            { type_id: '1304', type_name: '儿童文学' },
-            { type_id: '1320', type_name: '国学经典' },
-            { type_id: '1306', type_name: '文艺少年' },
-            { type_id: '1309', type_name: '育儿心经' },
-            { type_id: '1310', type_name: '心理哲学' },
-            { type_id: '1307', type_name: '青春励志' },
-            { type_id: '1312', type_name: '历史小说' },
-            { type_id: '1303', type_name: '故事会' },
-            { type_id: '1317', type_name: '音乐戏剧' },
-            { type_id: '1319', type_name: '相声评书' },
+			{ type_id: '1308',type_name: '个人提升' },
+			{ type_id: '1314',type_name: '经典必读' },
+			{ type_id: '1320',type_name: '国学经典' },
+			{ type_id: '1306',type_name: '文学文艺' },
+			{ type_id: '1305',type_name: '少年读物' },
+			{ type_id: '1304',type_name: '儿童文学' },
+			{ type_id: '1310',type_name: '心理哲学' },
+			{ type_id: '1309',type_name: '育儿心经' },
+			{ type_id: '1311',type_name: '家庭健康' },
+			{ type_id: '1307',type_name: '青春励志' },
+			{ type_id: '1312',type_name: '历史小说' },
+			{ type_id: '1315',type_name: '商业财经' },
+			{ type_id: '1313',type_name: '科技科普' },
+			{ type_id: '1303',type_name: '故事会' },
+			{ type_id: '1316',type_name: '红色岁月' },
+			{ type_id: '1318',type_name: '社会观察' },
+			{ type_id: '1317',type_name: '音乐戏曲' },
+			{ type_id: '1319',type_name: '相声评书' }
         ],
     });
 }
