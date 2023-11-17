@@ -8,7 +8,7 @@
 {"key":"豆瓣","name":"豆瓣电影","type":3,"api":"csp_Douban","searchable":0,"ext":"./main/douban.json"},
 {"key":"哔哩","name":"哔哩哔哩","type":3,"api":"csp_Bili","playerType":2,"changeable":0,"style":{"type":"rect","ratio":1.597},"ext":{"json":"./main/bili.json","cookie":"./main/cookie.txt"}},
 {"key":"央视","name":"CCTV节目官网","api":"py_cctv","type":3,"changeable":0,"playerType":1,"style":{"type":"list"},"ext":"./main/央视片库.py"},
-{"key":"360","name":"360影视","type":3,"api":"csp_Sp360","ext":{"danmu":true},"jar":"./jar/1023.repl.jar;md5;bab8f39fda844e7b2a8a423010aec3dd"},
+{"key":"360","name":"360影视","type":3,"api":"csp_Sp360","jar":"./jar/1023.repl.jar;md5;bab8f39fda844e7b2a8a423010aec3dd"},
 {"key":"搜狗视频","name":"搜狗视频","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/搜狗.js"},
 {"key":"爱奇艺","name":"爱奇艺","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/爱奇艺.js"},
 {"key":"优酷","name":"优酷","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/优酷.js"},
