@@ -26,6 +26,7 @@
 {"key":"暴风资源","name":"暴风资源","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/暴风资源.js"},
 {"key":"量子资源","name":"量子资源","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/量子资源.js"},
 {"key":"魔都资源","name":"魔都资源","type":1,"api":"https://www.moduzy.com/api.php/provide/vod","categories":["国产动漫","日韩动漫","欧美动漫","港台动漫","动漫电影"]},
+{"key":"玉米","name":"YuMi-蓝光资源","type":1,"api":"http://124.222.116.5/macos/api.php/provide/vod","playUrl":"json:http://110.42.3.71:5000/api/jiexi/common?Key=scR2SCxYQGqNWKLltR&url="},
 {"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market1.json"},
 {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":0,"changeable":0}
 ],
