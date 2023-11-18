@@ -22,7 +22,6 @@
 {"key":"博看[cat]","name":"博看有声","type":3,"api":"./cat/bookan_open.js"},
 {"key":"Aid","name":"有来急救","type":3,"api":"csp_FirstAid","searchable":0,"changeable":0,"style":{"type":"rect","ratio":3.8},"jar": "./jar/fan.txt;md5;364c0f012e73a8801a69900fc25ae9c1"},
 {"key":"荐片","name":"荐片影音","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/荐片.js","playerType":"1"},
-{"key":"玉米","name":"YuMi-蓝光资源","type":1,"api":"http://124.222.116.5/macos/api.php/provide/vod","playUrl":"json:http://110.42.3.71:5000/api/jiexi/common?Key=scR2SCxYQGqNWKLltR&url="},
 {"key":"非凡资源","name":"非凡资源","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/非凡资源.js"},
 {"key":"暴风资源","name":"暴风资源","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/暴风资源.js"},
 {"key":"量子资源","name":"量子资源","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/量子资源.js"},
