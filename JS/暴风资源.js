@@ -1,9 +1,9 @@
 var rule = {
-    title: '量子资源',
-    host: 'https://cj.lziapi.com',
-    homeUrl: '/api.php/provide/vod/from/lzm3u8?ac=detail',
-    searchUrl: '/api.php/provide/vod/from/lzm3u8?ac=detail&wd=**&pg=fypage',
-    detailUrl: '/api.php/provide/vod/from/lzm3u8?ac=detail&ids=fyid', //非必填,二级详情拼接链接
+    title: '暴风资源',
+    host: 'http://bfzy.tv',
+    homeUrl: '/api.php/provide/vod?ac=detail',
+    searchUrl: '/api.php/provide/vod?ac=detail&wd=**&pg=fypage',
+    detailUrl: '/api.php/provide/vod?ac=detail&ids=fyid', //非必填,二级详情拼接链接
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
@@ -12,9 +12,9 @@ var rule = {
     multi: 1,
     timeout: 5000,
     limit: 6,
-    url: '/api.php/provide/vod/from/lzm3u8?ac=detail&t=fyclass&pg=fypage&f=',
-    class_name: '短剧&国产剧&美剧&韩剧&动作片&科幻片&恐怖片&战争片&剧情片&喜剧片&爱情片&国漫&欧美动漫&日韩动漫',
-    class_url: '46&13&16&15&6&9&10&11&12&7&8&29&31&30',
+    url: '/api.php/provide/vod?ac=detail&t=fyclass&pg=fypage&f=',
+    class_name: '国产剧&美剧&韩剧&日剧&动作片&科幻片&恐怖片&战争片&剧情片&喜剧片&爱情片&国漫&欧美动漫&日韩动漫',
+    class_url: '31&32&34&36&21&24&23&27&26&22&25&40&42&41',
     推荐: 'json:list;vod_name;vod_pic;vod_remarks;vod_id', // double: true, // 推荐内容是否双层定位
     // 一级: 'json:list;vod_name;vod_pic;vod_remarks;vod_id',
     一级: `js:
@@ -30,7 +30,7 @@ var rule = {
         }
         let d = [];
         // 忽略分类
-        let cate_exclude = '34,35,45';
+        let cate_exclude = '29,51,52';
         let type_id = getParam(input,'t');
         if(!cate_exclude.match(type_id)){
             let html = request(input);
@@ -69,7 +69,7 @@ var rule = {
     搜索: `js:
         let d = [];
         // 忽略分类
-        let cate_exclude = '34,35,45';
+        let cate_exclude = '29,51,52';
         let html = request(input);
         let list = JSON.parse(html).list;
         list.forEach(function (it){
