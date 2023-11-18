@@ -30,6 +30,11 @@
 {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":0,"changeable":0}
 ],
 "parses":[
+{"name":"聚合1","type":3,"url":"Demo"},
+{"name":"聚合0","type":3,"url":"Web"},
+{"name":"解析聚合","type":3,"url":"Demo"},
+{"name":"并发","type":2,"url":"Parallel"},
+{"name":"轮询","type":2,"url":"Sequence"},
 {"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url="},
 {"name":"K影院","type":1,"url":"http://pandown.pro/app/lvdou.php?url="},
