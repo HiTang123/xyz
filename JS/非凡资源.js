@@ -1,6 +1,6 @@
 var rule = {
     title: '非凡资源',
-    host: 'http://ffzy4.tv',
+    host: 'http://ffzy.tv',
     homeUrl: '/api.php/provide/vod/from/ffm3u8?ac=detail',
     searchUrl: '/api.php/provide/vod/from/ffm3u8?ac=detail&wd=**&pg=fypage',
     detailUrl: '/api.php/provide/vod/from/ffm3u8?ac=detail&ids=fyid', //非必填,二级详情拼接链接
