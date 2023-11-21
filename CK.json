@@ -1,16 +1,20 @@
 {
   "urls": [
     {
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/diy.json",
-      "name": "Diy"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/ZH.json",
+      "name": "综合全能"
     },
 	{
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/4k.json",
-      "name": "4K"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/4K.json",
+      "name": "阿里磁力"
     },
 	{
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/jx.json",
-      "name": "jx"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/JX.json",
+      "name": "官源解析"
+    },	
+	{
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/JT.json",
+      "name": "家庭综合"
     },
 	{
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
