@@ -46,6 +46,7 @@
 {"key":"☁云搜8","name":"☁云搜8","type":3,"api":"csp_Zhaozy","playerType":2,"ext":"file://tvbox/token.txt$$$test2$$$test2"},{"key":"应用商店","name":"🛒应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market1.json"},{"key":"push_agent","name":"🛴手机推送","type":3,"api":"csp_Push","searchable":0,"changeable": 0}
 ],
 "parses":[
+{"name":"聚合","type":3,"url":"Demo"},
 {"name":"解析1","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 {"name":"解析2","type":0,"url":"https://jx.xmflv.com/?url="},
 {"name":"解析3","type":1,"url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
