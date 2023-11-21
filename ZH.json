@@ -53,7 +53,7 @@
 {"key":"找資源","name":"☁找資源┃FongMi","type":3,"api":"csp_Zhaozy","playerType":2,"ext":"file://tvbox/token.txt$$$test2$$$test2","jar":"file://Download/custom_spider.jar"},
 {"key":"新6V","name":"🧲新6V┃FongMi","type":3,"api":"csp_Xb6v","timeout":30,"playerType":1,"jar":"file://Download/custom_spider.jar"},
 {"key":"csp_Mp4Mov","name":"🧲Mp4电影┃XYQ","type":3,"api":"csp_Mp4Mov","timeout":30,"playerType":1,"jar":"file://Download/XYQ.jar"},
-{"key":"csp_New6v","name":"🧲新6V┃XYQ","type":3,"api":"csp_New6v","timeout":30,"playerType":1,"ext":"http://www.xb6v.com","jar":"file://Download/XYQ.jar"},
+{"key":"csp_New6v","name":"🧲新6V┃XYQ","type":3,"api":"csp_New6v","timeout":30,"playerType":1,"ext":"http://www.66ss.org","jar":"file://Download/XYQ.jar"},
 {"key":"csp_SeedHub","name":"🧲SeedHub┃XYQ","type":3,"api":"csp_SeedHub","timeout":30,"playerType":1,"jar":"file://Download/XYQ.jar"},
 {"key":"csp_KubaCL","name":"🧲酷吧电影┃XYQ","type":3,"api":"csp_KubaCL","timeout":30,"playerType":1,"jar":"file://Download/XYQ.jar"},
 {"key":"csp_MeijuTT","name":"🧲美剧天堂┃XYQ","type":3,"api":"csp_MeijuTT","timeout":30,"playerType":1,"jar":"file://Download/XYQ.jar"},
