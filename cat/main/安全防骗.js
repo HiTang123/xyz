@@ -6,7 +6,7 @@ let siteKey = '';
 let siteType = 0;
 let searchable=0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
-let cookie = "http://127.0.0.1:9978/file/tvbox/bcookie.txt";
+let cookie = "https://gh-proxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/main/cookie.txt";
 async function request(reqUrl) {
   const res = await req(reqUrl, {
       headers: getMb(),
