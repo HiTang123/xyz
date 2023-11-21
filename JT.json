@@ -16,7 +16,7 @@
 {"key":"自学","name":"📋自学教程","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/自学教程.js"},
 {"key":"舞蹈","name":"💃舞蹈健身","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/舞蹈健身.js"},
 {"key":"棋牌","name":"♟️棋牌合集","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/棋牌合集.js"},
-{"key":"体育","name":"🏀体育赛事","type":3,"api":"csp_XPath","searchable":0,"changeable":0,"style":{"type":"list","ratio":1.597},"ext":"./main/企鹅直播.json"},
+{"key":"体育","name":"🏀体育赛事","type":3,"api":"csp_XPath","searchable":0,"changeable":0,"style":{"type":"list","ratio":1.597},"ext":"./main/企鹅直播.json","jar": "./jar/fan.txt;md5;364c0f012e73a8801a69900fc25ae9c1"},
 {"key":"影音","name":"🎶音乐鉴赏","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/音乐鉴赏.js"},
 {"key":"解说","name":"🎙影视解说","type":3,"searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/影视解说.js"},
 {"key":"食谱","name":"🥙美食秘笈","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/美食秘笈.js"},
