@@ -6,7 +6,7 @@ let siteKey = '';
 let siteType = 0;
 let searchable= 0;//searchable=1 启用搜索
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
-let cookie = "https://ghproxy.net/https://raw.githubusercontent.com/HiTang123/xyz/master/main/cookie.txt";
+let cookie = "./cookie.txt";
 async function request(reqUrl) {
   const res = await req(reqUrl, {
       headers: getMb(),
@@ -663,12 +663,11 @@ async function homeVod() {
   let data = JSON.parse(await request(html)).data.result;
   let videos = [];
   data.forEach(function(it) {
-      videos.push({
+      if(it.bvid!==""){       videos.push({
           vod_id: it.aid,
           vod_name: stripHtmlTag(it.title),
           vod_pic: 'http:'+it.pic,
-          vod_remarks: turnDHM(it.duration) || '',
-      });
+          vod_remarks: turnDHM(it.duration) || ''})};
   });
   return JSON.stringify({
       list: videos,
@@ -680,12 +679,11 @@ async function category(tid, pg, filter, extend) {
   let data = JSON.parse(await request(html)).data;
   let videos = [];
   data.result.forEach(function(it) {
-      videos.push({
+      if(it.bvid!==""){       videos.push({
           vod_id: it.aid,
           vod_name: stripHtmlTag(it.title),
           vod_pic: 'https:' + it.pic,
-          vod_remarks: turnDHM(it.duration) || '',
-      });
+          vod_remarks: turnDHM(it.duration) || ''})};
   });
   return JSON.stringify({
       page: parseInt(data.page),
@@ -705,7 +703,7 @@ async function detail(id) {
       type_name: data.tname,
       vod_year: new Date(data.pubdate*1000).getFullYear(),
       vod_remarks: data.duration || '',
-      vod_director: data.owner.name,
+      vod_director: '[a=cr:' + JSON.stringify({'id':data.owner.name + '_clicklink','name':data.owner.name}) + '/]' + data.owner.name + '[/a]',
       vod_content: stripHtmlTag(data.desc),
   };
   let episodes = data.pages;
@@ -759,12 +757,12 @@ async function search(wd, quick, pg) {
   let data = JSON.parse(await request(html)).data;
   let videos = [];
   data.result.forEach(function(it) {
-    videos.push({
+    if(it.bvid!==""){       videos.push({
         vod_id: it.aid,
         vod_name: stripHtmlTag(it.title),
         vod_pic: 'https:' + it.pic,
         vod_remarks: turnDHM(it.duration) || '',
-    });
+    })};
   });
   return JSON.stringify({
       page: parseInt(data.page),

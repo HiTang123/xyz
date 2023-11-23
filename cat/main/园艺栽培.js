@@ -65,12 +65,11 @@ async function homeVod() {
   let data = JSON.parse(await request(html)).data.result;
   let videos = [];
   data.forEach(function(it) {
-      videos.push({
+      if(it.bvid!==""){       videos.push({
           vod_id: it.aid,
           vod_name: stripHtmlTag(it.title),
           vod_pic: 'http:'+it.pic,
-          vod_remarks: turnDHM(it.duration) || '',
-      });
+          vod_remarks: turnDHM(it.duration) || ''})};
   });
   return JSON.stringify({
       list: videos,
@@ -82,12 +81,11 @@ async function category(tid, pg, filter, extend) {
   let data = JSON.parse(await request(html)).data;
   let videos = [];
   data.result.forEach(function(it) {
-      videos.push({
+      if(it.bvid!==""){       videos.push({
           vod_id: it.aid,
           vod_name: stripHtmlTag(it.title),
           vod_pic: 'https:' + it.pic,
-          vod_remarks: turnDHM(it.duration) || '',
-      });
+          vod_remarks: turnDHM(it.duration) || ''})};
   });
   return JSON.stringify({
       page: parseInt(data.page),
@@ -107,7 +105,7 @@ async function detail(id) {
       type_name: data.tname,
       vod_year: new Date(data.pubdate*1000).getFullYear(),
       vod_remarks: data.duration || '',
-      vod_director: data.owner.name,
+      vod_director: '[a=cr:' + JSON.stringify({'id':data.owner.name + '_clicklink','name':data.owner.name}) + '/]' + data.owner.name + '[/a]',
       vod_content: stripHtmlTag(data.desc),
   };
   let episodes = data.pages;
@@ -161,12 +159,12 @@ async function search(wd, quick, pg) {
   let data = JSON.parse(await request(html)).data;
   let videos = [];
   data.result.forEach(function(it) {
-    videos.push({
+    if(it.bvid!==""){       videos.push({
         vod_id: it.aid,
         vod_name: stripHtmlTag(it.title),
         vod_pic: 'https:' + it.pic,
         vod_remarks: turnDHM(it.duration) || '',
-    });
+    })};
   });
   return JSON.stringify({
       page: parseInt(data.page),
