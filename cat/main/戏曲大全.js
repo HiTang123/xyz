@@ -283,12 +283,14 @@ async function category(tid, pg, filter, extend) {
   let data = JSON.parse(await request(html)).data;
   let videos = [];
   data.result.forEach(function(it) {
+	 if(it.bvid!==""){
       videos.push({
           vod_id: it.aid,
           vod_name: stripHtmlTag(it.title),
           vod_pic: 'https:' + it.pic,
           vod_remarks: turnDHM(it.duration) || '',
-      });
+      })	 
+	};
   });
   return JSON.stringify({
       page: parseInt(data.page),
