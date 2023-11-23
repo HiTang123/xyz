@@ -1044,7 +1044,7 @@ async function detail(id) {
       vod_pic: data.pic,
       type_name: data.tname,
       vod_year: new Date(data.pubdate*1000).getFullYear(),
-      vod_remarks: data.duration || '',
+      vod_remarks: '',
       vod_director: '[a=cr:' + JSON.stringify({'id':data.owner.name + '_clicklink','name':data.owner.name}) + '/]' + data.owner.name + '[/a]',
       vod_content: stripHtmlTag(data.desc),
   };
