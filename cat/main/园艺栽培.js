@@ -127,10 +127,12 @@ async function detail(id) {
 
 async function play(flag, id, flags) {
   let ids = id.split('_');
+  const cid = ids[1];
   let html = HOST + '/x/player/playurl?avid=' + ids[0] + '&cid=' + ids[1] + '&qn=116';
   let data = JSON.parse(await request(html)).data.durl;
   let maxSize = -1;
   let position = -1;
+  const dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + cid;
   data.forEach(function(it, i) {
       if (maxSize < Number(it.size)) {
           maxSize = Number(it.size);
@@ -148,6 +150,7 @@ async function play(flag, id, flags) {
   return JSON.stringify({
     parse: 0,
     url: purl,
+	danmaku: dan,
     header: getMb(),
   });
 }
