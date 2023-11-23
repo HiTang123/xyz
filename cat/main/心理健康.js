@@ -138,7 +138,7 @@ async function play(flag, id, flags) {
   // console.debug('我的哔哩 purl =====>' + purl); // js_debug.log
   return JSON.stringify({
     parse: 0,
-    url: purl,    danmaku: dan,
+    url: purl,    
     header: getMb(),
   });
 }
