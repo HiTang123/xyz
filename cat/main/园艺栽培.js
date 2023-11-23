@@ -6,7 +6,7 @@ let siteKey = '';
 let siteType = 0;
 let searchable= 0;//searchable=1 启用搜索
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
-let cookie = "https://ghproxy.net/https://raw.githubusercontent.com/HiTang123/xyz/master/main/cookie.txt";
+let cookie = "https://ghproxy.net/https://raw.githubusercontent.com/HiTang123/xyz/master/cat/main/cookie.txt";
 async function request(reqUrl) {
   const res = await req(reqUrl, {
       headers: getMb(),
