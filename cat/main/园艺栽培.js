@@ -95,16 +95,17 @@ async function category(tid, pg, filter, extend) {
       list: videos,
   });
 }
-
 async function detail(id) {
   let data = JSON.parse(await request(HOST + '/x/web-interface/view?aid=' + id)).data;
+  function turnNum(num){let a='';if(num>=10000){num=Math.round(num/10000*10)/10;a=num+'万';}else if(num>=1000&&num<10000){num=Math.round(num/1000*10)/10;a=num+'千';}else{a=num;}return a;}
+  const onlineUrl='https://api.bilibili.com/x/player/online/total?aid='+data.aid+'&cid='+data.cid;
   let vod = {
       vod_id: data.aid,
       vod_name: stripHtmlTag(data.title),
       vod_pic: data.pic,
       type_name: data.tname,
       vod_year: new Date(data.pubdate*1000).getFullYear(),
-      vod_remarks: data.duration || '',
+      vod_remarks: '总计'+turnNum(data.stat.view)+'次播放,'+turnNum(data.stat.danmaku)+'条弹幕,'+JSON.parse(await request(onlineUrl, getHeaders())).data.total+'人正在看',
       vod_director: '[a=cr:' + JSON.stringify({'id':data.owner.name + '_clicklink','name':data.owner.name}) + '/]' + data.owner.name + '[/a]',
       vod_content: stripHtmlTag(data.desc),
   };
