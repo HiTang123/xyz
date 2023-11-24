@@ -1,5 +1,14 @@
 [
   {
+    "name": "打赏码",
+    "list": [
+      {
+        "name": "打赏码(反馈信息备注即可)",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/打赏码.jpg",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/打赏码.jpg"
+      }
+  },
+  {
     "name": "FongMi影视",
     "list": [
       {
@@ -160,23 +169,6 @@
         "name": "P9P",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp9p.so",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
-      }
-    ]
-  },
-  {
-    "name": "本地包",
-    "list": [
-      {
-        "name": "watson",
-        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/local/js-1115.zip",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/catpaw.jpeg",
-        "version": "11-15"
-      },
-      {
-        "name": "香雅情",
-        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/local/XYQTVBox_本地包.zip",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/xyq.jpeg",
-        "version": "11-13"
       }
     ]
   }
