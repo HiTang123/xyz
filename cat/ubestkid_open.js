@@ -31,7 +31,6 @@ async function home(filter) {
     return JSON.stringify({
         class: _.map(classes, (cls) => {
             cls.land = 1;
-            cls.ratio = 1.7;
             return cls;
         }),
         filters: filterObj,

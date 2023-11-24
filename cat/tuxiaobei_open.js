@@ -26,7 +26,6 @@ async function home(filter) {
     return JSON.stringify({
         class: _.map(classes, (cls) => {
             cls.land = 1;
-            cls.ratio = 1.78;
             return cls;
         }),
         filters: filterObj,
@@ -117,8 +116,6 @@ async function search(wd, quick) {
     });
     return JSON.stringify({
         list: videos,
-        land: 1,
-        ratio: 1.78,
     });
 }
 
