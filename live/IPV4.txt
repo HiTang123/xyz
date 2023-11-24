@@ -119,40 +119,40 @@ CHC动作电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/in
 济源1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226693/1.m3u8
 
 轮播,#genre#
-周星驰,http://www.51romzj.love:35455/huya/11342412
-林正英,http://www.51romzj.love:35455/huya/11342421
-成龙,http://www.51romzj.love:35455/huya/11342386
-李连杰,http://www.51romzj.love:35455/huya/11342390
-刘德华,http://www.51romzj.love:35455/huya/11342424
-甄子丹,http://www.51romzj.love:35455/huya/11352935
-金庸,http://www.51romzj.love:35455/huya/11342427
-家有儿女,http://www.51romzj.love:35455/huya/11352872
-武林外传,http://159.75.85.63:35455/yy/1354752120
-港片电影,http://159.75.85.63:35455/yy/1455225203
-天龙八部,http://159.75.85.63:35455/yy/1351814644
-新三国,http://159.75.85.63:35455/yy/1382705738
-我的兄弟叫顺溜,http://159.75.85.63:35455/yy/1354752117
-知否知否应是绿肥红瘦,http://159.75.85.63:35455/yy/21881901
-鹿鼎记,http://159.75.85.63:35455/yy/28265277
-神医喜来乐,http://159.75.85.63:35455/yy/1382714119
-西游记后传,http://159.75.85.63:35455/yy/1382736846
-济公游记,http://159.75.85.63:35455/yy/1355265814
+周星驰,https://www.goodiptv.club/huya/11342412
+林正英,https://www.goodiptv.club/huya/11342421
+成龙,https://www.goodiptv.club/huya/11342386
+李连杰,https://www.goodiptv.club/huya/11342390
+刘德华,https://www.goodiptv.club/huya/11342424
+甄子丹,https://www.goodiptv.club/huya/11352935
+金庸,https://www.goodiptv.club/huya/11342427
+家有儿女,https://www.goodiptv.club/huya/11352872
+武林外传,https://www.goodiptv.club/yy/1354752120
+港片电影,https://www.goodiptv.club/yy/1455225203
+天龙八部,https://www.goodiptv.club/yy/1351814644
+新三国,https://www.goodiptv.club/yy/1382705738
+我的兄弟叫顺溜,https://www.goodiptv.club/yy/1354752117
+知否知否应是绿肥红瘦,https://www.goodiptv.club/yy/21881901
+鹿鼎记,https://www.goodiptv.club/yy/28265277
+神医喜来乐,https://www.goodiptv.club/yy/1382714119
+西游记后传,https://www.goodiptv.club/yy/1382736846
+济公游记,https://www.goodiptv.club/yy/1355265814
 
-宝莲灯,http://www.51romzj.love:35455/huya/11342412
-金庸剧,http://www.51romzj.love:35455/huya/11602082
-庆余年,http://www.51romzj.love:35455/huya/11352960
-铁齿铜牙纪晓岚,http://www.51romzj.love:35455/huya/11342396
-86版西游记,http://www.51romzj.love:35455/huya/25742323
-TVB西游记,http://www.51romzj.love:35455/huya/23728660
-开心鬼,http://www.51romzj.love:35455/huya/11342423
-经典女神,http://www.51romzj.love:35455/huya/11352909
-搞笑恐怖,http://www.51romzj.love:35455/huya/11601960
-贺岁档,http://www.51romzj.love:35455/huya/11601986
-极限挑战,http://www.51romzj.love:35455/huya/11352914
-笑傲帮,http://www.51romzj.love:35455/huya/11352908
-岳云鹏,http://www.51romzj.love:35455/huya/11342437
-笑傲江湖,http://www.51romzj.love:35455/huya/11352937
-中华小当家,http://www.51romzj.love:35455/huya/11342413
+宝莲灯,https://www.goodiptv.club/huya/11342412
+金庸剧,https://www.goodiptv.club/huya/11602082
+庆余年,https://www.goodiptv.club/huya/11352960
+铁齿铜牙纪晓岚,https://www.goodiptv.club/huya/11342396
+86版西游记,https://www.goodiptv.club/huya/25742323
+TVB西游记,https://www.goodiptv.club/huya/23728660
+开心鬼,https://www.goodiptv.club/huya/11342423
+经典女神,https://www.goodiptv.club/huya/11352909
+搞笑恐怖,https://www.goodiptv.club/huya/11601960
+贺岁档,https://www.goodiptv.club/huya/11601986
+极限挑战,https://www.goodiptv.club/huya/11352914
+笑傲帮,https://www.goodiptv.club/huya/11352908
+岳云鹏,https://www.goodiptv.club/huya/11342437
+笑傲江湖,https://www.goodiptv.club/huya/11352937
+中华小当家,https://www.goodiptv.club/huya/11342413
 
 
 
@@ -169,12 +169,12 @@ TVB西游记,http://www.51romzj.love:35455/huya/23728660
 浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8?k=1a7559a51eeb880b021619a07f463ac4&t=1577153787
 南京少儿,http://live.nbs.cn/channels/njtv/sepd/500k.m3u8
 南京少儿,http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
-猫和老鼠,http://www.51romzj.love:35455/huya/11352879
-熊出没之探险日记,http://159.75.85.63:35455/yy/1354930977
+猫和老鼠,https://www.goodiptv.club/huya/11352879
+熊出没之探险日记,https://www.goodiptv.club/yy/1354930977
 
 奥特曼,http://lvbaiducdncmn.inter.iqiyi.com/tslive/c57_lb_210_600_t10/c57_lb_210_600_t10.m3u8?key=0b292c335e5837e94abe4b846218bbc95
 喜羊羊,http://lvbaiducdncmn.inter.iqiyi.com/tslive/c55_lb_91_1080P_t10/c55_lb_91_1080P_t10.m3u8?key=0b292c335e5837e943e554ef181bdcec1
-名侦探柯南,http://159.75.85.63:35455/douyu/6484910
+名侦探柯南,https://www.goodiptv.club/douyu/6484910
 
 
 纪录片,#genre#
