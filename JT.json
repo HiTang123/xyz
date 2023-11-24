@@ -53,9 +53,8 @@
 {"key":"push_agent","name":"🛴手机推送","type":3,"api":"csp_Push","searchable":0,"changeable":0}
 ],
 "parses":[
-{"name":"聚合","type":3,"url":"Demo"},
-{"name":"解析1","type":0,"url":"https://jx.777jiexi.com/player/?url="},
-{"name":"解析2","type":0,"url":"https://jx.xmflv.com/?url="},
+{"name":"解析1","type":0,"url":"https://jx.xmflv.com/?url="},
+{"name":"解析2","type":0,"url":"https://jx.777jiexi.com/player/?url="},
 {"name":"解析3","type":1,"url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
 {"name":"解析4","type":0,"url":"https://jx.xyflv.cc/?url="},
 {"name":"解析5","type":0,"url":"https://www.yemu.xyz/?url="},
