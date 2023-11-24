@@ -5,31 +5,31 @@
       {
         "name": "电视正式版",
         "url": "https://my.t4tv.hz.cz/apk/release/leanback-python-armeabi_v7a.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "电视内测版",
         "url": "https://my.t4tv.hz.cz/apk/dev/leanback-python-armeabi_v7a.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "手机正式版",
         "url": "https://my.t4tv.hz.cz/apk/release/mobile-python-armeabi_v7a.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "手机内测版",
         "url": "https://my.t4tv.hz.cz/apk/dev/mobile-python-armeabi_v7a.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "Android-5.1+"
       },
       {
         "name": "Android-4.x",
         "url": "https://my.t4tv.hz.cz/apk/kitkat/leanback.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       } 
     ]
   },
@@ -38,18 +38,18 @@
     "list": [
       {
         "name": "当贝桌面",
-        "url": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/app/dbzm.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/app/dbzm.png"
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/dbzm.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/dbzm.png"
       },
 	  {
         "name": "小白文件管理器",
-        "url": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/app/xbwj.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/app/xbwj.png"
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/xbwj.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/xbwj.png"
       },
       {
         "name": "nplayer",
-        "url": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/app/nplayer.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/app/nplayer.png"
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/nplayer.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/nplayer.png"
       }
      ]
   },
@@ -58,13 +58,13 @@
     "list": [
       {
         "name": "TVBox助手",
-        "url": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/app/tvbox_zhushou.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/tvbox_zhushou.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
 	  {
         "name": "阿里云Webdav",
-        "url": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/app/阿里云Webdav.apk",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/app/阿里云Webdav.png"
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/阿里云Webdav.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/app/阿里云Webdav.png"
       }
      ]
   },
@@ -74,92 +74,92 @@
       {
         "name": "ffmpeg",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libffmpegJNI.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "EXO"
       },
       {
         "name": "av1",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libgav1JNI.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "EXO"
       },
       {
         "name": "ffmpeg",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libijkffmpeg.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "IJK"
       },
       {
         "name": "sdl",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libijksdl.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "IJK"
       },
       {
         "name": "player",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libplayer.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png",
         "version": "IJK"
       },
       {
         "name": "荐片",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libjpa.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "磁力-1",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libxl_stat.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "磁力-2",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libxl_thunder_sdk.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "晴天",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libmitv.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P2P",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp2p.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P3P",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp3p.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P4P",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp4p.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P5P",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp5p.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P6P",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp6p.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P7P",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp7p.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P8P",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp8p.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       },
       {
         "name": "P9P",
         "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp9p.so",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/fongmi.png"
       }
     ]
   },
@@ -168,14 +168,14 @@
     "list": [
       {
         "name": "watson",
-        "url": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/local/js-1115.zip",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/catpaw.jpeg",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/local/js-1115.zip",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/catpaw.jpeg",
         "version": "11-15"
       },
       {
         "name": "香雅情",
-        "url": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/local/XYQTVBox_本地包.zip",
-        "icon": "https://ghproxy.net/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/xyq.jpeg",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/local/XYQTVBox_本地包.zip",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/wallpaper/icon/market/xyq.jpeg",
         "version": "11-13"
       }
     ]
