@@ -1,5 +1,5 @@
 {
-"spider":"https://fm.t4tv.hz.cz/jar/custom_spider.jar;md5;17d7e3dcde6c9d3ab25b87dcaf77a3cd",
+"spider":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;17d7e3dcde6c9d3ab25b87dcaf77a3cd",
 "wallpaper":"https://hitang.cacifer.repl.co",
 "lives":[
 {"name":"默认直播源","type":0,"playerType":2,"url":"./live/IPV4.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"./live/logo/{name}.png"},
@@ -38,7 +38,8 @@
 {"key":"🔍搜索4","name":"🔍搜索源4","type":3,"api":"csp_Sp360","jar":"./jar/1023.repl.jar;md5;bab8f39fda844e7b2a8a423010aec3dd"},
 {"key":"🔍搜索5","name":"🔍搜索源5","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/非凡资源.js"},
 {"key":"🔍搜索6","name":"🔍搜索源6","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/量子资源.js"},
-{"key":"🔍搜索7","name":"🔍搜索源7","type":1,"api":"https://www.moduzy.com/api.php/provide/vod","categories":["国产动漫","日韩动漫","欧美动漫","港台动漫","动漫电影"]},
+{"key":"🔍搜索6","name":"🔍搜索源7","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/魔都资源.js"},
+//{"key":"🔍搜索7","name":"🔍搜索源7","type":1,"api":"https://www.moduzy.com/api.php/provide/vod","categories":["国产动漫","日韩动漫","欧美动漫","港台动漫","动漫电影"]},
 {"key":"☁云搜1","name":"☁云搜1","type":3,"api":"csp_Wogg","playerType":2,"ext":{"token":"file://tvbox/token.txt","filter":"./main/wogg.json"}},
 {"key":"☁云搜2","name":"☁云搜2","type":3,"api":"csp_Dovx","playerType":2,"ext":"file://tvbox/token.txt"},
 {"key":"☁云搜3","name":"☁云搜3","type":3,"api":"csp_YiSo","playerType":2,"ext":"file://tvbox/token.txt"},

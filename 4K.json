@@ -7,7 +7,7 @@
 {"key":"哔哩","name":"🅱Bilibili┃视频","type":3,"api":"./JS/bili.min.js","changeable":0,"playerType":2},
 {"key":"AList","name":"🅰AList┃网盘","type":3,"api":"csp_AList","playerType":1,"ext":"file://tvbox/%E6%8C%82%E8%BD%BD_Alist.json","jar":"file://Download/custom_spider.jar"},
 {"key":"本地","name":"📂本地┃文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"recordable":0,"jar":"file://Download/custom_spider.jar"},
-{"key":"应用商店","name":"🛒应用┃商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"recordable":0,"ext":"./main/market.json","jar":"https://fm.t4tv.hz.cz/jar/custom_spider.jar;md5;17d7e3dcde6c9d3ab25b87dcaf77a3cd"},
+{"key":"应用商店","name":"🛒应用┃商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"recordable":0,"ext":"./main/market.json","jar":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;17d7e3dcde6c9d3ab25b87dcaf77a3cd"},
 {"key":"荐片[jar]","name":"🧲荐片┃FongMi","type":3,"api":"csp_Jianpian","searchable":1,"changeable":1,"ext":"./main/jianpian.json","jar":"file://Download/custom_spider.jar"},
 {"key":"新6V","name":"🧲新6V┃FongMi","type":3,"api":"csp_Xb6v","timeout":30,"playerType":1,"jar":"file://Download/custom_spider.jar"},
 {"key":"lf_js_p2p","name":"🧲磁力┃聚合","type":3,"api":"./JS/lf_p2pjm2_min.js","timeout":30,"playerType":1},
