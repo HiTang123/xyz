@@ -53,8 +53,6 @@ async function homeVod() {
     });
     return JSON.stringify({
         list: videos,
-		land: 1,
-        ratio: 1.7,
     })
 }
 
