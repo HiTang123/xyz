@@ -15,7 +15,7 @@ var rule = {
     url: '/api.php/provide/vod/?ac=detail&t=fyclass&pg=fypage&f=',
     class_name: '国产动漫&日韩动漫&欧美动漫&港台动漫&动漫电影',
     class_url: '1&2&3&4&5',
-    推荐: 'json:list;vod_name;vod_pic;vod_remarks;vod_id', // double: true, // 推荐内容是否双层定位
+    推荐: '', // double: true, // 推荐内容是否双层定位
     // 一级: 'json:list;vod_name;vod_pic;vod_remarks;vod_id',
     一级: `js:
         function getParam(url,name) {
