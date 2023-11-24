@@ -15,7 +15,8 @@ var rule = {
     url: '/api.php/provide/vod/from/ffm3u8?ac=detail&t=fyclass&pg=fypage&f=',
     class_name: '短剧&国产剧&美剧&韩剧&动作片&科幻片&恐怖片&战争片&剧情片&喜剧片&爱情片&国漫&欧美动漫&日韩动漫',
     class_url: '36&13&16&15&6&9&10&11&12&7&8&29&31&30',
-    推荐: 'json:list;vod_name;vod_pic;vod_remarks;vod_id', // double: true, // 推荐内容是否双层定位
+    //推荐: 'json:list;vod_name;vod_pic;vod_remarks;vod_id', // double: true, // 推荐内容是否双层定位
+	推荐: '',
     // 一级: 'json:list;vod_name;vod_pic;vod_remarks;vod_id',
     一级: `js:
         function getParam(url,name) {
