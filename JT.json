@@ -49,7 +49,7 @@
 {"key":"☁云搜5","name":"☁云搜5","type":3,"api":"csp_PanSou","playerType":2,"ext":"file://tvbox/token.txt"},
 {"key":"☁云搜6","name":"☁云搜6","type":3,"api":"csp_XiaoZhiTiao","playerType":2,"ext":"file://tvbox/token.txt"},
 {"key":"☁云搜7","name":"☁云搜7","type":3,"api":"csp_PanSearch","playerType":2,"ext":"file://tvbox/token.txt"},
-{"key":"☁云搜8","name":"☁云搜8","type":3,"api":"csp_Zhaozy","playerType":2,"ext":"file://tvbox/token.txt$$$test2$$$test2"},{"key":"商店","name":"🛒应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market1.json"},{"key":"本地","name":"📂本地文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"recordable":0},
+{"key":"☁云搜8","name":"☁云搜8","type":3,"api":"csp_Zhaozy","playerType":2,"ext":"file://tvbox/token.txt$$$test2$$$test2"},{"key":"商店","name":"🛒应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market1.json"},{"key":"本地","name":"📂本地文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"recordable":0,"style":{"type":"list"}},
 {"key":"push_agent","name":"🛴手机推送","type":3,"api":"csp_Push","searchable":0,"changeable":0}
 ],
 "parses":[
