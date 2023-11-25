@@ -18,8 +18,6 @@ let HOST = 'https://api.bilibili.com';
 let siteKey = '';
 let siteType = 0;
 let searchable= 0;
-const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
-
 async function request(reqUrl) {
   const res = await req(reqUrl, {
       headers: getMb(),
@@ -33,8 +31,6 @@ async function init(cfg) {
 }
 
 async function home(filter) {
-
-
   return JSON.stringify({
       class: classes,
       filters: filterObj,
@@ -86,7 +82,7 @@ async function detail(id) {
       type_name: data.tname,
       vod_year: new Date(data.pubdate*1000).getFullYear(),
       vod_remarks: '',
-      vod_director: '[a=cr:' + JSON.stringify({'id':data.owner.name + '_clicklink','name':data.owner.name}) + '/]' + data.owner.name + '[/a]',
+      vod_director: data.owner.name,
       vod_content: stripHtmlTag(data.desc),
   };
   let episodes = data.pages;
@@ -158,17 +154,16 @@ async function search(wd, quick, pg) {
   }
 }
 import {b} from  './cookie.js';
-let cookie = b.cookie;
 function getHeader(cookie) {
   let header = {};
-  header['cookie'] = cookie;
-  header['User-Agent'] = PC_UA;
+  header['cookie'] = b.cookie;
+  header['User-Agent'] = b.PC_UA;
   header['Referer'] = 'https://www.bilibili.com';
   return header;
 }
 
 function getMb() {
-  return getHeader(cookie);
+  return getHeader(b.cookie);
 }
 
 function stripHtmlTag(src) {
