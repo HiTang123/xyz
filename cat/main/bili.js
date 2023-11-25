@@ -11,7 +11,7 @@ async function request(reqUrl) {
 
 
 
-async function homeVod() {
+export async function homeVod() {
   let html = HOST + '/x/web-interface/search/type?search_type=video&keyword='+homeName;
   let data = JSON.parse(await request(html)).data.result;
   let videos = [];
@@ -28,7 +28,7 @@ async function homeVod() {
   });
 }
 
-async function category(tid, pg, filter, extend) {
+export async function category(tid, pg, filter, extend) {
   let html = HOST + '/x/web-interface/search/type?search_type=video&page=' + pg + '&keyword=' + (extend.tid || tid) + '&duration=' + (extend.duration || '') + '&order=' + (extend.order || '');
   let data = JSON.parse(await request(html)).data;
   let videos = [];
@@ -50,7 +50,7 @@ async function category(tid, pg, filter, extend) {
   });
 }
 
-async function detail(id) {
+export async function detail(id) {
   let data = JSON.parse(await request(HOST + '/x/web-interface/view?aid=' + id)).data;
   let vod = {
       vod_id: data.aid,
@@ -79,7 +79,7 @@ async function detail(id) {
   });
 }
 
-async function play(flag, id, flags) {
+export async function play(flag, id, flags) {
   let ids = id.split('_');
   let html = HOST + '/x/player/playurl?avid=' + ids[0] + '&cid=' + ids[1] + '&qn=116';
   let data = JSON.parse(await request(html)).data.durl;
@@ -108,7 +108,7 @@ async function play(flag, id, flags) {
   });
 }
 
-async function search(wd, quick, pg) {
+export async function search(wd, quick, pg) {
   if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
   let html = HOST + '/x/web-interface/search/type?search_type=video&keyword=' + wd + '&page=' + pg;
   let data = JSON.parse(await request(html)).data;
