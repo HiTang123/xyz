@@ -19,6 +19,18 @@ let filterObj = {
 let siteKey = '';
 let siteType = 0;
 let searchable= 0;
+async function init(cfg) {
+  siteKey = cfg.skey;
+  siteType = cfg.stype;
+  if (cookie.startsWith('http')) cookie = await request(cookie);
+}
+
+async function home(filter) {
+  return JSON.stringify({
+      class: classes,
+      filters: filterObj,
+  });
+}
 export function __jsEvalReturn() {
   return {
       init: init,

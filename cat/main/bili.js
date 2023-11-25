@@ -10,18 +10,7 @@ async function request(reqUrl) {
   return res.content;
 }
 
-async function init(cfg) {
-  siteKey = cfg.skey;
-  siteType = cfg.stype;
-  if (cookie.startsWith('http')) cookie = await request(cookie);
-}
 
-async function home(filter) {
-  return JSON.stringify({
-      class: classes,
-      filters: filterObj,
-  });
-}
 
 async function homeVod() {
   let html = HOST + '/x/web-interface/search/type?search_type=video&keyword='+homeName;
