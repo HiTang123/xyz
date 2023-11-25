@@ -19,7 +19,7 @@ let HOST = 'https://api.bilibili.com';
 let siteKey = '';
 let siteType = 0;
 let searchable=0;
-import {b} from './alist_open.js';
+import {b} from './cookie.js';
 const PC_UA = b.PC_UA;
 let cookie = b.cookie;
 async function request(reqUrl) {
