@@ -23,112 +23,9 @@ async function init(cfg) {
 
 async function home(filter) {
   let classes = [
-
-	{
-      "type_name": "象棋",
-      "type_id": "象棋教学进阶"
-    },
-    {
-      "type_name": "国际象棋",
-      "type_id": "国际象棋教学进阶"
-    },
-    {
-      "type_name": "围棋",
-      "type_id": "围棋教学进阶"
-    },
-    {
-      "type_name": "五子棋",
-      "type_id": "五子棋教学进阶"
-    },
-    {
-      "type_name": "军旗",
-      "type_id": "军旗教学进阶"
-    },
-    {
-      "type_name": "飞行棋",
-      "type_id": "飞行棋教学进阶"
-    },
-    {
-      "type_name": "跳棋",
-      "type_id": "跳棋教学进阶"
-    },
-	{
-      "type_name": "斗地主",
-      "type_id": "斗地主教学进阶"
-    },
-    {
-      "type_name": "麻将",
-      "type_id": "麻将教学进阶"
-    },
-     {
-      "type_name": "四川麻将",
-      "type_id": "四川麻将教学进阶"
-    },
-    {
-      "type_name": "国际麻将",
-      "type_id": "国际麻将教学进阶"
-    },
-    {
-      "type_name": "台湾麻将",
-      "type_id": "台湾麻将教学进阶"
-    },
-    {
-      "type_name": "欢乐麻将",
-      "type_id": "欢乐麻将教学进阶"
-    },
-    {
-      "type_name": "二八杠",
-      "type_id": "二八杠麻将教学进阶"
-    },
-    
-    {
-      "type_name": "炸金花",
-      "type_id": "炸金花教学进阶"
-    },
-    {
-      "type_name": "梭哈",
-      "type_id": "梭哈教学进阶"
-    }, 
-    {
-      "type_name": "80分",
-      "type_id": "80分升级棋牌教学进阶"
-    },
-     {
-      "type_name": "拱猪",
-      "type_id": "拱猪教学进阶"
-    },
-    {
-      "type_name": "锄大地",
-      "type_id": "锄大地棋牌教学进阶"
-    },
-    {
-      "type_name": "跑胡子",
-      "type_id": "跑胡子教学进阶"
-    },
-    {
-      "type_name": "三打一",
-      "type_id": "三打一棋牌教学进阶"
-    },
-    {
-      "type_name": "干瞪眼",
-      "type_id": "干瞪眼教学进阶"
-    },
-    {
-      "type_name": "双扣",
-      "type_id": "双扣教学进阶"
-    }, {
-      "type_name": "打滚子",
-      "type_id": "打滚子棋牌教学进阶"
-    },
-    {
-      "type_name": "远离赌博，创造美好家庭",
-      "type_id": ""
-    }
-
-  
+	{"type_name":"象棋","type_id":"象棋教学进阶"},	{"type_name":"国际象棋","type_id":"国际象棋教学进阶"},	{"type_name":"围棋","type_id":"围棋教学进阶"},	{"type_name":"五子棋","type_id":"五子棋教学进阶"},	{"type_name":"军旗","type_id":"军旗教学进阶"},	{"type_name":"飞行棋","type_id":"飞行棋教学进阶"},	{"type_name":"跳棋","type_id":"跳棋教学进阶"},	{"type_name":"斗地主","type_id":"斗地主教学进阶"},	{"type_name":"麻将","type_id":"麻将教学进阶"},	{"type_name":"四川麻将","type_id":"四川麻将教学进阶"},	{"type_name":"国际麻将","type_id":"国际麻将教学进阶"},	{"type_name":"台湾麻将","type_id":"台湾麻将教学进阶"},	{"type_name":"欢乐麻将","type_id":"欢乐麻将教学进阶"},	{"type_name":"二八杠","type_id":"二八杠麻将教学进阶"},	{"type_name":"炸金花","type_id":"炸金花教学进阶"},	{"type_name":"梭哈","type_id":"梭哈教学进阶"},	{"type_name":"80分","type_id":"80分升级棋牌教学进阶"},	{"type_name":"拱猪","type_id":"拱猪教学进阶"},	{"type_name":"锄大地","type_id":"锄大地棋牌教学进阶"},	{"type_name":"跑胡子","type_id":"跑胡子教学进阶"},	{"type_name":"三打一","type_id":"三打一棋牌教学进阶"},	{"type_name":"干瞪眼","type_id":"干瞪眼教学进阶"},	{"type_name":"双扣","type_id":"双扣教学进阶"},	{"type_name":"打滚子","type_id":"打滚子棋牌教学进阶"},	{"type_name":"远离赌博，创造美好家庭","type_id":""} 
 ];
-  let filterObj = {
-     
+  let filterObj = { 
 	 "象棋": [{"key": "order","name": "排序","value": [{ "n": "综合排序","v": "0"},{"n": "最多点击","v": "click"},{"n": "最新发布","v": "pubdate"},{"n": "最多弹幕","v": "dm"},{"n": "最多收藏","v": "stow"}]},{"key": "duration","name": "时长","value": [{"n": "全部","v": "0"},{"n": "60分钟以上","v": "4"},{"n": "30~60分钟","v": "3"},{"n": "10~30分钟","v": "2"},{"n": "10分钟以下","v": "1"}]}],
 	  "国际象棋": [{"key": "order","name": "排序","value": [{ "n": "综合排序","v": "0"},{"n": "最多点击","v": "click"},{"n": "最新发布","v": "pubdate"},{"n": "最多弹幕","v": "dm"},{"n": "最多收藏","v": "stow"}]},{"key": "duration","name": "时长","value": [{"n": "全部","v": "0"},{"n": "60分钟以上","v": "4"},{"n": "30~60分钟","v": "3"},{"n": "10~30分钟","v": "2"},{"n": "10分钟以下","v": "1"}]}],
       "围棋": [{"key": "order","name": "排序","value": [{ "n": "综合排序","v": "0"},{"n": "最多点击","v": "click"},{"n": "最新发布","v": "pubdate"},{"n": "最多弹幕","v": "dm"},{"n": "最多收藏","v": "stow"}]},{"key": "duration","name": "时长","value": [{"n": "全部","v": "0"},{"n": "60分钟以上","v": "4"},{"n": "30~60分钟","v": "3"},{"n": "10~30分钟","v": "2"},{"n": "10分钟以下","v": "1"}]}],
@@ -153,8 +50,6 @@ async function home(filter) {
 	  "干瞪眼": [{"key": "order","name": "排序","value": [{ "n": "综合排序","v": "0"},{"n": "最多点击","v": "click"},{"n": "最新发布","v": "pubdate"},{"n": "最多弹幕","v": "dm"},{"n": "最多收藏","v": "stow"}]},{"key": "duration","name": "时长","value": [{"n": "全部","v": "0"},{"n": "60分钟以上","v": "4"},{"n": "30~60分钟","v": "3"},{"n": "10~30分钟","v": "2"},{"n": "10分钟以下","v": "1"}]}],
 	  "双扣": [{"key": "order","name": "排序","value": [{ "n": "综合排序","v": "0"},{"n": "最多点击","v": "click"},{"n": "最新发布","v": "pubdate"},{"n": "最多弹幕","v": "dm"},{"n": "最多收藏","v": "stow"}]},{"key": "duration","name": "时长","value": [{"n": "全部","v": "0"},{"n": "60分钟以上","v": "4"},{"n": "30~60分钟","v": "3"},{"n": "10~30分钟","v": "2"},{"n": "10分钟以下","v": "1"}]}],
 	  "打滚子棋牌": [{"key": "order","name": "排序","value": [{ "n": "综合排序","v": "0"},{"n": "最多点击","v": "click"},{"n": "最新发布","v": "pubdate"},{"n": "最多弹幕","v": "dm"},{"n": "最多收藏","v": "stow"}]},{"key": "duration","name": "时长","value": [{"n": "全部","v": "0"},{"n": "60分钟以上","v": "4"},{"n": "30~60分钟","v": "3"},{"n": "10~30分钟","v": "2"},{"n": "10分钟以下","v": "1"}]}]
-	  
-
  };
   return JSON.stringify({
       class: classes,
