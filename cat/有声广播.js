@@ -153,9 +153,10 @@ async function search(wd, quick, pg) {
 	  return null;
   }
 }
-import {b} from  './cookie.js';
+
 function getHeader(cookie) {
   let header = {};
+  import {b} from  './alist_open.js';
   header['cookie'] = b.cookie;
   header['User-Agent'] = b.PC_UA;
   header['Referer'] = 'https://www.bilibili.com';
