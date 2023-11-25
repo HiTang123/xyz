@@ -1,4 +1,3 @@
-import { _ } from "assets://js/lib/cat.js";
 let HOST = 'https://api.bilibili.com';
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
 let cookie = "SESSDATA=7624af93%2C1696008331%2C862c8%2A42;bili_jct=141a474ef3ce8cf2fedf384e68f6625d;DedeUserID=3493271303096985;DedeUserID__ckMd5=212a836c164605b7";
@@ -110,7 +109,6 @@ async function play(flag, id, flags) {
 }
 
 async function search(wd, quick, pg) {
-  if(searchable==1){
   if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
   let html = HOST + '/x/web-interface/search/type?search_type=video&keyword=' + wd + '&page=' + pg;
   let data = JSON.parse(await request(html)).data;
@@ -131,9 +129,6 @@ async function search(wd, quick, pg) {
       total: data.numResults,
       list: videos,
   });
-  }else{
-	  return null;
-  }
 }
 
 function getHeader(cookie) {
