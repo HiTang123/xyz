@@ -153,7 +153,7 @@ async function search(wd, quick, pg) {
 	  return null;
   }
 }
-import {b} from  './alist_open.js';
+import {b} from  './cookie.js';
 function getHeader(cookie) {
   let header = {};
   header['cookie'] = cookie;
