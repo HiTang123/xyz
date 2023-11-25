@@ -19,9 +19,8 @@ let HOST = 'https://api.bilibili.com';
 let siteKey = '';
 let siteType = 0;
 let searchable=0;
-import {b} from './alist_open.js';
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
-let cookie = b.cookie;
+let cookie = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/cat/cookie.txt";
 async function request(reqUrl) {
   const res = await req(reqUrl, {
       headers: getMb(),
@@ -32,6 +31,8 @@ async function request(reqUrl) {
 async function init(cfg) {
   siteKey = cfg.skey;
   siteType = cfg.stype;
+  if (cookie.startsWith('http')) cookie = await request(cookie);
+  // console.debug('我的哔哩 cookie =====>' + cookie); // js_debug.log
 }
 
 async function home(filter) {
