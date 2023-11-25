@@ -1,5 +1,27 @@
+import { _ } from "assets://js/lib/cat.js";
 let key = '有声广播';
 let homeName = '多人有声广播剧';
+let HOST = 'https://api.bilibili.com';
+let siteKey = '';
+let siteType = 0;
+let searchable=0;
+const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
+let cookie = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/cat/cookie.txt";
+async function request(reqUrl) {
+  const res = await req(reqUrl, {
+      headers: getMb(),
+  });
+  return res.content;
+}
+
+async function init(cfg) {
+  siteKey = cfg.skey;
+  siteType = cfg.stype;
+  if (cookie.startsWith('http')) cookie = await request(cookie);
+  // console.debug('我的哔哩 cookie =====>' + cookie); // js_debug.log
+}
+
+async function home(filter) {
 let classes = [
     {"type_name": "短剧","type_id": "完整短剧"},
 	{"type_name": "有声小说","type_id": "多人有声小说"},
@@ -14,23 +36,6 @@ let filterObj = {
     "电台": [{"key":"tid","name":"分类","value":[{"n":"全部","v":""},{"n":"情感","v":"情感电台"},{"n":"深夜","v":"深夜电台"},{"n":"助眠","v":"助眠电台"},{"n":"音乐","v":"音乐电台"}]},{"key": "order","name": "排序","value": [{ "n": "综合排序","v": "0"},{"n": "最多点击","v": "click"},{"n": "最新发布","v": "pubdate"},{"n": "最多弹幕","v": "dm"},{"n": "最多收藏","v": "stow"}]},{"key": "duration","name": "时长","value": [{"n": "全部","v": "0"},{"n": "60分钟以上","v": "4"},{"n": "30~60分钟","v": "3"},{"n": "10~30分钟","v": "2"},{"n": "10分钟以下","v": "1"}]}],
     "故事会": [{"key":"tid","name":"分类","value":[{"n":"全部","v":""},{"n":"合集","v":"故事会合集"},,{"n":"睡前故事","v":"睡前故事合集"}{"n":"短篇鬼故事","v":"短篇恐怖灵异鬼故事"},{"n":"短篇小说","v":"有声短篇小说"}]},{"key": "order","name": "排序","value": [{ "n": "综合排序","v": "0"},{"n": "最多点击","v": "click"},{"n": "最新发布","v": "pubdate"},{"n": "最多弹幕","v": "dm"},{"n": "最多收藏","v": "stow"}]},{"key": "duration","name": "时长","value": [{"n": "全部","v": "0"},{"n": "60分钟以上","v": "4"},{"n": "30~60分钟","v": "3"},{"n": "10~30分钟","v": "2"},{"n": "10分钟以下","v": "1"}]}]
 };
-let HOST = 'https://api.bilibili.com';
-let siteKey = '';
-let siteType = 0;
-let searchable= 0;
-async function request(reqUrl) {
-  const res = await req(reqUrl, {
-      headers: getMb(),
-  });
-  return res.content;
-}
-
-async function init(cfg) {
-  siteKey = cfg.skey;
-  siteType = cfg.stype;
-}
-
-async function home(filter) {
   return JSON.stringify({
       class: classes,
       filters: filterObj,
@@ -42,7 +47,8 @@ async function homeVod() {
   let data = JSON.parse(await request(html)).data.result;
   let videos = [];
   data.forEach(function(it) {
-      if(it.bvid!==""){       videos.push({
+      if(it.bvid!==""){
+       videos.push({
           vod_id: it.aid,
           vod_name: stripHtmlTag(it.title),
           vod_pic: 'http:'+it.pic,
@@ -58,7 +64,8 @@ async function category(tid, pg, filter, extend) {
   let data = JSON.parse(await request(html)).data;
   let videos = [];
   data.result.forEach(function(it) {
-      if(it.bvid!==""){       videos.push({
+      if(it.bvid!==""){
+       videos.push({
           vod_id: it.aid,
           vod_name: stripHtmlTag(it.title),
           vod_pic: 'https:' + it.pic,
@@ -107,7 +114,8 @@ async function play(flag, id, flags) {
   let html = HOST + '/x/player/playurl?avid=' + ids[0] + '&cid=' + ids[1] + '&qn=116';
   let data = JSON.parse(await request(html)).data.durl;
   let maxSize = -1;
-  let position = -1;  const dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + ids[1];
+  let position = -1;
+  const dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + ids[1];
   data.forEach(function(it, i) {
       if (maxSize < Number(it.size)) {
           maxSize = Number(it.size);
@@ -121,21 +129,24 @@ async function play(flag, id, flags) {
     }
     purl = data[position].url
   }
+  // console.debug('我的哔哩 purl =====>' + purl); // js_debug.log
   return JSON.stringify({
     parse: 0,
-    url: purl,    danmaku: dan,    
+    url: purl,
+    danmaku: dan,    
     header: getMb(),
   });
 }
 
 async function search(wd, quick, pg) {
-  if(searchable==1){
+	if(searchable==1){
   if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
   let html = HOST + '/x/web-interface/search/type?search_type=video&keyword=' + wd + '&page=' + pg;
   let data = JSON.parse(await request(html)).data;
   let videos = [];
   data.result.forEach(function(it) {
-    if(it.bvid!==""){       videos.push({
+    if(it.bvid!==""){
+       videos.push({
         vod_id: it.aid,
         vod_name: stripHtmlTag(it.title),
         vod_pic: 'https:' + it.pic,
@@ -149,21 +160,21 @@ async function search(wd, quick, pg) {
       total: data.numResults,
       list: videos,
   });
-  }else{
-	  return null;
-  }
+	}else{
+		return null;
+	}
 }
-import {b} from  './cookie.js';
+
 function getHeader(cookie) {
   let header = {};
-  header['cookie'] = b.cookie;
-  header['User-Agent'] = b.PC_UA;
+  header['cookie'] = cookie;
+  header['User-Agent'] = PC_UA;
   header['Referer'] = 'https://www.bilibili.com';
   return header;
 }
 
 function getMb() {
-  return getHeader(b.cookie);
+  return getHeader(cookie);
 }
 
 function stripHtmlTag(src) {
@@ -210,7 +221,7 @@ function turnDHM(duration) {
   }
   return null;
 }
-import { _ } from "assets://js/lib/cat.js";
+
 export function __jsEvalReturn() {
   return {
       init: init,
