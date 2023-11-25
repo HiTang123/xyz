@@ -7,7 +7,7 @@ let siteKey = '';
 let siteType = 0;
 let searchable=0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
-let cookie = config.cookie;
+
 async function request(reqUrl) {
   const res = await req(reqUrl, {
       headers: getMb(),
@@ -18,7 +18,6 @@ async function request(reqUrl) {
 async function init(cfg) {
   siteKey = cfg.skey;
   siteType = cfg.stype;
-  if (cookie.startsWith('http')) cookie = await request(cookie);
 }
 
 async function home(filter) {
@@ -160,7 +159,7 @@ function getHeader(cookie) {
 }
 
 function getMb() {
-  return getHeader(cookie);
+  return getHeader(config.cookie);
 }
 
 function stripHtmlTag(src) {
