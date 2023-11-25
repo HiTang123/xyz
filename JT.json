@@ -2,11 +2,12 @@
 "spider":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;17d7e3dcde6c9d3ab25b87dcaf77a3cd",
 "wallpaper":"https://hitang.cacifer.repl.co",
 "lives":[
-{"name":"默认直播源","type":0,"playerType":2,"url":"./live/IPV4.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"./live/logo/{name}.png"},
-{"name":"本地直播源","type":0,"playerType":2,"url":"file://tvbox/直播源.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"./live/logo/{name}.png"}
+{"name":"默认直播源","url":"./live/IPV4.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}"},
+{"name":"本地直播源","url":"file://tvbox/直播源.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}"}
 ],
 "sites":[
-{"key":"豆瓣","name":"🎬影视","type":3,"api":"csp_Douban","searchable":0,"ext":"./main/douban.json"},{"key":"戏曲","name":"🎪戏曲大全","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/戏曲大全.js"},
+{"key":"豆瓣","name":"🎬影视","type":3,"api":"csp_Douban","searchable":0,"ext":"./main/douban.json"},
+{"key":"戏曲","name":"🎪戏曲大全","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/戏曲大全.js"},
 {"key":"相声","name":"🎭相声小品","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/相声小品.js"},
 {"key":"央视","name":"🌏央视节目","type":3,"api":"./cat/cntv_open.js","style":{"type":"rect","ratio":1.78}},
 {"key":"纪录","name":"📹纪录片","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/纪录片.js"},
@@ -17,7 +18,7 @@
 {"key":"自学","name":"📋自学教程","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/自学教程.js"},
 {"key":"舞蹈","name":"💃舞蹈健身","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/舞蹈健身.js"},
 {"key":"棋牌","name":"♟️棋牌合集","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/棋牌合集.js"},
-{"key":"体育","name":"🏀体育赛事","type":3,"api":"csp_XPath","searchable":0,"changeable":0,"style":{"type":"list"},"ext":"./main/企鹅直播.json","jar": "./jar/fan.txt;md5;364c0f012e73a8801a69900fc25ae9c1"},
+{"key":"体育","name":"🏀体育运动","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/体育运动.js"},
 {"key":"影音","name":"🎶音乐鉴赏","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/音乐鉴赏.js"},
 {"key":"博看","name":"📖博览群书","type":3,"api":"./cat/bookan_open.js"},
 {"key":"解说","name":"🎙影视解说","type":3,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/影视解说.js"},
@@ -49,7 +50,9 @@
 {"key":"☁云搜5","name":"☁云搜5","type":3,"api":"csp_PanSou","playerType":2,"ext":"file://tvbox/token.txt"},
 {"key":"☁云搜6","name":"☁云搜6","type":3,"api":"csp_XiaoZhiTiao","playerType":2,"ext":"file://tvbox/token.txt"},
 {"key":"☁云搜7","name":"☁云搜7","type":3,"api":"csp_PanSearch","playerType":2,"ext":"file://tvbox/token.txt"},
-{"key":"☁云搜8","name":"☁云搜8","type":3,"api":"csp_Zhaozy","playerType":2,"ext":"file://tvbox/token.txt$$$test2$$$test2"},{"key":"商店","name":"🛒应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market1.json"},{"key":"本地","name":"📂本地文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"recordable":0},
+{"key":"☁云搜8","name":"☁云搜8","type":3,"api":"csp_Zhaozy","playerType":2,"ext":"file://tvbox/token.txt$$$test2$$$test2"},
+{"key":"商店","name":"🛒应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market1.json"},
+{"key":"本地","name":"📂本地文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"recordable":0},
 {"key":"push_agent","name":"🛴手机推送","type":3,"api":"csp_Push","searchable":0,"changeable":0}
 ],
 "parses":[
