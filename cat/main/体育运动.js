@@ -1,6 +1,6 @@
 import { _ } from "assets://js/lib/cat.js";
 let key = '体育运动';
-let homeName = '体育运动';
+let homeName = '体育纪录片 励志';
 let HOST = 'https://api.bilibili.com';
 let siteKey = '';
 let siteType = 0;
