@@ -156,7 +156,7 @@ async function search(wd, quick, pg) {
 import {b} from  './alist_open.js';
 function getHeader(cookie) {
   let header = {};
-  header['cookie'] = b.cookie;
+  header['cookie'] = cookie;
   header['User-Agent'] = b.PC_UA;
   header['Referer'] = 'https://www.bilibili.com';
   return header;
