@@ -61,9 +61,7 @@ async function homeVod() {
 }
 
 async function category(tid, pg, filter, extend) {
-  import {urls} from "https://mirror.ghproxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/JS/urls.js";
-  let html = HOST + urls.B + pg + '&keyword=' + (extend.tid || tid) + '&duration=' + (extend.duration || '') + '&order=' + (extend.order || '');
-  
+  let html = HOST + '/x/web-interface/search/type?search_type=video&page=' + pg + '&keyword=' + (extend.tid || tid) + '&duration=' + (extend.duration || '') + '&order=' + (extend.order || '');
   let data = JSON.parse(await request(html)).data;
   let videos = [];
   
