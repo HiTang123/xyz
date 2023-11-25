@@ -156,7 +156,7 @@ async function search(wd, quick, pg) {
 import {b} from  './cookie.js';
 function getHeader(cookie) {
   let header = {};
-  header['cookie'] = cookie;
+  header['cookie'] = b.cookie;
   header['User-Agent'] = b.PC_UA;
   header['Referer'] = 'https://www.bilibili.com';
   return header;
