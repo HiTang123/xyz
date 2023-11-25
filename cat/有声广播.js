@@ -1,5 +1,6 @@
 import { _ } from "assets://js/lib/cat.js";
 import {config} from "./bili_data.js";
+let key = '有声广播';
 let homeName = config.ysgb_n;
 let HOST = 'https://api.bilibili.com';
 let siteKey = '';
