@@ -22,7 +22,7 @@
 {"key":"影音","name":"🎶音乐鉴赏","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/音乐鉴赏.js"},
 {"key":"博看","name":"📖博览群书","type":3,"changeable":0,"api":"./cat/bookan_open.js"},
 {"key":"解说","name":"🎙影视解说","type":3,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/影视解说.js"},
-{"key":"有声","name":"🎧有声广播","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/有声广播.js"},
+{"key":"有声","name":"🎧有声广播","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/有声广播.js"},
 {"key":"食谱","name":"🥙美食秘笈","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/美食秘笈.js"},
 {"key":"健康","name":"👩‍⚕️健康生活","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/健康生活.js"},
 {"key":"Aid","name":"🚑急救教学","type":3,"api":"csp_FirstAid","searchable":0,"changeable":0,"style":{"type":"rect","ratio":3.8},"jar": "./jar/fan.txt;md5;364c0f012e73a8801a69900fc25ae9c1"},
