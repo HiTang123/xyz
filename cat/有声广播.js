@@ -1,13 +1,12 @@
 import { _ } from "assets://js/lib/cat.js";
 import {config} from "./bili_data.js";
-let key = '有声广播';
 let homeName = config.ysgb_n;
 let HOST = 'https://api.bilibili.com';
 let siteKey = '';
 let siteType = 0;
 let searchable=0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
-let cookie = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/HiTang123/xyz/master/main/cookie.txt";
+let cookie = config.cookie;
 async function request(reqUrl) {
   const res = await req(reqUrl, {
       headers: getMb(),
@@ -19,7 +18,6 @@ async function init(cfg) {
   siteKey = cfg.skey;
   siteType = cfg.stype;
   if (cookie.startsWith('http')) cookie = await request(cookie);
-  // console.debug('我的哔哩 cookie =====>' + cookie); // js_debug.log
 }
 
 async function home(filter) {
