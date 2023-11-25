@@ -1,3 +1,4 @@
+import { _ } from "assets://js/lib/cat.js";
 let HOST = 'https://api.bilibili.com';
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
 let cookie = "SESSDATA=7624af93%2C1696008331%2C862c8%2A42;bili_jct=141a474ef3ce8cf2fedf384e68f6625d;DedeUserID=3493271303096985;DedeUserID__ckMd5=212a836c164605b7";
@@ -8,9 +9,21 @@ async function request(reqUrl) {
   });
   return res.content;
 }
-async function init(cfg) {siteKey = cfg.skey;siteType = cfg.stype;}
-async function home(filter) {return JSON.stringify({class: classes,filters: filterObj,})}
-export async function homeVod() {
+
+async function init(cfg) {
+  siteKey = cfg.skey;
+  siteType = cfg.stype;
+  if (cookie.startsWith('http')) cookie = await request(cookie);
+}
+
+async function home(filter) {
+  return JSON.stringify({
+      class: classes,
+      filters: filterObj,
+  });
+}
+
+async function homeVod() {
   let html = HOST + '/x/web-interface/search/type?search_type=video&keyword='+homeName;
   let data = JSON.parse(await request(html)).data.result;
   let videos = [];
@@ -27,7 +40,7 @@ export async function homeVod() {
   });
 }
 
-export async function category(tid, pg, filter, extend) {
+async function category(tid, pg, filter, extend) {
   let html = HOST + '/x/web-interface/search/type?search_type=video&page=' + pg + '&keyword=' + (extend.tid || tid) + '&duration=' + (extend.duration || '') + '&order=' + (extend.order || '');
   let data = JSON.parse(await request(html)).data;
   let videos = [];
@@ -49,7 +62,7 @@ export async function category(tid, pg, filter, extend) {
   });
 }
 
-export async function detail(id) {
+async function detail(id) {
   let data = JSON.parse(await request(HOST + '/x/web-interface/view?aid=' + id)).data;
   let vod = {
       vod_id: data.aid,
@@ -78,7 +91,7 @@ export async function detail(id) {
   });
 }
 
-export async function play(flag, id, flags) {
+async function play(flag, id, flags) {
   let ids = id.split('_');
   let html = HOST + '/x/player/playurl?avid=' + ids[0] + '&cid=' + ids[1] + '&qn=116';
   let data = JSON.parse(await request(html)).data.durl;
@@ -107,7 +120,7 @@ export async function play(flag, id, flags) {
   });
 }
 
-export async function search(wd, quick, pg) {
+async function search(wd, quick, pg) {
   if(searchable==1){
   if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
   let html = HOST + '/x/web-interface/search/type?search_type=video&keyword=' + wd + '&page=' + pg;
