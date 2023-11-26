@@ -3,8 +3,8 @@
     "name": "打赏码",
     "list": [
       {
-        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg"
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.png"
       }
 	]
   },
@@ -12,34 +12,39 @@
     "name": "TVBox",
     "list": [
       {
-        "name": "电视正式版",
+        "name": "影视TV版",
         "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png",
-        "version": "Android-5.1+"
+        "version": "安卓-5.1+"
       },
-      {
-        "name": "电视内测版",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
+	  {
+        "name": "影视TV版",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png",
-        "version": "Android-5.1+"
+		"version": "安卓-4.x"
       },
       {
-        "name": "手机正式版",
+        "name": "影视手机版",
         "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png",
-        "version": "Android-5.1+"
+        "version": "安卓-5.1+"
       },
       {
-        "name": "手机内测版",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png",
-        "version": "Android-5.1+"
+        "name": "CatBox",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/CatBox.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/CatBox.png",
+        "version": "11/22"
       },
       {
-        "name": "Android-4.x",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png"
-      } 
+        "name": "takagen99",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/takagen99.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/takagen99.png",
+        "version": "11/21"
+      },
+	  {
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.png"
+      }
     ]
   },
   {
@@ -48,17 +53,48 @@
       {
         "name": "当贝桌面",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/dbzm.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/dbzm.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/dbzm.png",
+		"version": "桌面"
       },
 	  {
         "name": "小白文件管理器",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/xbwj.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/xbwj.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/xbwj.png",
+		"version": "文件管理"
       },
       {
         "name": "nplayer",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.png",
+		"version": "万能播放器"
+      },
+	  {
+        "name": "Kodi",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/kodi.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/kodi.png",
+		"version": "万能播放器"
+      },
+	  {
+        "name": "DIYP影音",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/diyp.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/diyp.png",
+		"version": "流媒体播放器"
+      },
+	  {
+        "name": "百川影音",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/bcyy.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/bcyy.png",
+		"version": "流媒体播放器"
+      },
+	  {
+        "name": "TiviMate",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/tivimate.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/tivimate.png",
+		"version": "流媒体播放器"
+      },
+	  {
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码1.png"
       }
      ]
   },
@@ -68,12 +104,23 @@
       {
         "name": "TVBox助手",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/tvbox_zhushou.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/tvbox_zhushou.png"
       },
 	  {
         "name": "阿里云Webdav",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/阿里云Webdav.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/阿里云Webdav.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/阿里云Webdav.png",
+		"version": "WebDav"
+      },
+	  {
+        "name": "Televizo",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/televizo.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/televizo.png",
+		"version": "流媒体播放器"
+      },
+	  {
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.png",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码1.png"
       }
      ]
   },
