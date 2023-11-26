@@ -2,8 +2,8 @@
 "spider":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;17d7e3dcde6c9d3ab25b87dcaf77a3cd",
 "wallpaper":"https://hitang.cacifer.repl.co",
 "lives":[
-{"name":"默认直播源","url":"./live/IPV4.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}"},
-{"name":"本地直播源","url":"file://tvbox/直播源.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}"}
+{"name":"默认直播源","playerType":2,"url":"./live/IPV4.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}"},
+{"name":"本地直播源","playerType":2,"url":"file://tvbox/直播源.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}"}
 ],
 "sites":[
 {"key":"豆瓣","name":"🎬影视","type":3,"api":"csp_Douban","searchable":0,"ext":"./main/douban.json"},
@@ -36,8 +36,8 @@
 {"key":"小学","name":"📚小学课堂","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/小学课堂.js"},
 {"key":"初中","name":"📚初中课堂","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/初中课堂.js"},
 {"key":"高中","name":"📚高中课堂","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/高中课堂.js"},
-{"key":"本地","name":"📂本地文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"recordable":0},
 {"key":"商店","name":"🛒应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market1.json"},
+{"key":"本地","name":"📂本地文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"recordable":0},
 {"key":"🔍搜索1","name":"🔍搜索源1","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/荐片.js","playerType":"1"},
 {"key":"🔍搜索2","name":"🔍搜索源2","type":3,"api":"csp_NanGua","jar": "./jar/1013.qj.jar;md5;D8BFAD3D966D7B40EF50E04934B38B60"},
 {"key":"🔍搜索3","name":"🔍搜索源3","type":3,"api":"csp_Appto","ext":"nbOdUoFXWvBmYlNj/qG8q6ytWFIZwtQPtFFI3cwHTOjM7FKVzTbwY0UHQEImlWb/pHq5gMm6LS2HhJI1m5+/s20tWUHsfJ1BIc4rlkWL5xqOQ/EhgcwCwcKi7ECmsFCBAxb69vZB0qXeElk+GDnHEPxoiB3EqjFfAJ88lClO/fKiZKGBnTdyRVG8VAvmercLgiklQwl6jSHVHanEdkZhMj2jIUEKsVeBWOocRzhJ/7457CvmQd/kLyTabYHJ+jrT7m4iVCnGDL7Aw5W+yeOF8FoH2zfTBBARd0o/8ACk+C7pbFTHI3HbjgiBWatiYevYz8buFQdxmSyXA1kgq5hi8WQ5f/STXW4vtO2ZfbVvEHE4T4MKyb1Cs9Hd0daU/Hb1dukLo9sV7fIisMWkr0UuDvYJJMq6xBU5vnFqxYwp59NsgGK/lc6P7oYWERiZWW6Oe/aVFSapfWILTqV1/UBrsjmgtK8XZTvY4hWh0khKyxwpdyQkQ1JzXfB+CHtM3cPXMKEol3PP9XoMLy4K93+/AH2ty15mcmpBfzip4mZmy8r0g+yV8vqaanhRcBDEvZMy0SgWW59YgbavdsNm7TeIrs/WasVtLrLeRPn5jvlc/Q4FXfx320XO3LI0jMqA0f++gQjCUvfsB3wdi29Sv7NYtMqj8ltg23bzuHg2lfZG+nM8=","jar": "./jar/1013.qj.jar;md5;D8BFAD3D966D7B40EF50E04934B38B60"},
