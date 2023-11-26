@@ -77,6 +77,12 @@ var rule = {
         setResult(d);
     `,
 	二级: `js:
+        function getLink(data) {
+            let link = data.map(it => {
+                return it.name
+            }).join(', ');
+            return link
+        }
 		try {
             let html = request(input);
             html = JSON.parse(html);
@@ -89,8 +95,8 @@ var rule = {
                 vod_year: node.year.title,
                 vod_area: node.area.title,
                 vod_remarks: node.score,
-                vod_actor: node.actors,
-                vod_director:node.directors,
+                vod_actor: getLink(node.actors),
+                vod_director: getLink(node.directors),
                 vod_content: node.description.strip()
             };
             if (typeof play_url === 'undefined') {
