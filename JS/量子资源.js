@@ -61,6 +61,7 @@ var rule = {
            VOD = list[0];
             VOD.vod_blurb = VOD.vod_blurb.replace(/　/g, '').replace(/<[^>]*>/g, '');
             VOD.vod_content = VOD.vod_content.replace(/　/g, '').replace(/<[^>]*>/g, '');
+			VOD.vod_play_from = VOD.vod_play_from.replace('lzm3u8','👮‍勿信视频内广告');
         }
     `,
     /**
