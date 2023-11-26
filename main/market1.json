@@ -40,6 +40,10 @@
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/takagen99.apk",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/takagen99.png",
         "version": "11/21"
+      },
+	  {
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg"
       }
     ]
   },
@@ -60,6 +64,30 @@
         "name": "nplayer",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.apk",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.png"
+      },
+	  {
+        "name": "Kodi",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/kodi.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/kodi.png"
+      },
+	  {
+        "name": "DIYP影音",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/diyp.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/diyp.png"
+      },
+	  {
+        "name": "百川影音",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/bcyy.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/bcyy.png"
+      },
+	  {
+        "name": "TiviMate",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/tivimate.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/tivimate.png"
+      },
+	  {
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg"
       }
      ]
   },
@@ -75,6 +103,15 @@
         "name": "阿里云Webdav",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/阿里云Webdav.apk",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/阿里云Webdav.png"
+      },
+	  {
+        "name": "Televizo",
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/televizo.apk",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/televizo.png"
+      },
+	  {
+        "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg"
       }
      ]
   },
