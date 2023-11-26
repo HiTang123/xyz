@@ -1,5 +1,5 @@
 import { _ } from './lib/cat.js';
-let key = '视聚场';
+let key = '央视官网';
 let HOST = 'http://api.cntv.cn';
 let siteKey = '';
 let siteType = 0;
