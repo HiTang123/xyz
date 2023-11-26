@@ -1,10 +1,7 @@
 {
 "spider":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;17d7e3dcde6c9d3ab25b87dcaf77a3cd",
 "wallpaper":"https://hitang.cacifer.repl.co",
-"lives":[
-{"name":"默认直播源","playerType":2,"url":"./live/IPV4.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}"},
-{"name":"本地直播源","playerType":2,"url":"file://tvbox/直播源.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}"}
-],
+"lives":[{"name":"live","type":0,"playerType":2,"url":"./live/IPV4.txt","ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}"}],
 "sites":[
 {"key":"豆瓣","name":"🎬影视","type":3,"api":"csp_Douban","searchable":0,"ext":"./main/douban.json"},
 {"key":"戏曲","name":"🎪戏曲大全","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/戏曲大全.js"},
@@ -20,12 +17,12 @@
 {"key":"棋牌","name":"♟️棋牌合集","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/棋牌合集.js"},
 {"key":"体育","name":"🏀体育运动","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/体育运动.js"},
 {"key":"影音","name":"🎶音乐鉴赏","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/音乐鉴赏.js"},
-{"key":"博看","name":"📖博览群书","type":3,"changeable":0,"api":"./cat/bookan_open.js"},
+{"key":"博看","name":"📖博览群书","type":3,"changeable":0,"changeable":0,"api":"./cat/bookan_open.js"},
 {"key":"解说","name":"🎙影视解说","type":3,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/影视解说.js"},
 {"key":"有声","name":"🎧有声广播","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/有声广播.js"},
 {"key":"食谱","name":"🥙美食秘笈","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/美食秘笈.js"},
 {"key":"健康","name":"👩‍⚕️健康生活","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/健康生活.js"},
-{"key":"Aid","name":"🚑急救教学","type":3,"api":"csp_FirstAid","searchable":0,"changeable":0,"style":{"type":"rect","ratio":3.8},"jar": "./jar/fan.txt;md5;364c0f012e73a8801a69900fc25ae9c1"},
+{"key":"Aid","name":"🚑急救教学","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":3.8},"api":"csp_FirstAid","jar": "./jar/fan.txt;md5;364c0f012e73a8801a69900fc25ae9c1"},
 {"key":"安全","name":"👮‍安全防骗","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/安全防骗.js"},
 {"key":"心理","name":"💞心理健康","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/心理健康.js"},
 {"key":"童趣","name":"👶童趣生活","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./JS/drpy2_1.min.js","ext":"./JS/童趣.js"},
