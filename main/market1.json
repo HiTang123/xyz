@@ -53,7 +53,8 @@
       {
         "name": "当贝桌面",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/dbzm.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/dbzm.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/dbzm.png",
+		"version": "桌面"
       },
 	  {
         "name": "小白文件管理器",
@@ -65,13 +66,13 @@
         "name": "nplayer",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.apk",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.png",
-		"version": "播放器"
+		"version": "万能播放器"
       },
 	  {
         "name": "Kodi",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/kodi.apk",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/kodi.png",
-		"version": "播放器"
+		"version": "万能播放器"
       },
 	  {
         "name": "DIYP影音",
