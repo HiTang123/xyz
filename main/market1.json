@@ -58,32 +58,38 @@
 	  {
         "name": "小白文件管理器",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/xbwj.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/xbwj.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/xbwj.png",
+		"version": "文件管理"
       },
       {
         "name": "nplayer",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/nplayer.png",
+		"version": "播放器"
       },
 	  {
         "name": "Kodi",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/kodi.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/kodi.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/kodi.png",
+		"version": "播放器"
       },
 	  {
         "name": "DIYP影音",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/diyp.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/diyp.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/diyp.png",
+		"version": "流媒体播放器"
       },
 	  {
         "name": "百川影音",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/bcyy.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/bcyy.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/bcyy.png",
+		"version": "流媒体播放器"
       },
 	  {
         "name": "TiviMate",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/tivimate.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/tivimate.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/tivimate.png",
+		"version": "流媒体播放器"
       },
 	  {
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg",
@@ -102,12 +108,14 @@
 	  {
         "name": "阿里云Webdav",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/阿里云Webdav.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/阿里云Webdav.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/阿里云Webdav.png",
+		"version": "WebDav"
       },
 	  {
         "name": "Televizo",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/televizo.apk",
-        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/televizo.png"
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/apk/televizo.png",
+		"version": "流媒体播放器"
       },
 	  {
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/打赏码.jpg",
