@@ -1,6 +1,6 @@
 var rule = {
     title: '魔都资源',
-    host: 'https://www.moduzy.com',
+    host: 'https://www.moduzy1.com',
     homeUrl: '/api.php/provide/vod/?ac=detail',
     searchUrl: '/api.php/provide/vod/?ac=detail&wd=**&pg=fypage',
     detailUrl: '/api.php/provide/vod/?ac=detail&ids=fyid', //非必填,二级详情拼接链接
