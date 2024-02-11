@@ -238,7 +238,7 @@ Wang-我的女人,video://https://www.huya.com/11352940
 
 
 综艺轮播,#genre#
-辽台好物种草,https://www.douyu.com/9067836?dyshid=0-17e36fa7f8da20be2d27f06f00081601&dyshci=183
+辽台好物种草,video://https://www.douyu.com/9067836?dyshid=0-17e36fa7f8da20be2d27f06f00081601&dyshci=183
 辽视欢乐大集锦,https://www.goodiptv.club/douyu/9403712
 辽视辽宁春晚,https://www.goodiptv.club/douyu/9403738
 辽视组团上春晚,https://www.goodiptv.club/douyu/9406416
