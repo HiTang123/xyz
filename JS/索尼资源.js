@@ -1,6 +1,6 @@
 var rule = {
     title: '索尼资源',
-    host: 'https://www.snzy2.com',
+    host: 'https://suoniapi.com',
     homeUrl: '/api.php/provide/vod/from/snm3u8?ac=detail',
     searchUrl: '/api.php/provide/vod/from/snm3u8?ac=detail&wd=**&pg=fypage',
     detailUrl: '/api.php/provide/vod/from/snm3u8?ac=detail&ids=fyid', //非必填,二级详情拼接链接
