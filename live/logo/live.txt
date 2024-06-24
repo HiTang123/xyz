@@ -1,5 +1,5 @@
 
-央视,#genre#
+央视频道,#genre#
 CCTV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227262/1.m3u8
 CCTV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227163/1.m3u8
 CCTV1,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226706/1.m3u8
@@ -85,7 +85,7 @@ CETV4,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227200/1.m3u8
 
 
 
-卫视,#genre#
+卫视频道,#genre#
 
 北京卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227179/1.m3u8
 北京卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226452/1.m3u8
@@ -200,7 +200,7 @@ CETV4,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227200/1.m3u8
 大湾区卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227278/1.m3u8
 
 
-河南,#genre#
+河南地方,#genre#
 
 河南卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227198/1.m3u8
 河南卫视,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226639/1.m3u8
@@ -452,33 +452,6 @@ TVB西游记,http://43.128.40.42:198/虎牙直播/huya.php?id=23728660
 奇袭,http://hls.cntv.kcdnvip.com/asp/hls/850/0303000a/3/default/ac8b28fb66104aa7a5e3cd5a10ea986b/850.m3u8
 小花,http://hls.cntv.kcdnvip.com/asp/hls/850/0303000a/3/default/f97fb71bff5947ddaf905cc121c42ee4/850.m3u8
 少林寺,http://hls.cntv.kcdnvip.com/asp/hls/850/0303000a/3/default/8af9ff377238407e927e597a1
-
-
-4K/8K,#genre#
-
-苏州4K,http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
-
-欢笑剧场4k,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226323/1.m3u8
-欢笑剧场4k,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226704/1.m3u8
-
-CCTV4K-25P-HLG源,http://159.75.85.63:5679/cctv4k.php
-
-4K影视,http://nas.jdshipin.com:8801/4kys.php
-
-斗鱼4K电影,http://159.75.85.63:35455/douyu/9249162
-
-
-CCTV8K-IPV6,http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8?icpid=3&RTS=1659435610&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
-CCTV1-4K-IPV6,http://[2409:8087:2001:20:2800:0:df6e:eb02]/ott.mobaibox.com/PLTV/4/224/3221227896/index.m3u8
-CCTV3-4K-IPV6,http://[2409:8087:2001:20:2800:0:df6e:eb20]/ott.mobaibox.com/PLTV/4/224/3221228499/index.m3u8
-CCTV5-4K-IPV6,http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
-CCTV6-4K-IPV6,http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228516/index.m3u8
-CCTV8-4K-IPV6,http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/PLTV/4/224/3221228578/index.m3u8
-BesTV-4K-IPV6,http://[2409:8087:5e01:34::30]:6610/ZTE_CMS/00000001000000060000000000000202/index.m3u8?IAS
-河南4K-IPV6,http://[2409:8087:4400:20:1:a0f:12:33]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226526/index.m3u8
-
-
-
 
 
 纪录片,#genre#
