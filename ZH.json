@@ -6,7 +6,7 @@
 {"name":"IPV4","type":0,"playerType":1,"url":"./live/logo/live.txt","logo":"./live/logo/{name}.png"},
 {"name":"IPV6","type":0,"playerType":1,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u"},
 {"name":"YY轮播","type":0,"playerType":1,"url":"http://159.75.85.63:35455/yylunbo.m3u?url=http://159.75.85.63:35455"},
-{"name":"虎牙轮播","type":0,"playerType":1,"url":"http://159.75.85.63:35455/huyayqk.m3u?url=http://159.75.85.63:35455"},
+{"name":"虎牙轮播","type":0,"playerType":2,"url":"http://159.75.85.63:35455/huyayqk.m3u?url=http://159.75.85.63:35455"},
 {"name":"斗鱼轮播","type":0,"playerType":1,"url":"http://159.75.85.63:35455/douyuyqk.m3u?url=http://159.75.85.63:35455"},
 {"name":"本地直播源","type":0,"playerType":1,"url":"file://tvbox/本地直播源.txt","logo":"./live/logo/{name}.png"}
 ],
