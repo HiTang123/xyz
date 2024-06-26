@@ -1,6 +1,7 @@
 {
 "spider":"./jar/custom_spider.jar;md5;303EADD615EA122247A00E08689F0787",
-"wallpaper":"http://www.饭太硬.top/深色壁纸/api.php",
+"wallpaper":"https://深色壁纸.xxooo.cf/",
+"logo":"./live/img/logo.gif",
 "lives":[
 {"name":"IPV6","type":0,"playerType":1,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u"}
 ],
