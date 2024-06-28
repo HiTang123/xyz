@@ -128,6 +128,11 @@
     "name": "jar库",
     "list": [
       {
+        "name": "OK",
+        "url": "https://gitee.com/okjack/okk/raw/master/okpng.txt",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png"
+      },
+	  {
         "name": "饭太硬",
         "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/fan.txt",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png"
