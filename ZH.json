@@ -13,8 +13,8 @@
 "sites":[
 {"key":"豆瓣","name":"🎬影视┃推荐","type":3,"api":"csp_Douban","searchable":0,"ext":"./main/douban.json","jar":"file://Download/custom_spider.jar"},
 {"key":"哔哩","name":"🅱Bilibili┃视频","type":3,"api":"./JS/bili.min.js","changeable":0,"playerType":2,"recordable":0},
-{"key":"我的阿里","name":"☁阿里┃云盘","type":3,"api":"csp_MyAli","searchable":0,"changeable":0,"ext":{"token":"file://tvbox/token.txt"},"style":{"type":"list"},"timeout":30,"jar":"file://Download/okpng.txt"},
 {"key":"AList","name":"🅰AList┃网盘","type":3,"api":"csp_AList","playerType":1,"recordable":0,"ext":"file://tvbox/%E6%8C%82%E8%BD%BD_Alist.json","jar":"file://Download/custom_spider.jar"},
+{"key":"我的阿里","name":"💿阿里云┃网盘","type":3,"api":"csp_MyAli","searchable":0,"changeable":0,"ext":{"token":"file://tvbox/token.txt"},"style":{"type":"list"},"timeout":30,"jar":"file://Download/okpng.txt"},
 {"key":"WebDAV","name":"🌈WebDAV┃网盘","type":3,"api":"csp_WebDAV","playerType":1,"recordable":0,"ext":"file://tvbox/%E6%8C%82%E8%BD%BD_WebDAV.json","jar":"file://Download/custom_spider.jar"},
 {"key":"直播转点播","name":"📺网络┃点播","type":3,"api":"./JS/lf_live2vod.js","ext":"file://tvbox/%E7%82%B9%E6%92%AD%E5%88%97%E8%A1%A8/%E6%8C%82%E8%BD%BD%E7%AE%A1%E7%90%86.txt","playerType":2,"recordable":0,"style":{"type":"list"}},
 {"key":"JustLive","name":"📺网络┃直播","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/JustLive.js","changeable":0,"playerType":2,"recordable":0,"style":{"type":"rect","ratio":1.597}},
