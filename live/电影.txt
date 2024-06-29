@@ -113,7 +113,7 @@
 杀手之王,https://cdn10.yzzy-tv-cdn.com/20221023/2307_200a0670/index.m3u8
 太极张三丰,https://cdn8.yzzy-tv-cdn.com/20220713/4780_8d927b57/index.m3u8
 黄飞鸿之一:壮志凌云,https://s1.bfzycdn.com/video/huangfeihong/HD国语/index.m3u8
-黄飞鸿之二:男儿当自强,hhttps://s1.bfzycdn.com/video/huangfeihongzhiernanerdangziqiang/HD国语/index.m3u8
+黄飞鸿之二:男儿当自强,https://s1.bfzycdn.com/video/huangfeihongzhiernanerdangziqiang/HD国语/index.m3u8
 黄飞鸿之三:狮王争霸,https://s1.bfzycdn.com/video/huangfeihongzhisanshiwangzhengba/HD国语/index.m3u8
 黄飞鸿之西域雄狮,https://s1.bfzycdn.com/video/huangfeihongzhixiyuxiongshi/HD国语/index.m3u8
 黄飞鸿之铁鸡斗蜈蚣,https://s1.bfzycdn.com/video/huangfeihongzhitiejidouwugong/HD国语/index.m3u8
