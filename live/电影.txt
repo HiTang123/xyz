@@ -4,6 +4,8 @@
 画皮,https://s7.fsvod1.com/20220608/hqP36UDg/index.m3u8
 赛虎,https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/34505162ca0848af9e23d33ed4018088/1200.m3u8
 武当,https://s2.bfzycdn.com/video/wudang/HD国语/index.m3u8
+举起手来1,https://s1.bfzycdn.com/video/juqishoulai/HD国语/index.m3u8
+举起手来2,https://s1.bfzycdn.com/video/juqishoulai2zhuijiaduowanhao/HD国语/index.m3u8
 
 
 小戏骨系列,#genre#
