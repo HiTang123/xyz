@@ -117,7 +117,7 @@ var rule = {
 	                url: "https://cfss.cc/cdn/dyu/" + jo.roomId + ".flv"
                 },{
                     title: "解析②",
-	                url: "video://http://159.75.85.63:35455/douyu/" + jo.roomId
+	                url: "push://http://159.75.85.63:35455/douyu/" + jo.roomId
                 }
             );
         };
@@ -127,14 +127,14 @@ var rule = {
 	                url: "https://cfss.cc/cdn/hy/" + jo.roomId + ".flv"
                 },{
                     title: "解析②",
-	                url: "video://http://159.75.85.63:35455/huya/" + jo.roomId
+	                url: "push://http://159.75.85.63:35455/huya/" + jo.roomId
                 }
             );
         };
         if(jo.platForm.includes("bili")){
             d.push({
                     title: "哔哩解析",
-	                url: "video://http://159.75.85.63:35455/bilibili/" + jo.roomId
+	                url: "push://http://159.75.85.63:35455/bilibili/" + jo.roomId
                 }
             );
         };
@@ -144,7 +144,7 @@ var rule = {
 	                url: "https://cfss.cc/cdn/dy/" + jo.roomId + ".flv"
                 },{
                     title: "解析②",
-	                url: "video://http://159.75.85.63:35455/douyin/" + jo.roomId
+	                url: "push://http://159.75.85.63:35455/douyin/" + jo.roomId
                 }
             );
         };
