@@ -196,7 +196,7 @@
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
       }
     },    {
-      "key": "api.apilyzy.com",
+      "key": "jkunzyapi.com",
       "name": "成人12",
       "type": 1,
       "api": "https://jkunzyapi.com/api.php/provide/vod",
