@@ -113,14 +113,20 @@ var rule = {
         });
         if(jo.platForm.includes("douyu")){
             d.push({
-                    title: "斗鱼解析",
+                    title: "解析①",
+	                url: "https://cfss.cc/cdn/dyu/" + jo.roomId + ".flv"
+                },{
+                    title: "解析②",
 	                url: "push://http://159.75.85.63:35455/douyu/" + jo.roomId
                 }
             );
         };
         if(jo.platForm.includes("huya")){
             d.push({
-                    title: "虎牙解析",
+                    title: "解析①",
+	                url: "https://cfss.cc/cdn/hy/" + jo.roomId + ".flv"
+                },{
+                    title: "解析②",
 	                url: "push://http://159.75.85.63:35455/huya/" + jo.roomId
                 }
             );
@@ -134,12 +140,15 @@ var rule = {
         };
         if(jo.platForm.includes("douyin")){
             d.push({
-                    title: "抖音解析",
+                    title: "解析①",
+	                url: "https://cfss.cc/cdn/dy/" + jo.roomId + ".flv"
+                },{
+                    title: "解析②",
 	                url: "push://http://159.75.85.63:35455/douyin/" + jo.roomId
                 }
             );
         };
-        VOD.vod_play_from = "选择画质";
+        VOD.vod_play_from = "JustLive";
         VOD.vod_play_url = d.map(function(it) {
             // return it.title + "$" + it.url
             return it.title + "$" + play_url + urlencode(it.url + "|" + jo.platForm + "|" + jo.roomId)
