@@ -34,7 +34,7 @@
 {"key":"libvio影视[js]","name":"🍍LIBVIO┃JS","type":3,"api":"./JS/drpy2.min.js","playerType":2,"ext":"./JS/LIBVIO.js","timeout":30},
 {"key":"子子影视[js]","name":"🎐子子┃JS","type":3,"api":"./JS/drpy2.min.js","playerType":2,"ext":"./JS/%e5%ad%90%e5%ad%90%e5%bd%b1%e8%a7%86.js","timeout":30},
 {"key":"csp_Bttoo","name":"🍄比特┃JS","type":3,"api":"./JS/drpy2.min.js","playerType":1,"ext":"./JS/两个BT.js","timeout":30},
-{"key":"玩偶","name":"👽玩偶┃FTY","type":3,"api":"csp_WoGG","ext":{"aliToken":"file://tvbox/token.txt","quarkCookie":"tvbox/cookie.txt","from":"4k|auto|fhd","siteUrl":"https://www.wogg.link/","danMu":"弹"}},
+{"key":"玩偶","name":"👽玩偶┃FTY","type":3,"api":"csp_WoGG","ext":{"aliToken":"file://tvbox/token.txt","quarkCookie":"file://tvbox/cookie.txt","from":"4k|auto|fhd","siteUrl":"https://www.wogg.link/"}},
 {"key":"YiSo","name":"😹易搜┃FTY","type":3,"api":"csp_YiSo","ext":{"aliToken":"file://tvbox/token.txt","from":"4k|auto|fhd"}},
 {"key":"PanSou","name":"🦊盘搜┃FTY","type":3,"api":"csp_PanSou","ext":{"aliToken":"file://tvbox/token.txt","from":"4k|auto|fhd"}},
 {"key":"UpYun","name":"😻Up搜┃FTY","type":3,"api":"csp_UpYun","ext":{"aliToken":"file://tvbox/token.txt","from":"4k|auto|fhd"}},

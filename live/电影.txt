@@ -1,9 +1,9 @@
 老电影,#genre#
-武林志,https://1080p.jszyplay.com/play/9av5yvLe/index.m3u8
+武林志,https://s1.bfzycdn.com/video/wulinzhi/HD国语/index.m3u8
 少林寺$https://vip.ffzy-play6.com/20221128/8988_cfde6cf0/index.m3u8  
 画皮,https://s7.fsvod1.com/20220608/hqP36UDg/index.m3u8
-赛虎,https://vod1.xmyysw.com/20221116/TvgAN9PM/index.m3u8
-武当,https://vip.lz-cdn1.com/20220424/3107_597eb07e/index.m3u8
+赛虎,https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/34505162ca0848af9e23d33ed4018088/1200.m3u8
+武当,https://s2.bfzycdn.com/video/wudang/HD国语/index.m3u8
 
 
 小戏骨系列,#genre#
