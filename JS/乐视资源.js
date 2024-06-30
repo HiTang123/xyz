@@ -14,7 +14,7 @@ var rule = {
     limit: 6,
     url: '/api.php/provide/vod/?ac=detail&t=fyclass&pg=fypage&f=',
     class_name: '短剧&国产剧&美剧&韩剧&动作片&科幻片&恐怖片&战争片&剧情片&喜剧片&爱情片&国漫&欧美动漫&日韩动漫',
-    class_url: '54&22&4&23&6&8&9&11&10&12&7&31&33&32',
+    class_url: '54&22&04&23&06&08&09&11&10&12&07&31&33&32',
     //推荐: 'json:list;vod_name;vod_pic;vod_remarks;vod_id', // double: true, // 推荐内容是否双层定位
     推荐: '',
     // 一级: 'json:list;vod_name;vod_pic;vod_remarks;vod_id',
