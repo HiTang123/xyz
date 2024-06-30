@@ -2,7 +2,8 @@ var rule = {
     title: '量子资源',
     host: 'https://cj.lziapi.com',
     homeUrl: '/api.php/provide/vod/from/lzm3u8?ac=detail',
-    searchUrl: '/api.php/provide/vod/from/lzm3u8?ac=detail&wd=**&pg=fypage',
+    //searchUrl: '/api.php/provide/vod/from/lzm3u8?ac=detail&wd=**&pg=fypage',
+    searchUrl: 'https://search.lziapi.com/json-api/?dname=liangzi&key=**&count=50&pg=fypage',
     detailUrl: '/api.php/provide/vod/from/lzm3u8?ac=detail&ids=fyid', //非必填,二级详情拼接链接
     searchable: 2,
     quickSearch: 0,
@@ -73,7 +74,7 @@ var rule = {
         // 忽略分类
         let cate_exclude = '34,35,45';
         let html = request(input);
-        let list = JSON.parse(html).list;
+        let list = JSON.parse(html).posts;
         list.forEach(function (it){
             if(!cate_exclude.match(it.type_id)){
                 d.push({
