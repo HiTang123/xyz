@@ -1,10 +1,10 @@
 var rule = {
     title: '暴风资源',
-    host: 'https://bfzyapi.com',
-    homeUrl: '/api.php/provide/vod/?ac=detail',
+    host: '',
+    homeUrl: 'https://bfzyapi.com/api.php/provide/vod/?ac=detail',
     //searchUrl: '/api.php/provide/vod/?ac=detail&wd=**&pg=fypage',
     searchUrl: 'https://search.bfzyapi.com/json-api/?dname=baofeng&key=**&count=50&pg=fypage',
-    detailUrl: '/api.php/provide/vod/?ac=detail&ids=fyid', //非必填,二级详情拼接链接
+    detailUrl: 'https://bfzyapi.com/api.php/provide/vod/?ac=detail&ids=fyid', //非必填,二级详情拼接链接
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
@@ -13,7 +13,7 @@ var rule = {
     multi: 1,
     timeout: 5000,
     limit: 6,
-    url: '/api.php/provide/vod/?ac=detail&t=fyclass&pg=fypage&f=',
+    url: 'https://bfzyapi.com/api.php/provide/vod/?ac=detail&t=fyclass&pg=fypage&f=',
     class_name: '国产剧&美剧&韩剧&日剧&动作片&科幻片&恐怖片&战争片&剧情片&喜剧片&爱情片&国漫&欧美动漫&日韩动漫',
     class_url: '31&32&34&36&21&24&23&27&26&22&25&40&42&41',
     推荐: 'json:list;vod_name;vod_pic;vod_remarks;vod_id', // double: true, // 推荐内容是否双层定位
