@@ -1,9 +1,9 @@
 var rule = {
     title: '黑木耳资源',
     host: 'https://heimuer.tv',
-    homeUrl: '/api.php/provide/vod/from/heimuer?ac=detail',
-    searchUrl: '/api.php/provide/vod/from/heimuer?ac=detail&wd=**&pg=fypage',
-    detailUrl: '/api.php/provide/vod/from/heimuer?ac=detail&ids=fyid', //非必填,二级详情拼接链接
+    homeUrl: '/api.php/provide/vod/?ac=detail',
+    searchUrl: '/api.php/provide/vod/?ac=detail&wd=**&pg=fypage',
+    detailUrl: '/api.php/provide/vod/?ac=detail&ids=fyid', //非必填,二级详情拼接链接
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
@@ -12,9 +12,9 @@ var rule = {
     multi: 1,
     timeout: 5000,
     limit: 6,
-    url: '/api.php/provide/vod/from/heimuer?ac=detail&t=fyclass&pg=fypage&f=',
+    url: '/api.php/provide/vod/?ac=detail&t=fyclass&pg=fypage&f=',
     class_name: '短剧&国产剧&美剧&韩剧&动作片&科幻片&恐怖片&战争片&剧情片&喜剧片&爱情片&国漫&欧美动漫&日韩动漫',
-    class_url: '27&13&30&15&7&25&12&34&6&10&23&60&57&58',
+    class_url: '47&13&30&15&7&25&12&34&6&10&23&60&57&58',
     //推荐: 'json:list;vod_name;vod_pic;vod_remarks;vod_id', // double: true, // 推荐内容是否双层定位
     推荐: '',
     // 一级: 'json:list;vod_name;vod_pic;vod_remarks;vod_id',
