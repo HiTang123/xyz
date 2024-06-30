@@ -2,7 +2,8 @@ var rule = {
     title: '暴风资源',
     host: 'https://bfzyapi.com',
     homeUrl: '/api.php/provide/vod/?ac=detail',
-    searchUrl: '/api.php/provide/vod/?ac=detail&wd=**&pg=fypage',
+    //searchUrl: '/api.php/provide/vod/?ac=detail&wd=**&pg=fypage',
+    searchUrl: 'https://search.bfzyapi.com/json-api/?dname=baofeng&key=**&count=50&pg=fypage',
     detailUrl: '/api.php/provide/vod/?ac=detail&ids=fyid', //非必填,二级详情拼接链接
     searchable: 2,
     quickSearch: 0,
@@ -71,7 +72,7 @@ var rule = {
         // 忽略分类
         let cate_exclude = '29,51,52';
         let html = request(input);
-        let list = JSON.parse(html).list;
+        let list = JSON.parse(html).posts;
         list.forEach(function (it){
             if(!cate_exclude.match(it.type_id)){
                 d.push({
