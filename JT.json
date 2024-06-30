@@ -43,9 +43,10 @@
 {"key":"🔍搜索2","name":"🔍搜索源2","type":3,"api":"csp_NanGua","jar": "./jar/1013.qj.jar;md5;D8BFAD3D966D7B40EF50E04934B38B60"},
 {"key":"🔍搜索3","name":"🔍搜索源3","type":3,"api":"csp_Sp360","jar":"./jar/1023.repl.jar;md5;bab8f39fda844e7b2a8a423010aec3dd"},
 {"key":"🔍搜索4","name":"🔍搜索源4","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/黑木耳资源.js"},
-{"key":"🔍搜索5","name":"🔍搜索源5","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/非凡资源.js"},
-{"key":"🔍搜索6","name":"🔍搜索源6","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/量子资源.js"},
-{"key":"🔍搜索7","name":"🔍搜索源7","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/魔都资源.js"},
+{"key":"🔍搜索5","name":"🔍搜索源5","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/乐视资源.js"},
+{"key":"🔍搜索6","name":"🔍搜索源6","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/非凡资源.js"},
+{"key":"🔍搜索7","name":"🔍搜索源7","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/量子资源.js"},
+{"key":"🔍搜索8","name":"🔍搜索源8","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/魔都资源.js"},
 {"key":"push_agent","name":"🛴手机推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":{"aliToken":"file://tvbox/token.txt","quarkCookie":"file://tvbox/cookie.txt","from":"4k|auto|fhd"}}
 ],
 "parses":[
