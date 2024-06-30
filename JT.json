@@ -46,6 +46,7 @@
 {"key":"🔍搜索5","name":"🔍搜索源5","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/非凡资源.js"},
 {"key":"🔍搜索6","name":"🔍搜索源6","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/量子资源.js"},
 {"key":"🔍搜索7","name":"🔍搜索源7","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/魔都资源.js"},
+{"key":"🔍搜索8","name":"🔍搜索源8","type":3,"api":"./JS/drpy2_1.min.js","ext":"./JS/1080资源.js"},
 {"key":"push_agent","name":"🛴手机推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":{"aliToken":"file://tvbox/token.txt","quarkCookie":"file://tvbox/cookie.txt","from":"4k|auto|fhd"}}
 ],
 "parses":[
