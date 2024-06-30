@@ -1,6 +1,6 @@
 var rule = {
     title: '黑木耳资源',
-    host: 'https://heimuer.tv',
+    host: 'https://json.heimuer.xyz',
     homeUrl: '/api.php/provide/vod/?ac=detail',
     searchUrl: '/api.php/provide/vod/?ac=detail&wd=**&pg=fypage',
     detailUrl: '/api.php/provide/vod/?ac=detail&ids=fyid', //非必填,二级详情拼接链接
