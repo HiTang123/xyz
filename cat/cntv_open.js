@@ -76,8 +76,7 @@ async function detail(id) {
         vod_id: id,
         vod_remarks: '',
     };
-    //const playlist = ['点击播放' + '$' + 'https://hls.cntv.myhwcdn.cn/asp/hls/2000/0303000a/3/default/' + id + '/2000.m3u8'];
-    const playlist = ['点击播放' + '$' + 'https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/' + id + '/1200.m3u8'];
+    const playlist = ['点击播放' + '$' + 'https://hls.cntv.myhwcdn.cn/asp/hls/2000/0303000a/3/default/' + id + '/2000.m3u8'];
     vod.vod_play_from = key;
     vod.vod_play_url = playlist.join('#');
     return JSON.stringify({
