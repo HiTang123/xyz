@@ -4,7 +4,7 @@
 "wallpaper":"https://gao.chuqiuyu.workers.dev",
 "lives":[
 {"name":"AV1","type":0,"url":"https://qu.ax/PEHy.txt"},
-{"name":"AV2","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/livex.m3u"},
+{"name":"AV2","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/livex.m3u"}
 ],
 "sites":[
 {"key":"ss直播","name":"ss直播","type":3,,"style":{"type":"rect","ratio":1}"api":"./JS/drpy2_1.min.js","ext":"./JS/ss直播.js","timeout":30},
