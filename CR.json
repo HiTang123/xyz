@@ -2,14 +2,13 @@
 "spider":"./jar/custom_spider.jar;md5;72E81D4BC7B9066AEB031998746F0E52",
 "wallpaper":"https://gao.chuqiuyu.workers.dev",
 "sites":[
+{"key":"ss直播","name":"ss直播","type":3,"api":"./lib/drpy2_1.min.js","ext":"./JS/ss直播.js","timeout":30},
+{"key":"https://bbckzy3.cc/","name":"阿里BB","type":1,"api":"https://bbckzy8.cc/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33}},
 {"key":"https://155zy.com","name":"155","type":1,"api":"https://155api.com/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33}},
 {"key":"https://jkunzy.com/","name":"JKUN","type":1,"api":"https://jkunzyapi.com/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33}},
-{"key":"https://bbckzy3.cc/","name":"阿里BB","type":1,"api":"https://bbckzy8.cc/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33}},
 {"key":"https://lebozy.com","name":"乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33},"header":{"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}},
 {"key":"https://naixxzy2.com/","name":"奶香香","type":1,"api":"https://naixxzy2.com/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33},"header":{"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}},
-{"key":"https://jingpinx2.com","name":"X精品","type":1,"api":"https://jingpinx2.com/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33},"header":{"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}},
-
-
+{"key":"https://aosikazy3.com/","name":"奥斯卡","type":1,"api":"https://aosikazy3.com/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33}},
 {"key":"push_agent","name":"手机推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0}
 ]
 }
