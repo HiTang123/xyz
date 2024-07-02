@@ -129,6 +129,11 @@
     "list": [
       {
         "name": "PG",
+        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/spider.jar",
+        "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png"
+      },
+	  {
+        "name": "PG_danmu",
         "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/danmu.jar",
         "icon": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/market/fongmi.png"
       },
