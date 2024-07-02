@@ -174,7 +174,7 @@ var rule = {
     // 辅助嗅探规则js写法
     isVideo: `js:
         log(input);
-        if(/\\/35455/.test(input)) {
+        if(/\\/huya/.test(input)) {
             input = true
         } else if(/\\.flv?|\\.m3u8?|\\.mp4?/.test(input)){
             input = true
