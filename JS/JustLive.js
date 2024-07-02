@@ -117,7 +117,7 @@ var rule = {
 	                url: "https://cfss.cc/cdn/dyu/" + jo.roomId + ".flv"
                 },{
                     title: "解析②",
-	                url: "push://http://159.75.85.63:35455/douyu/" + jo.roomId
+	                url: "http://159.75.85.63:35455/douyu/" + jo.roomId
                 }
             );
         };
@@ -127,14 +127,14 @@ var rule = {
 	                url: "https://cfss.cc/cdn/hy/" + jo.roomId + ".flv"
                 },{
                     title: "解析②",
-	                url: "push://http://159.75.85.63:35455/huya/" + jo.roomId
+	                url: "http://159.75.85.63:35455/huya/" + jo.roomId
                 }
             );
         };
         if(jo.platForm.includes("bili")){
             d.push({
                     title: "哔哩解析",
-	                url: "push://http://159.75.85.63:35455/bilibili/" + jo.roomId
+	                url: "http://159.75.85.63:35455/bilibili/" + jo.roomId
                 }
             );
         };
@@ -144,7 +144,7 @@ var rule = {
 	                url: "https://cfss.cc/cdn/dy/" + jo.roomId + ".flv"
                 },{
                     title: "解析②",
-	                url: "push://http://159.75.85.63:35455/douyin/" + jo.roomId
+	                url: "http://159.75.85.63:35455/douyin/" + jo.roomId
                 }
             );
         };
@@ -168,5 +168,18 @@ var rule = {
             })};
         })
         setResult(d);
+    `,
+	//是否启用辅助嗅探: 1,0
+    sniffer:1,
+    // 辅助嗅探规则js写法
+    isVideo: `js:
+        log(input);
+        if(/\\/35455/.test(input)) {
+            input = true
+        } else if(/\\.flv?|\\.m3u8?|\\.mp4?/.test(input)){
+            input = true
+        }else{
+            input = false
+        }
     `,
 }
