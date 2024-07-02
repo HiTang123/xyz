@@ -100,9 +100,19 @@ CETV-1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
 CETV-2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
 CETV-4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
 
+电影频道,#genre#
+1905A,http://yubox.xyz/php/1905.php?id=1905a
+1905B,http://yubox.xyz/php/1905.php?id=1905b
+CHC动作电影,http://58.216.99.152:80/live2.rxip.sc96655.com/live/wqCHCdzdyH265_4000.m3u8
+CHC高清电影,http://58.216.99.152:80/live2.rxip.sc96655.com/live/lnwsCHC-HDH265_4000.m3u8
+CHC家庭影院,http://58.216.99.152:80/live2.rxip.sc96655.com/live/jbtygqCHCjtyyH265_4000.m3u8
+黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888890/224/3221225743/index.m3u8
 
 少儿频道,#genre#
+动漫秀场,http://58.216.99.152:80/live2.rxip.sc96655.com/live/yybb-dmxc-H265_4000.m3u8
 优漫卡通,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
+嘉佳卡通,http://58.216.99.152:80/live2.rxip.sc96655.com/live/jjkt_2000.m3u8
+金鹰卡通,http://58.216.99.152:80/live2.rxip.sc96655.com/live/jykt_2000.m3u8
 哈哈炫动,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
 卡酷少儿,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
@@ -111,10 +121,9 @@ CETV-4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
 
 NewTV,#genre#
 动作电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
-古装剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
 惊悚悬疑,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
 金牌综艺,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
-爱情喜剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
+爱情喜剧,http://ottrrs.hl.chinamobile.com/PLTV/88888890/224/3221225669/index.m3u8
 精品大剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
 精品纪录,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8
 健康有约,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
@@ -129,7 +138,6 @@ NewTV,#genre#
 超级体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 超级电视剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
 超级电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-炫舞未来,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
 东北热剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
 欢乐剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 
@@ -205,6 +213,7 @@ NewTV,#genre#
 死神来了,http://allinone.netsite.cc/huya/11352903
 变形金刚,http://allinone.netsite.cc/huya/21059596
 怪兽系列,http://allinone.netsite.cc/huya/21059554
+
 剧集轮播,#genre#
 家有儿女,http://allinone.netsite.cc/huya/11352872
 金庸剧,http://allinone.netsite.cc/huya/11602082
