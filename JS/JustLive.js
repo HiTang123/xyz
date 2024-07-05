@@ -118,6 +118,9 @@ var rule = {
                 },{
                     title: "解析②",
 	                url: "push://http://159.75.85.63:35455/douyu/" + jo.roomId
+                },{
+                    title: "解析③",
+	                url: "push://https://api.buxiangyao.link/zhiboy/douyu/" + jo.roomId
                 }
             );
         };
@@ -128,6 +131,9 @@ var rule = {
                 },{
                     title: "解析②",
 	                url: "push://http://159.75.85.63:35455/huya/" + jo.roomId
+                },{
+                    title: "解析③",
+	                url: "push://https://api.buxiangyao.link/zhiboy/huya/" + jo.roomId
                 }
             );
         };
