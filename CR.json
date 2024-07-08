@@ -3,8 +3,9 @@
 "logo":"https://cdn.pixabay.com/photo/2020/08/09/11/43/woman-5475306_1280.jpg",
 "wallpaper":"https://gao.chuqiuyu.workers.dev",
 "lives":[
-{"name":"AV1","type":0,"url":"https://qu.ax/PEHy.txt"},
-{"name":"AV2","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/livex.m3u"}
+{"name":"AV1","type":0,"url":"./live/adult.m3u"},
+{"name":"AV2","type":0,"url":"https://qu.ax/PEHy.txt"},
+{"name":"AV3","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/livex.m3u"}
 ],
 "sites":[
 {"key":"36直播","name":"36直播","type":3,"api":"./hipy/lib/drpy2.min.js","playerType":2,"ext":"./hipy/36直播[密].js"},
