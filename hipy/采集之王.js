@@ -184,12 +184,12 @@ var rule = {
         input = rule.classes;
     }),
     推荐: $js.toString(() => {
-        let update_info = [{
+        /*let update_info = [{
             vod_name: '更新日志',
             vod_id: 'update_info',
             vod_remarks: `版本:${rule.version}`,
             vod_pic: 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/static/img/logo.png'
-        }];
+        }];*/
         VODS = [];
         if (rule.classes) {
             let randomClass = getRandomItem(rule.classes);
@@ -208,7 +208,7 @@ var rule = {
             } catch (e) {
             }
         }
-        VODS = update_info.concat(VODS);
+        //VODS = update_info.concat(VODS);
     }),
     一级: $js.toString(() => {
         VODS = [];
