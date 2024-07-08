@@ -57,6 +57,9 @@ var rule = {
     // params: 'http://127.0.0.1:5707/files/json/%E9%87%87%E9%9B%86.json',
     // params: 'http://127.0.0.1:5707/files/json/采集静态.json$1',
     // params: 'http://127.0.0.1:5707/files/json/采集[zy]静态.json$1',
+    // hostJs:$js.toString(()=>{
+    //
+    // }),
     预处理: $js.toString(() => {
         function getClasses(item) {
             let classes = [];
@@ -111,6 +114,8 @@ var rule = {
                     searchable: it.searchable !== 0,
                     api: it.api || '',
                     cate_exclude: it.cate_exclude || '',
+                    // class_name: it.class_name || '',
+                    // class_url: it.class_url || '',
                 };
                 _classes.push(_obj);
                 try {
@@ -138,10 +143,17 @@ var rule = {
             rule.classes = _classes;
         }
     }),
+
     class_parse: $js.toString(() => {
         input = rule.classes;
     }),
     推荐: $js.toString(() => {
+        /*let update_info = [{
+            vod_name: '更新日志',
+            vod_id: 'update_info',
+            vod_remarks: `版本:${rule.version}`,
+            vod_pic: 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/static/img/logo.png'
+        }];*/
         VODS = [];
         if (rule.classes) {
             let randomClass = getRandomItem(rule.classes);
@@ -160,10 +172,12 @@ var rule = {
             } catch (e) {
             }
         }
+        //VODS = update_info.concat(VODS);
     }),
     一级: $js.toString(() => {
         VODS = [];
         if (rule.classes) {
+            // log(input);
             let _url = urljoin(MY_CATE, input);
             let current_vod = rule.classes.find(item => item.type_id === MY_CATE);
             if (current_vod && current_vod.api) {
@@ -179,6 +193,19 @@ var rule = {
     }),
     二级: $js.toString(() => {
         VOD = {};
+        /*if (orId === 'update_info') {
+            VOD = {
+                vod_content: rule.update_info.trim(),
+                vod_name: '更新日志',
+                type_name: '更新日志',
+                vod_pic: 'https://resource-cdn.tuxiaobei.com/video/FtWhs2mewX_7nEuE51_k6zvg6awl.png',
+                vod_remarks: `版本:${rule.version}`,
+                vod_play_from: '道长在线',
+                // vod_play_url: '嗅探播放$https://resource-cdn.tuxiaobei.com/video/10/8f/108fc9d1ac3f69d29a738cdc097c9018.mp4',
+                vod_play_url: '随机小视频$http://api.yujn.cn/api/zzxjj.php',
+            };
+        } 
+		else {*/
             if (rule.classes) {
                 let _url = urljoin(fyclass, input);
                 let current_vod = rule.classes.find(item => item.type_id === fyclass);
@@ -193,6 +220,7 @@ var rule = {
                     VOD.vod_play_from = VOD.vod_play_from.split('$$$').map(it => current_vod.type_name + '|' + it).join('$$$')
                 }
             }
+        //}
     }),
     搜索: $js.toString(() => {
         VODS = [];
@@ -263,12 +291,14 @@ var rule = {
                                             results_list.push({data: data, has_pic: true});
 
                                         }
+                                        // results = results.concat(data);
                                     }
                                 } catch (e) {
                                     log(`请求:${it.type_id}发生错误:${e.message}`)
                                 }
                             }
                         });
+                        // 构造请求二级的batchFetch列表
                         let reqUrls2 = detailUrls.map(it => {
                             return {
                                 url: it,
@@ -283,6 +313,8 @@ var rule = {
                                     let detailJson = JSON.parse(rets2[results_list[k].detailUrlCount]);
                                     log('二级数据列表元素数:' + detailJson.list.length);
                                     result_data.forEach((d, _seq) => {
+                                        // let detailVodPic = detailJson.list[_seq].vod_pic;
+                                        // log(detailJson);
                                         let detailVodPic = detailJson.list.find(vod => vod.vod_id.toString() === d.vod_id.split('$')[1]);
                                         if (detailVodPic) {
                                             Object.assign(d, {vod_pic: detailVodPic.vod_pic});
@@ -338,6 +370,7 @@ var rule = {
 
                     VODS = results;
                     let t2 = new Date().getTime();
+                    // log('t2:'+t2);
                     log(`${searchMode}搜索:${urls.length}个站耗时:${(Number(t2) - Number(t1))}ms`)
 
                 }
@@ -345,6 +378,7 @@ var rule = {
         }
     }),
     lazy: $js.toString(() => {
+        // lazy想办法用对应的parse_url，但是有难度，暂未实现
         let parse_url = '';
         if (flag && flag.includes('|')) {
             let type_name = flag.split('|')[0];
