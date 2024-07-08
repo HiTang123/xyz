@@ -1,17 +1,3 @@
-/**
- * 强烈推荐静态分类。可以加快速度!!!
- * 不建议:
- * 传参 ?type=url&params=../json/采集.json
- * 建议：
- * 传参 ?type=url&params=../json/采集静态.json$1
- * 传参 ?type=url&params=../json/采集[zy]静态.json$1
- * 传参 ?type=url&params=../json/采集[密]静态.json$1
- * hipy-server支持@改名比如:
- * 传参 ?type=url&params=../json/采集静态.json$1@采王道长[合]
- * 传参 ?type=url&params=../json/采集[zy]静态.json$1@采王zy[密]
- * 传参 ?type=url&params=../json/采集[密]静态.json@采王成人[密]
- * [{"name":"暴风资源","url":"https://bfzyapi.com","parse_url":""},{"name":"飞刀资源","url":"http://www.feidaozy.com","parse_url":""},{"name":"黑木耳资源","url":"https://www.heimuer.tv","parse_url":""}]
- */
 globalThis.getRandomItem = function (items) {//从列表随机取出一个元素
     return items[Math.random() * items.length | 0];
 }
@@ -19,22 +5,6 @@ var rule = {
     title: '采集之王[合]',
     author: '道长',
     version: '20240705 beta16',
-    update_info: `
-20240705:
-1.支持传参json后面增加$1 这样的额外标识，用于搜索结果精准匹配
-2.支持传参json后面增加$1$1 这样的额外标识，用于强制获取搜索图片。$1$不显示图片。默认是搜索强制有图片的[已实现详情页请求使用批量]
-3.修复二级数据无序匹配搜索列表图片的问题
-4.修改搜索精准和图片显示额外参数间隔符从#变为$
-20240703:
-1.采集json支持"searchable": 0,用于搜索时排除这个源
-20240604:
-1.首页推荐取消硬控等待。增加随机推荐功能。
-2.首页推荐新增更新日志查看功能
-【特别说明】目前只支持标准json格式的采集站(资源站一般都提供xml和json两种接口，目前没有支持xml的想法，没什么必要)
-有些资源站的json接口不是标准的/api.php/provide/vod/,需要自己在采集静态.json中编辑对应的api属性填写比如:/api.php/provide/vod/at/json/
-有些资源站的采集数据是加密后的切片片段，可能需要采集站特定的解析接口，需要自己编辑json里的parse_url属性
-资源站部分大分类下无数据很正常，可以自行编辑json里cate_exclude属性排除掉自己测试过无数据的分类(小程序无法自动识别，只能人工测好哪些分类无数据)
-`.trim(),
     host: '',
     homeTid: '', // 首页推荐。一般填写第一个资源站的想要的推荐分类的id.可以空
     homeUrl: '/api.php/provide/vod/?ac=detail&t={{rule.homeTid}}',
@@ -54,12 +24,6 @@ var rule = {
     parse_url: '', // 这个参数暂时不起作用。聚合类的每个资源应该有自己独立的解析口。单独配置在采集.json里的parse_url有效
     search_match: false, // 搜索精准匹配
     search_pic: true, // 搜索强制需要图片
-    // params: 'http://127.0.0.1:5707/files/json/%E9%87%87%E9%9B%86.json',
-    // params: 'http://127.0.0.1:5707/files/json/采集静态.json$1',
-    // params: 'http://127.0.0.1:5707/files/json/采集[zy]静态.json$1',
-    // hostJs:$js.toString(()=>{
-    //
-    // }),
     预处理: $js.toString(() => {
         function getClasses(item) {
             let classes = [];
@@ -114,8 +78,6 @@ var rule = {
                     searchable: it.searchable !== 0,
                     api: it.api || '',
                     cate_exclude: it.cate_exclude || '',
-                    // class_name: it.class_name || '',
-                    // class_url: it.class_url || '',
                 };
                 _classes.push(_obj);
                 try {
@@ -148,12 +110,6 @@ var rule = {
         input = rule.classes;
     }),
     推荐: $js.toString(() => {
-        /*let update_info = [{
-            vod_name: '更新日志',
-            vod_id: 'update_info',
-            vod_remarks: `版本:${rule.version}`,
-            vod_pic: 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/static/img/logo.png'
-        }];*/
         VODS = [];
         if (rule.classes) {
             let randomClass = getRandomItem(rule.classes);
@@ -172,12 +128,10 @@ var rule = {
             } catch (e) {
             }
         }
-        //VODS = update_info.concat(VODS);
     }),
     一级: $js.toString(() => {
         VODS = [];
         if (rule.classes) {
-            // log(input);
             let _url = urljoin(MY_CATE, input);
             let current_vod = rule.classes.find(item => item.type_id === MY_CATE);
             if (current_vod && current_vod.api) {
@@ -193,19 +147,6 @@ var rule = {
     }),
     二级: $js.toString(() => {
         VOD = {};
-        /*if (orId === 'update_info') {
-            VOD = {
-                vod_content: rule.update_info.trim(),
-                vod_name: '更新日志',
-                type_name: '更新日志',
-                vod_pic: 'https://resource-cdn.tuxiaobei.com/video/FtWhs2mewX_7nEuE51_k6zvg6awl.png',
-                vod_remarks: `版本:${rule.version}`,
-                vod_play_from: '道长在线',
-                // vod_play_url: '嗅探播放$https://resource-cdn.tuxiaobei.com/video/10/8f/108fc9d1ac3f69d29a738cdc097c9018.mp4',
-                vod_play_url: '随机小视频$http://api.yujn.cn/api/zzxjj.php',
-            };
-        } 
-		else {*/
             if (rule.classes) {
                 let _url = urljoin(fyclass, input);
                 let current_vod = rule.classes.find(item => item.type_id === fyclass);
@@ -220,7 +161,6 @@ var rule = {
                     VOD.vod_play_from = VOD.vod_play_from.split('$$$').map(it => current_vod.type_name + '|' + it).join('$$$')
                 }
             }
-        //}
     }),
     搜索: $js.toString(() => {
         VODS = [];
@@ -289,16 +229,13 @@ var rule = {
                                             detailUrlCount++;
                                         } else {
                                             results_list.push({data: data, has_pic: true});
-
                                         }
-                                        // results = results.concat(data);
                                     }
                                 } catch (e) {
                                     log(`请求:${it.type_id}发生错误:${e.message}`)
                                 }
                             }
                         });
-                        // 构造请求二级的batchFetch列表
                         let reqUrls2 = detailUrls.map(it => {
                             return {
                                 url: it,
@@ -313,8 +250,6 @@ var rule = {
                                     let detailJson = JSON.parse(rets2[results_list[k].detailUrlCount]);
                                     log('二级数据列表元素数:' + detailJson.list.length);
                                     result_data.forEach((d, _seq) => {
-                                        // let detailVodPic = detailJson.list[_seq].vod_pic;
-                                        // log(detailJson);
                                         let detailVodPic = detailJson.list.find(vod => vod.vod_id.toString() === d.vod_id.split('$')[1]);
                                         if (detailVodPic) {
                                             Object.assign(d, {vod_pic: detailVodPic.vod_pic});
@@ -349,7 +284,6 @@ var rule = {
                                             let detailJson = JSON.parse(request(detailUrl));
                                             log('二级数据列表元素数:' + detailJson.list.length);
                                             data.forEach((d, _seq) => {
-                                                // let detailVodPic = detailJson.list[_seq].vod_pic;
                                                 let detailVodPic = detailJson.list.find(vod => vod.vod_id.toString() === d.vod_id.split('$')[1]);
                                                 if (detailVodPic) {
                                                     Object.assign(d, {vod_pic: detailVodPic.vod_pic});
@@ -370,7 +304,6 @@ var rule = {
 
                     VODS = results;
                     let t2 = new Date().getTime();
-                    // log('t2:'+t2);
                     log(`${searchMode}搜索:${urls.length}个站耗时:${(Number(t2) - Number(t1))}ms`)
 
                 }
@@ -378,7 +311,6 @@ var rule = {
         }
     }),
     lazy: $js.toString(() => {
-        // lazy想办法用对应的parse_url，但是有难度，暂未实现
         let parse_url = '';
         if (flag && flag.includes('|')) {
             let type_name = flag.split('|')[0];
