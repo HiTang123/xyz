@@ -7,7 +7,8 @@
 {"name":"AV2","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/livex.m3u"}
 ],
 "sites":[
-{"key":"ss直播","name":"ss直播","type":3,"style":{"type":"rect","ratio":1},"api":"./JS/drpy2_1.min.js","ext":"./JS/ss直播.js","timeout":30},
+{"key":"36直播","name":"36直播","type":3,"api":"./hipy/lib/drpy2.min.js","playerType":2,"ext":"./hipy/36直播[密].js"},
+{"key":"script直播","name":"script直播","type":3,"api":"./hipy/lib/drpy2.min.js","playerType":2,"ext":"./hipy/script直播[飞].js"},
 {"key":"https://bbckzy3.cc/","name":"阿里BB","type":1,"api":"https://bbckzy8.cc/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33}},
 {"key":"https://155zy.com","name":"155","type":1,"api":"https://155api.com/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33}},
 {"key":"https://jkunzy.com/","name":"JKUN","type":1,"api":"https://jkunzyapi.com/api.php/provide/vod/?ac=list","style":{"type":"rect","ratio":1.33}},
