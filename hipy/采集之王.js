@@ -230,7 +230,7 @@ var rule = {
     // 一级: 'json:list;vod_name;vod_pic;vod_remarks;vod_id;vod_play_from',
     二级: $js.toString(() => {
         VOD = {};
-        if (orId === 'update_info') {
+        /*if (orId === 'update_info') {
             VOD = {
                 vod_content: rule.update_info.trim(),
                 vod_name: '更新日志',
@@ -241,7 +241,8 @@ var rule = {
                 // vod_play_url: '嗅探播放$https://resource-cdn.tuxiaobei.com/video/10/8f/108fc9d1ac3f69d29a738cdc097c9018.mp4',
                 vod_play_url: '随机小视频$http://api.yujn.cn/api/zzxjj.php',
             };
-        } else {
+        } */
+		//else {
             if (rule.classes) {
                 let _url = urljoin(fyclass, input);
                 let current_vod = rule.classes.find(item => item.type_id === fyclass);
@@ -256,7 +257,7 @@ var rule = {
                     VOD.vod_play_from = VOD.vod_play_from.split('$$$').map(it => current_vod.type_name + '|' + it).join('$$$')
                 }
             }
-        }
+        //}
     }),
     搜索: $js.toString(() => {
         VODS = [];
