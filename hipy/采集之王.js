@@ -4,7 +4,7 @@ globalThis.getRandomItem = function (items) {//从列表随机取出一个元素
 var rule = {
     title: '采集之王[合]',
     author: '道长',
-    version: '20240705 beta16',
+    version: '20240706 beta17',
     host: '',
     homeTid: '', // 首页推荐。一般填写第一个资源站的想要的推荐分类的id.可以空
     homeUrl: '/api.php/provide/vod/?ac=detail&t={{rule.homeTid}}',
@@ -14,7 +14,7 @@ var rule = {
     url: '/api.php/provide/vod/?ac=detail&pg=fypage&t=fyfilter',
     filter_url: '{{fl.类型}}',
     headers: {'User-Agent': 'MOBILE_UA'},
-    timeout: 5000, // class_name: '电影&电视剧&综艺&动漫',
+    timeout: 5000,
     limit: 20,
     search_limit: 5, // 搜索限制取前5个，可以注释掉，就不限制搜索
     searchable: 1,//是否启用全局搜索,
@@ -24,6 +24,7 @@ var rule = {
     parse_url: '', // 这个参数暂时不起作用。聚合类的每个资源应该有自己独立的解析口。单独配置在采集.json里的parse_url有效
     search_match: false, // 搜索精准匹配
     search_pic: true, // 搜索强制需要图片
+    params: 'http://127.0.0.1:9978/file/tvbox/配置_采集源.json',
     预处理: $js.toString(() => {
         function getClasses(item) {
             let classes = [];
@@ -78,6 +79,7 @@ var rule = {
                     searchable: it.searchable !== 0,
                     api: it.api || '',
                     cate_exclude: it.cate_exclude || '',
+                    cate_excludes: it.cate_excludes || [],
                 };
                 _classes.push(_obj);
                 try {
@@ -87,7 +89,9 @@ var rule = {
                     } else {
                         json1 = JSON.parse(request(urljoin(_obj.type_id, _obj.api || rule.classUrl))).class;
                     }
-                    if (_obj.cate_exclude) {
+                    if (_obj.cate_excludes && Array.isArray(_obj.cate_excludes) && _obj.cate_excludes.length > 0) {
+                        json1 = json1.filter(cl => !_obj.cate_excludes.includes(cl.type_name));
+                    } else if (_obj.cate_exclude) {
                         json1 = json1.filter(cl => !new RegExp(_obj.cate_exclude, 'i').test(cl.type_name));
                     }
                     rule.filter[_obj.type_id] = [{
@@ -105,7 +109,6 @@ var rule = {
             rule.classes = _classes;
         }
     }),
-
     class_parse: $js.toString(() => {
         input = rule.classes;
     }),
@@ -132,6 +135,7 @@ var rule = {
     一级: $js.toString(() => {
         VODS = [];
         if (rule.classes) {
+            // log(input);
             let _url = urljoin(MY_CATE, input);
             let current_vod = rule.classes.find(item => item.type_id === MY_CATE);
             if (current_vod && current_vod.api) {
@@ -147,20 +151,20 @@ var rule = {
     }),
     二级: $js.toString(() => {
         VOD = {};
-            if (rule.classes) {
-                let _url = urljoin(fyclass, input);
-                let current_vod = rule.classes.find(item => item.type_id === fyclass);
-                if (current_vod && current_vod.api) {
-                    _url = _url.replace('/api.php/provide/vod/', current_vod.api)
-                }
-                let html = request(_url);
-                let json = JSON.parse(html);
-                let data = json.list;
-                VOD = data[0];
-                if (current_vod && current_vod.type_name) {
-                    VOD.vod_play_from = VOD.vod_play_from.split('$$$').map(it => current_vod.type_name + '|' + it).join('$$$')
-                }
+        if (rule.classes) {
+            let _url = urljoin(fyclass, input);
+            let current_vod = rule.classes.find(item => item.type_id === fyclass);
+            if (current_vod && current_vod.api) {
+                _url = _url.replace('/api.php/provide/vod/', current_vod.api)
             }
+            let html = request(_url);
+            let json = JSON.parse(html);
+            let data = json.list;
+            VOD = data[0];
+            if (current_vod && current_vod.type_name) {
+                VOD.vod_play_from = VOD.vod_play_from.split('$$$').map(it => current_vod.type_name + '|' + it).join('$$$')
+            }
+        }
     }),
     搜索: $js.toString(() => {
         VODS = [];
@@ -178,7 +182,6 @@ var rule = {
                 log('end:' + end);
                 log('搜索模式:' + searchMode);
                 log('精准搜索:' + rule.search_match);
-                // log('t1:' + t1);
                 if (start < canSearch.length) {
                     let search_classes = canSearch.slice(start, end);
                     let urls = [];
@@ -229,6 +232,7 @@ var rule = {
                                             detailUrlCount++;
                                         } else {
                                             results_list.push({data: data, has_pic: true});
+
                                         }
                                     }
                                 } catch (e) {
@@ -236,6 +240,7 @@ var rule = {
                                 }
                             }
                         });
+                        // 构造请求二级的batchFetch列表
                         let reqUrls2 = detailUrls.map(it => {
                             return {
                                 url: it,
