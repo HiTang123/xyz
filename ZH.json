@@ -59,7 +59,7 @@
 {"key":"csp_MeijuMi","name":"🧲美剧迷┃磁力","type":3,"api":"csp_MeijuMi","timeout":300,"playerType":1,"jar":"file://Download/XYQ.jar"},
 {"key":"csp_Xunlei8","name":"🧲迅雷吧┃磁力","type":3,"api":"csp_Xunlei8","timeout":300,"playerType":1,"jar":"file://Download/XYQ.jar"},
 {"key":"电影港","name":"🧲电影港┃磁力","type":3,"api":"csp_XYQHiker","timeout":300,"ext":"./main/电影港.json","jar":"file://Download/XYQ.jar"},
-{"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":{"aliToken":"file://tvbox/token.txt","quarkCookie":"file://tvbox/cookie.txt","from":"4k|auto|fhd"}}
+{"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","ext":"file://tvbox/token.json"}
 ],
 "parses":[
 {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url="},
