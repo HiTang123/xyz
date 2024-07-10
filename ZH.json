@@ -20,7 +20,7 @@
 {"key":"AList","name":"🅰AList┃网盘","type":3,"api":"csp_AList","playerType":1,"recordable":0,"ext":"file://tvbox/挂载_Alist.json","jar":"file://Download/custom_spider.jar"},
 {"key":"WebDAV","name":"🌈WebDAV┃网盘","type":3,"api":"csp_WebDAV","playerType":1,"recordable":0,"ext":"file://tvbox/挂载_WebDAV.json","jar":"file://Download/custom_spider.jar"},
 {"key":"AliShare","name":"💿AliShare┃资源","type":3,"api":"csp_AliShare","ext":"file://tvbox/token.json$$$file://tvbox/配置_AliShare.txt$$$db$$$1","style":{"type":"list"}},
-{"key":"SMB","name":"💽SMB┃共享","type":3,"api":"csp_SambaShare","searchable":0,"changeable":0,"recordable":0,"ext":"file://tvbox/token.json$$$file://tvbox/挂载_SMB.txt"},
+{"key":"SMB","name":"💽SMB┃共享","type":3,"api":"csp_SambaShare","searchable":0,"changeable":0,"recordable":0,"ext":"null$$$file://tvbox/挂载_SMB.txt"},
 {"key":"本地","name":"📂本地┃文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"playerType":2,"recordable":0,"jar":"file://Download/custom_spider.jar"},
 {"key":"网盘配置","name":"⚙网盘┃配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
 {"key":"应用商店","name":"🛒应用┃商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market.json","jar":"./jar/custom_spider.jar;md5;303EADD615EA122247A00E08689F0787"},
