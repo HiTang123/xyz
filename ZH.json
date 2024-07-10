@@ -13,7 +13,7 @@
 "sites":[
 {"key":"豆瓣","name":"🎬影视┃推荐","type":3,"api":"csp_Douban","searchable":0,"ext":"./main/douban.json"},
 {"key":"哔哩","name":"🅱Bilibili┃视频","type":3,"api":"./JS/bili.min.js","changeable":0,"playerType":2,"recordable":0},
-{"key":"Youtube","name":"🚩Youtube┃视频","type":3,"api": "csp_Youtube","searchable": 0,"changeable": 0,"recordable":0,"ext":{"token":"file://tvbox/token.json","json":"file://tvbox/配置_Youtube.json","proxy":"proxy","keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧","codecs":""},"style": {"type": "rect","ratio": 1.5}},
+{"key":"Youtube","name":"🚩Youtube┃视频","type":3,"api": "csp_Youtube","searchable": 0,"changeable": 0,"recordable":0,"ext":{"json":"./pg/lib/youtube.json","proxy":"proxy","keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧","codecs":""},"style": {"type": "rect","ratio": 1.5}},
 {"key":"直播转点播","name":"📺网络┃点播","type":3,"api":"./JS/lf_live2vod.js","ext":"file://tvbox/%E7%82%B9%E6%92%AD%E5%88%97%E8%A1%A8/配置%E7%AE%A1%E7%90%86.txt","playerType":2,"recordable":0,"style":{"type":"list"}},
 {"key":"JustLive","name":"📺网络┃直播","type":3,"api":"./hipy/lib/drpy2.min.js","ext":"./JS/JustLive.js","changeable":0,"playerType":2,"recordable":0,"style":{"type":"rect","ratio":1.597}},
 {"key":"自选采集","name":"📺网络┃采集","type":3,"api":"./hipy/lib/drpy2.min.js","playerType":2,"ext":"./hipy/采集之王.js"},
@@ -22,7 +22,7 @@
 {"key":"AliShare","name":"💿AliShare┃资源","type":3,"api":"csp_AliShare","ext":".file://tvbox/token.json$$$file://tvbox/配置_AliShare.txt$$$db$$$1","style":{"type":"list"}},
 {"key":"SMB","name":"💽SMB┃共享","type":3,"api":"csp_SambaShare","searchable":0,"changeable":0,"recordable":0,"ext":"file://tvbox/token.json$$$file://tvbox/配置_SMB.txt"},
 {"key":"本地","name":"📂本地┃文件","type":3,"api":"csp_Local","searchable":0,"changeable":0,"playerType":2,"recordable":0,"jar":"file://Download/custom_spider.jar"},
-{"key":"网盘配置","name":"⚙网盘┃配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":"file://tvbox/token.json","style":{"type":"rect","ratio":1.5}},
+{"key":"网盘配置","name":"⚙网盘┃配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
 {"key":"应用商店","name":"🛒应用┃商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"./main/market.json","jar":"./jar/custom_spider.jar;md5;303EADD615EA122247A00E08689F0787"},
 {"key":"央视节目","name":"🌏央视┃节目","type":3,"api":"./main/央视片库.py","searchable":0,"changeable":0,"playerType":1,"style":{"type":"list"}},
 {"key":"YGP","name":"🎬新片┃预告","type":3,"api":"csp_YGP","searchable":0,"changeable":0},
