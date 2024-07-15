@@ -1,6 +1,6 @@
 var rule = {
     title: 'script直播[飞]',
-    host: 'https://zh.superchat.live',
+    host: 'http://127.0.0.1:10079/p/0/proxy/https://zh.superchat.live',
     url: '/girls/fyclass#fypage',
     searchUrl: '',
     searchable: 0,
@@ -30,7 +30,7 @@ var rule = {
     double: true,
     //一级: '.models-list-container&&.model-list-item;img&&alt;img&&src;;a&&href',
     一级: $js.toString(() => {
-        let html = request('https://zh.stripchatgirls.com/api/front/v2/models?limit=20&topLimit=2000&favoritesLimit=12&primaryTag=girls');
+        let html = request('http://127.0.0.1:10079/p/0/proxy/https://zh.stripchatgirls.com/api/front/v2/models?limit=20&topLimit=2000&favoritesLimit=12&primaryTag=girls');
         let d = [];
         let blocks = JSON.parse(html).blocks;
         if (MY_PAGE <= blocks.length) {
@@ -40,7 +40,7 @@ var rule = {
                 d.push({
                     title: list[i].username,
                     img: list[i].previewUrlThumbBig,
-                    url: 'https://b-hls-14.doppiocdn.net/hls/' + list[i].id + '/' + list[i].id + '.m3u8' + '##' + list[i].previewUrlThumbBig + '##' + list[i].username,
+                    url: 'http://127.0.0.1:10079/p/0/proxy/https://b-hls-14.doppiocdn.net/hls/' + list[i].id + '/' + list[i].id + '.m3u8' + '##' + list[i].previewUrlThumbBig + '##' + list[i].username,
                 });
             }
         }

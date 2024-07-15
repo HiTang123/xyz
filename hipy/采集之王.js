@@ -24,7 +24,7 @@ var rule = {
     parse_url: '', // 这个参数暂时不起作用。聚合类的每个资源应该有自己独立的解析口。单独配置在采集.json里的parse_url有效
     search_match: false, // 搜索精准匹配
     search_pic: true, // 搜索强制需要图片
-    params: 'http://127.0.0.1:9978/file/tvbox/配置_采集源.json',
+    //params: 'http://127.0.0.1:9978/file/tvbox/采集源/o.json',
     预处理: $js.toString(() => {
         function getClasses(item) {
             let classes = [];
